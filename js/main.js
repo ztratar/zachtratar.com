@@ -70,7 +70,7 @@ $(function() {
 	});
 
 	if (document.URL.match(/\?post=/) !== null) {
-		var postUrl = document.URL.match(/\?post=(.+)$/);
+		var postUrl = document.URL.match(/\?post=(.+\.html)/);
 		if (postUrl.length > 1) {
 			$("body").css({ opacity: 0 });
 			postUrl = postUrl[1].replace('%2F','/');
