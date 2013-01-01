@@ -31,11 +31,11 @@ title: Zach Tratar - Entrepreneur
 			<img src="./img/face.png">
 		</div>
 		<h1 id="name" class="fade-in fade-two">
-			<span class="intro">
-				Oh hi. I'm
-			</span>
 			Zach Tratar
 		</h1>
+		<div class="intro fade-in fade-two">
+			Entrepreneur, Designer, & Engineer
+		</div>
 		<div class="fade-in fade-three">
 			<p>
 				Here's a bit <a class="blue overwrite-url" href="/about">about</a> myself.
@@ -179,7 +179,7 @@ title: Zach Tratar - Entrepreneur
 			<div class="section-content">
 				<ul class="blog-posts">
 				{% for post in site.posts %}
-					<li>
+					<li data-url="{{ post.url }}">
 						<div class="head-wrap {% if forloop.index == 1 %}no-top-margin{% endif %}">
 							<div class="section-width">
 								<h2 class="blog-title">{{ post.title }}</h2>
@@ -191,7 +191,11 @@ title: Zach Tratar - Entrepreneur
 						</div>
 						<div class="share section-width">
 							<!-- AddThis Button BEGIN -->
-							<div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="{{ post.title }}" addthis:url="{{ post.url }}">
+							<div class="addthis_toolbox
+								addthis_default_style
+								addthis_32x32_style" addthis:title="{{
+								post.title }}"
+								addthis:url="http://zachtratar.com/?post={{ post.url }}">
 								<a class="addthis_button_facebook"></a>
 								<a class="addthis_button_twitter"></a>
 								<a class="addthis_button_tumblr"></a>

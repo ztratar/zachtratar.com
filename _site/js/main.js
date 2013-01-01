@@ -69,5 +69,18 @@ $(function() {
 		return false;
 	});
 
+	if (document.URL.match(/\?post=/) !== null) {
+		var postUrl = document.URL.match(/\?post=(.+)$/);
+		if (postUrl.length > 1) {
+			$("body").css({ opacity: 0 });
+			postUrl = postUrl[1];
+			$("a.red").click();
+			setTimeout(function() {
+				$("#blog").scrollTop($("li[data-url='"+postUrl+"']").position().top - 30);
+				$("body").animate({ opacity: 1 }, 400);
+			}, 1000);
+		}
+	}
+
 });
 

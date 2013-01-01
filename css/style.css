@@ -102,15 +102,20 @@ p {
 h1#name {
 	color: #4572bc;
 	font-size: 32px;
-	margin: 28px 0 40px;
+	margin: 34px 0 20px;
 }
 
-	h1#name span.intro {
-		display: block;
-		margin-bottom: 10px;
-		color: #4d5053;
-		font-size: 20px;
-	}
+div.intro {
+	margin: -3px 0 40px 0;
+	color: #6D6C60;
+	font-size: 14px;
+	text-transform: uppercase;
+	display: block;
+	border-bottom: 1px solid #F1F1F1;
+	padding: 0 0 15px 0;
+	width: 294px;
+	margin-left: 18px;
+}
 
 ul.share-links {
 	display: block;
