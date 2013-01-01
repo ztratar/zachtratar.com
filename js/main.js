@@ -73,7 +73,7 @@ $(function() {
 		var postUrl = document.URL.match(/\?post=(.+)$/);
 		if (postUrl.length > 1) {
 			$("body").css({ opacity: 0 });
-			postUrl = postUrl[1];
+			postUrl = postUrl[1].replace('%2F','/');
 			$("a.red").click();
 			setTimeout(function() {
 				$("#blog").scrollTop($("li[data-url='"+postUrl+"']").position().top - 30);
