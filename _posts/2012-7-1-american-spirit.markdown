@@ -1,5 +1,6 @@
 ---
 title: 'The American Spirit: Who Bears Responsibility'
+layout: 'post'
 ---
 
 The Spirit of Building Anew

@@ -1,5 +1,6 @@
 ---
 title: 'Lessons Learned From 2011 : Learn To Be Productive'
+layout: 'post'
 ---
 
 Whether you consider yourself a master at Photoshop, Powerpoint, or Call of Duty, there are two fundamental bases of skill: knowledge and talent. Some people have natural talent, some don't, and others can learn it — that's not what this post is about. This post is about utilizing knowledge to make yourself productive.

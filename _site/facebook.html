@@ -1,4 +1,70 @@
-<p>The internet is blowing up with sensationalized articles on the new <a href='https://www.facebook.com/about/newsfeed'>Facebook News Feed</a>. I&#8217;m not a fan of that, so instead let&#8217;s talk about design principles and user behavior.</p>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zach Tratar</title>
+
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+	<! -- Facebook SDK -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=234553156601167";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<header id="blog-header">
+	<div class="container">
+		<a href="/" class="btn back-to-home">
+			<span class="home-ico"></span>	
+		</a>
+		<h1 id="name">
+			<a href="/">Zach Tratar</a>
+		</h1>
+		<div class="btn-group">
+			<a href="http://twitter.com/zachtratar" target="_blank" class="btn btn-twitter">
+				<i class="twitter-ico"></i>
+			</a>
+			<div href="#" class="btn btn-caret">
+				<span class="caret"></span>
+				<ul class="dropdown">
+					<li>
+						<a href="http://github.com/ztratar" target="_blank"><i class="icon-github"></i> Github</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/profile/view?id=47247511" target="_blank"><i class="icon-linkedin"></i> LinkedIn</a>
+					</li>
+					<li>
+						<a href="http://facebook.com/ztratar" target="_blank"><i class="icon-facebook"></i> Facebook</a>
+					</li>
+					<li>
+						<a href="mailto:ztratar@gmail.com" class="small"><i class="icon-email"></i> ztratar@gmail.com</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>	
+
+<div class="blog-title-wrap">
+	<h1 class="container blog-title">
+		The New Facebook News Feed: A UX Breakdown
+	</h1>
+</div>
+
+<div class="container blog-article">
+	<p>The internet is blowing up with sensationalized articles on the new <a href='https://www.facebook.com/about/newsfeed'>Facebook News Feed</a>. I&#8217;m not a fan of that, so instead let&#8217;s talk about design principles and user behavior.</p>
 
 <h2 id='the_stories_are_frigin_huge'>The &#8220;Stories&#8221; are frigin HUGE</h2>
 
@@ -37,3 +103,92 @@
 <p>It could mean many things. When shown larger posts, people naturally place a higher level of importance on it. Skipping a post without interacting with it feels like a riskier action, and thus, activity on posts further up the feed is likely going to increase while activity on posts further down will decrease. The like button and other assorted actions are no longer blue, but their click-targets have been increased in size. I would place a bet saying this combination results in more clicks.</p>
 
 <p>With forced chronology and the hypothesis mentioned above, I think the end result for most users will be more action on posts right when they create them and less importance or notifications on historically older, but popular posts. It&#8217;s more about the &#8220;new&#8221; than the &#8220;popular&#8221; and thus you&#8217;ll want to keep posting more to garner more likes. Feed that thirst for acceptance amongst your peers! This all fits very neatly into <a href='http://news.cnet.com/8301-1023_3-57536659-93/zuckerberg-in-10-years-folks-will-share-1000-times-what-they-do-now/'>Mark&#8217;s pseudo-Moore&#8217;s law</a>.</p>
+</div>
+
+<div class="container blog-article blog-sharing">
+	<p>
+		<a href="https://twitter.com/intent/tweet?screen_name=zachtratar" class="twitter-mention-button" data-size="large" data-related="zachtratar">Tweet to @zachtratar</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</p>
+	<div class="fb-comments" data-href="/facebook.html" data-width="640" data-num-posts="10"></div>	
+</div>
+
+<div class="blog-footer">
+	<section id="writing-section" class="container">
+		<h2>More writing</h2>
+		<div class="blog-posts-full">
+			<ul class="blog-posts">
+				
+				
+				<li>
+					<a href="/facebook.html">The New Facebook News Feed: A UX Breakdown</a>
+					<span>07 Mar 2013</span>
+				</li>
+				
+				
+				
+				<li>
+					<a href="/lets-stop-generalizing.html">Lets Stop Generalizing</a>
+					<span>25 Feb 2013</span>
+				</li>
+				
+				
+				
+				<li>
+					<a href="/new-years.html">New Years Resolutions</a>
+					<span>01 Jan 2013</span>
+				</li>
+				
+				
+				
+				<li>
+					<a href="/passion-finder.html">Passion Finder</a>
+					<span>06 Oct 2012</span>
+				</li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</ul>
+		</div>
+	</section>
+	<a href="/" class="footer-home btn">
+		<span class="home-ico"></span> Home
+	</a>
+</div>
+
+	<!-- AddThis -->
+	<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ztratar"></script>
+
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-27467149-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+</html>
+

@@ -42,6 +42,17 @@ $(function() {
 		return false;
 	});
 
+	$('.see-timeline').click(function() {
+		if ($('ul.timeline').hasClass('full')) {
+			$('ul.timeline').removeClass('full');
+			$(this).html('See more');
+		} else {
+			$('ul.timeline').addClass('full');
+			$(this).html('Hide');
+		}	
+		return false;
+	});
+
 
 });
 

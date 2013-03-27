@@ -63,6 +63,36 @@ header .btn-group {
 	top: 85px;
 }
 
+#blog-header {
+	height: 92px;
+}
+
+#blog-header div.face-wrap {
+	top: -20px;
+}
+
+#blog-header h1#name {
+	top: 33px;
+	left: 95px;
+}
+
+#blog-header .btn-group {
+	top: 34px;
+}
+
+header a.back-to-home {
+	top: 22px;
+	left: 0px;
+	position: absolute;
+}
+
+span.home-ico {
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	background: url('../img/sprite.png') -31px -17px;
+}
+
 span.caret {
 	width: 12px;
 	height: 7px;
@@ -418,10 +448,23 @@ ul.timeline {
 
 ul.timeline li {
 	list-style: none;
-	padding: 0 0 20px 0;
+	padding: 0 0 30px 0;
 	margin: 0;
 	display: block;
 	position: relative;
+}
+
+ul.timeline li:nth-child(n+4):not(.more) {
+	display: none;
+}
+
+ul.timeline.full li:nth-child(n+4):not(.more) {
+	display: block;
+}
+
+ul.timeline li p {
+	margin-bottom: 0;
+	color: rgb(88, 88, 95);
 }
 
 ul.timeline li .marker-wrap:after {
@@ -433,6 +476,7 @@ ul.timeline li .marker-wrap:after {
 	top: 57px;
 	left: 28px;
 	bottom: 0;
+	z-index: -1;
 }
 
 ul.timeline li:last-child .marker-wrap {
@@ -459,18 +503,22 @@ ul.timeline li .marker {
 	display: inline-block;
 	background: #e9eaf0;
 	border-radius: 100px;
-	width: 46px;
-	height: 36px;
+	width: 45px;
+	height: 35px;
 	margin: 5px;
 	text-align: center;
 	line-height: 13px;
-	padding: 10px 0 0 0;
+	padding: 11px 0 0 1px;
 	font-size: 11px;
+	font-family: 'Gotham Bold';
+	color: rgb(122, 124, 136);
 }
 
 ul.timeline li .marker span.date {
 	display: block;
-	font-size: 20px;
+	font-size: 18px;
+	margin-top: 2px;
+	margin-left: 1px;
 }
 
 ul.timeline li .marker span.ellipsis {
@@ -480,11 +528,17 @@ ul.timeline li .marker span.ellipsis {
 	width: 34px;
 }
 
+ul.timeline li .marker span.down-month {
+	display: inline-block;
+	margin-top: 9px;
+	font-size: 13px;
+}
+
 ul.timeline li .media-body {
 	overflow: hidden;
 	display: table-cell;
 	vertical-align: middle;
-	min-height: 68px;
+	height: 66px;
 }
 
 ul.timeline li .media-body h4 {
@@ -508,4 +562,88 @@ ul.timeline a.btn-bordered {
 ul.timeline a.btn-bordered:hover {
 	background: rgb(234, 235, 245);
 	border: 1px solid rgb(192, 197, 211);
+}
+
+
+/* BLOG POSTS */
+
+#blog-header .container,
+h1.blog-title,
+div.blog-article,
+div.blog-footer section.container {
+	width: 640px;
+}
+
+.blog-title-wrap {
+	border-bottom: 1px solid #eee;
+	padding: 48px 0 40px 0;
+	margin-bottom: 40px;
+	background: url('../img/blog_bg.png') repeat;
+}
+
+h1.blog-title {
+	margin: 0 auto 0;
+	font-size: 34px;
+	text-transform: none;
+	font-family: 'Skolar';
+	color: rgb(35, 65, 114);
+}
+
+.blog-article h2 {
+	font-size: 20px;
+	margin-bottom: 25px;
+	margin-top: 40px;
+	font-size: 22px;
+	line-height: 1.3;
+	color: rgb(89, 88, 92);
+}
+
+.blog-article ul li,
+.blog-article ol li {
+	list-style: square outside;
+	line-height: 1.4;
+	padding-left: 4px;
+	margin-bottom: 7px;
+	margin-left: 23px;
+}
+
+.blog-article blockquote {
+	padding: 25px 25px 2px;
+	background: rgb(248, 248, 248);
+	border-radius: 5px;
+	font-style: italic;
+	margin-bottom: 30px;
+	border: 1px dashed rgb(216, 216, 230);
+}
+
+.blog-article img {
+	width: 640px;
+}
+
+.blog-sharing {
+	padding-bottom: 40px;
+}
+
+.blog-footer {
+	background: white;
+	border-top: 1px solid #eee;
+	padding-bottom: 40px;
+}
+
+.blog-footer section {
+	border-top: none;
+}
+
+a.footer-home {
+	height: 16px;
+	vertical-align: top;
+	padding: 21px 25px 16px;
+	margin: 0 auto;
+	display: block;
+	width: 99px;
+}
+
+a.footer-home span.home-ico {
+	margin-top: -7px;
+	margin-right: 17px;
 }

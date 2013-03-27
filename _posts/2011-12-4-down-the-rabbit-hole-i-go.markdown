@@ -1,5 +1,6 @@
 ---
 title: Down The Rabbit Hole I Go...
+layout: 'post'
 ---
 
 Well, I've been putting this off for 4 years now, but I was finally convinced to create

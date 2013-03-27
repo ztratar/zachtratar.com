@@ -1,5 +1,6 @@
 ---
 title: 'New Years Resolutions'
+layout: 'post'
 ---
 
 I've never made new years resolutions before, so this is a completely new experience. A quote I recently read inspired me to make this list:

@@ -2,29 +2,7 @@
 title: Zach Tratar
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Zach Tratar</title>
-
-	<link rel="stylesheet" href="css/reset.css" type="text/css">
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-	<script src="js/main.js" type="text/javascript"></script>
-</head>
-
-<body>
-
-	<! -- Facebook SDK -->
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=234553156601167";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
+{% include header.html %}
 
 	<header id="main-header">
 		<div class="container">
@@ -64,7 +42,7 @@ title: Zach Tratar
 			<section id="about-section" class="fade-in">
 				<h2 class="hero">I dream things up and build them.</h2>
 				<p>
-					I started 2 companies while studying Computer Engineering at UIUC, dropped out to join Backplane, and love UX, psychology, and engineering.
+				I started 2 companies while studying Computer Engineering at UIUC, dropped out to join Backplane, and love UX, psychology, and engineering.
 				</p>
 				<a href="/about" class="btn btn-large see-more-about">More about me</a>
 				<div class="more-about hidden">
@@ -161,38 +139,123 @@ title: Zach Tratar
 					</ul>
 				</div>
 			</section>
-			<section id="timeline-section" class="fade-in fade-three">
+			<section id="timeline-section">
 				<h2>Timeline</h2>
-				<ul class="timeline">
+				<ul class="timeline"> 
 					<li class="media clearfix">
 						<div class="marker-wrap pull-left">
 							<div class="marker">
-								<span>Mar</span>
-								<span class="date">21</span>
+								<span>MAR</span>
+								<span class="date">13'</span>
 							</div>	
 						</div>	
 						<div class="media-body">
-							<h4>Won Paypal and Youtube API 1st prize in SXSW Artists' Hack</h4>
+							<h4>Won Paypal and Youtube API 1st prize at SXSW Artists' Hack</h4>
+							<p>
+								I coded the first MVP verson of WeBrowseInPublic.com in Austin, TX. Paypal
+								awarded me 1st prize for the most monetizable app. Youtube had the barebone 
+								requirement of using their API, which was ridiculously easy.
+							</p>
 						</div>
 					</li>
 					<li class="media clearfix">
 						<div class="marker-wrap pull-left">
 							<div class="marker">
-								<span>Mar</span>
-								<span class="date">21</span>
+								<span>FEB</span>
+								<span class="date">12'</span>
 							</div>	
 						</div>	
 						<div class="media-body">
-							<h4>Won Paypal and Youtube API 1st prize in SXSW Artists' Hack</h4>
+							<h4>Started advising Claco.com</h4>
 						</div>
 					</li>
 					<li class="media clearfix">
+						<div class="marker-wrap pull-left">
+							<div class="marker">
+								<span>AUG</span>
+								<span class="date">11'</span>
+							</div>	
+						</div>	
+						<div class="media-body">
+							<h4>Joined Backplane</h4>
+							<p>
+								First engineering/product hire. I had to drop out 
+								but determined it was worthwhile pretty quickly.
+							</p>
+						</div>
+					</li>
+					<li class="media clearfix">
+						<div class="marker-wrap pull-left">
+							<div class="marker">
+								<span>MAY</span>
+								<span class="date">11'</span>
+							</div>	
+						</div>	
+						<div class="media-body">
+							<h4>Joined Piazza</h4>
+							<p>
+								I quit a consulting internship in Chicago on day 3 (pretty awkward) to come to the valley. I worked on UX and growth hacking -- we went from 30,000 users to 100,000 in under 3 months.
+							</p>
+						</div>
+					</li>
+					<li class="media clearfix">
+						<div class="marker-wrap pull-left">
+							<div class="marker">
+								<span>MAR</span>
+								<span class="date">11'</span>
+							</div>	
+						</div>	
+						<div class="media-body">
+							<h4>Won the 2011 Cozad New Venture Competition</h4>
+							<p>
+								1st place in the Midwest's largest startup pitch/business plan competition, beating out 100+ other teams.
+							</p>
+						</div>
+					</li>
+					<li class="media clearfix">
+						<div class="marker-wrap pull-left">
+							<div class="marker">
+								<span>AUG</span>
+								<span class="date">08'</span>
+							</div>	
+						</div>	
+						<div class="media-body">
+							<h4>Started Instarta</h4>
+							<p>My first company.</p>
+						</div>
+					</li>
+					<li class="media clearfix">
+						<div class="marker-wrap pull-left">
+							<div class="marker">
+								<span>AUG</span>
+								<span class="date">08'</span>
+							</div>	
+						</div>	
+						<div class="media-body">
+							<h4>Began Studying Computer Engineering at UIUC</h4>
+						</div>
+					</li>
+					<li class="media clearfix">
+						<div class="marker-wrap pull-left">
+							<div class="marker">
+								<span>NOV</span>
+								<span class="date">04'</span>
+							</div>	
+						</div>	
+						<div class="media-body">
+							<h4>Developed my first internet product</h4>
+							<p>
+								I built an RSS aggregator for news. You could create accounts, share news across email, and make custom feeds. Pretty cool stuff for having just learned PHP! I shut it down after Google Reader came out.
+							</p>
+						</div>
+					</li>
+					<li class="media clearfix more">
 						<div class="marker-wrap pull-left">
 							<div class="marker">
 								<span class="ellipsis">...</span>
 							</div>	
 						</div>	
-						<a href="#" class="btn btn-bordered">See more</a>
+						<a href="#" class="btn btn-bordered see-timeline">See more</a>
 					</li>
 				</ul>
 			</section>
@@ -254,9 +317,5 @@ title: Zach Tratar
 		</section>
 	</div>
 
-	<!-- AddThis -->
-	<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ztratar"></script>
+{% include footer.html %}
 
-</body>
-</html>

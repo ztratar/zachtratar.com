@@ -1,3 +1,8 @@
+---
+title: 'Lets Stop Generalizing'
+layout: 'post'
+---
+
 We're better than that. Seriously.
 
 I find it quite disingenuous when people give advice to others without a full understanding of their situation. The truly skilled people at conflict resolution are popular for their ability to listen, not just say the right words. But we, the hacker community, have quite a problem. It's nothing to be ashamed of and it's completely natural, but it is something that I think we should strive to improve.

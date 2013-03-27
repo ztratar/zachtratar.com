@@ -1,5 +1,6 @@
 ---
 title: 'Lessons Learned From 2011 : How To Make Yourself Lucky'
+layout: 'post'
 ---
 
 2012 is almost here. Wow, what a year 2011 has been! Just 12 months ago I was beginning my 6th semester at UIUC, wouldn't have thought about dropping out, and knew almost nothing about Silicon Valley or startups.

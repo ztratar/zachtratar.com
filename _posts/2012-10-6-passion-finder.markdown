@@ -1,5 +1,6 @@
 ---
 title: 'Passion Finder'
+layout: 'post'
 ---
 
 I tend to think about random web ideas quite frequently, so here goes a brain dump!
