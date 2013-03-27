@@ -1,5 +1,11 @@
-use Rack::Static, 
-  :urls => ["/css", "/fonts", "/img", "/js"],
+require 'bundler'
+require 'rack/contrib/try_static'
+
+Bundler.setup
+Bundler.require
+
+use Rack::TryStatic, 
+  :urls => %w[/],
   :root => "_site"
 
 run lambda { |env|

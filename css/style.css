@@ -1,5 +1,115 @@
 @import url('fonts.css');
 
+/* ANIMATIONS */
+
+.bannermove1 {
+    -webkit-animation: bannermove1 50s linear infinite;
+       -moz-animation: bannermove1 50s linear infinite;
+        -ms-animation: bannermove1 50s linear infinite;
+         -o-animation: bannermove1 50s linear infinite;
+            animation: bannermove1 50s linear infinite;
+}
+ 
+@keyframes "bannermove1" {
+	0% {
+    	margin-left: 0px;
+	}
+	100% {
+	    margin-left: -2910px;
+	}
+}
+ 
+@-moz-keyframes bannermove1 {
+	0% {
+		margin-left: 0px;
+	}
+ 100% {
+ 		margin-left: -2910px;
+	}
+}
+ 
+@-webkit-keyframes "bannermove1" {
+	0% {
+		margin-left: 0px;
+	}
+	 100% {
+		margin-left: -2910px;
+	}
+}
+ 
+@-ms-keyframes "bannermove1" {
+	0% {
+		margin-left: 0px;
+	}
+	100% {
+		margin-left: -2910px;
+	}
+}
+ 
+@-o-keyframes "bannermove1" {
+	0% {
+		margin-left: 0px;
+	}
+	100% {
+		margin-left: -2910px;
+	}
+}
+
+.bannermove2 {
+    -webkit-animation: bannermove2 30s linear infinite;
+       -moz-animation: bannermove2 30s linear infinite;
+        -ms-animation: bannermove2 30s linear infinite;
+         -o-animation: bannermove2 30s linear infinite;
+            animation: bannermove2 30s linear infinite;
+}
+ 
+@keyframes "bannermove2" {
+	0% {
+    	margin-left: 0px;
+	}
+	100% {
+	    margin-left: -2100px;
+	}
+}
+ 
+@-moz-keyframes bannermove2 {
+	0% {
+		margin-left: 0px;
+	}
+ 100% {
+ 		margin-left: -2100px;
+	}
+}
+ 
+@-webkit-keyframes "bannermove2" {
+	0% {
+		margin-left: 0px;
+	}
+	 100% {
+		margin-left: -2100px;
+	}
+}
+ 
+@-ms-keyframes "bannermove2" {
+	0% {
+		margin-left: 0px;
+	}
+	100% {
+		margin-left: -2100px;
+	}
+}
+ 
+@-o-keyframes "bannermove2" {
+	0% {
+		margin-left: 0px;
+	}
+	100% {
+		margin-left: -2100px;
+	}
+}
+
+
+
 /* GET TO THE GOOD STUFF */
 
 body, html {

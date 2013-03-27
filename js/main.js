@@ -10,19 +10,7 @@ $(function() {
 		$('ul.img-carousel').each(function(item, elem) {
 			var newElem = $(elem).clone();
 			newElem.appendTo($(elem).parent());
-			(function() {
-				var containedElem = elem,
-					totalWidth = $(elem).width(),
-					animateFunction = function() {
-						$(containedElem).animate({
-							'margin-left': -totalWidth
-						}, 50000, 'linear', function() {
-							$(containedElem).css('margin-left', 0);
-							animateFunction();						
-						});
-					};
-					animateFunction();
-			})();
+			$(elem).addClass('bannermove'+(item+1));
 		});
 	}
 
