@@ -390,7 +390,7 @@ p {
 
 .blog-posts blockquote p {
 	margin: 0 0 10px 0;
-	font-size: 15px;
+	font-size: 20px;
 }
 
 h2.hero {
@@ -724,6 +724,31 @@ h1.blog-title {
 	font-style: italic;
 	margin-bottom: 30px;
 	border: 1px dashed rgb(216, 216, 230);
+	font-size: 20px;
+}
+
+.blog-article blockquote p {
+	line-height: 1.25;
+}
+
+.blog-article p.small {
+	font-size: 13px;
+	color: #777;
+}
+
+.blog-article p.small img {
+	width: auto;
+	float: left;
+	margin-right: 20px;
+	height: auto;
+}
+
+.blog-article hr {
+	border: none;
+	color: #eee;
+	background-color: #eee;
+	height: 1px;
+	margin: 30px 0;
 }
 
 .blog-article img {

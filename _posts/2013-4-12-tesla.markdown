@@ -1,0 +1,64 @@
+---
+title: 'Training like Tesla: An Experiment of the Mind'
+layout: 'post'
+---
+
+I'm going to undergo an experiment with which I am the test subject.
+
+The idea manifested while I was reading "[My Inventions: The autobiography of Nikola Tesla](http://www.amazon.com/My-Inventions-Autobiography-introduction-ebook/dp/B004W48LAG)". The man is believed among scientific minds to have been savant-like and it certainly shows in his writing.
+
+It is easy to make assumptions as to how an engineer could write, but Nikola defies those assumptions. He defies the standards to which people apply him, and by all counts he did that in absolutely every field in his life. Almost no human to have ever lived has accomplished as much as Nikola.
+
+As with any person who exhibits abilities seemingly beyond our grasp, we begin to wonder how they got there in the first place. What made them great? Did they eat their wheaties? Did they go through special training? Were they born with it? Entire debates have forged through history around nature versus nurture for the explicit purpose of understanding what makes one human being more productive to society than another.
+
+The power of imagination
+------------------------
+
+And here, at least in the reference of Nikola, we have data. Well... we have what he wrote down, which we can only assume to be as honest as possible. 
+
+What made Nikola great was his precise and grandiose imagination. He grew up with an intense visual imagination that tormented him when he was unable to control it. It would present itself forcibly unto his mind when he was trying to interact in the real world. He grew up without confidence in himself thinking that this was a shackle destined to cripple his life-long worth and validity. But he learned to control it. And for all the pain he suffered, the sheer beauty of the upside is hard to match. I could do no better to describe it than he:
+
+> "I soon discovered that my best comfort was attained if I simply went on in my vision further and further, getting new impressions all the time, and so I began to travel; of course, in my mind. Every night, (and sometimes during the day), when alone, I would start on my journeys -- see new places, cities and countries; live there, meet people and make friendship and acquaintances...
+>
+> This I did constantly until I was about seventeen, when my thoughts turned seriously to invention. Then I observed to my delight that I could visualize with the greatest facility. I need no models, drawings or experiments. I could picture them all as real in my mind... I do not rush into actual work. When I get an idea, I start at once building it up in my imagination. I change the construction, make improvements and operate the device in my mind. It is absolutely immaterial to me whether I run my turbine in thought or test it in my shop."
+>
+> \- Nikola Tesla
+
+If you're an engineer or "builder" you're probably feeling jealous right about now; or maybe you think he is crazy. Either way, this guy's imagination was a private sandbox with zero limitations. It emulated reality so accurately that he could invent and discover in ways that others could not do in hundreds of lifetimes. The electricity powering your screen right now was surely, at least at point, transmitted as alternating current. Nikola did that. Let's also not forget about the [Radio](http://www.pbs.org/tesla/ll/ll_whoradio.html) or [Electric Motor](http://www.fi.edu/learn/case-files/tesla/motor.html).
+
+Is this an innate talent or is it developed?
+--------------------------------------------
+
+Everyday tasks are not usually intense enough to put stress on the imagination. They are relatively easy and entail things like planning out the next couple minutes of your day, writing short emails, or remembering where the checkbook is located.
+
+But every so often we all face complicated problems. They start out simple enough and as higher-level goals, but at some point, as you mentally break them down, you hit a large wall. The clarity with which you can visualize, plan, and think is drastically reduced and you bring the process into the physical world through writing or drawing. UX Designers wireframe, engineers whiteboard or jump into code, interior designers start grabbing fabric samples, etc.
+
+We don't usually question this natural wall. But change your perspective on imagination for a moment and think of it *purely* as a skill you can develop. Just as you can rate your other abilities -- maybe you're a great coder or orator -- rate your imagination. How *useful* is it to you right now?
+
+To me, it seems the utility provided by one's imagination is in direct correlation with this wall's location. The more in-depth you can think with absolute clarity before ramming into the barrier, the better use you will get out of your imagination. 
+
+Thus, we want to learn to move our wall; we want to push it further and further, inch by inch, until its limiting effects are diminished and we gain a newfound freedom in our own imagination. Nikola's wall was miles and miles away during his peak but he admits to not having the same abilities as a child, so it seems that this is an ability one can foster.
+
+Perhaps Nikola's mental travels, inventions, and constant use of his imagination trained him. Perhaps those experiences pushed his wall further and further until he was left with a giant sandbox. That's the experiment I will attempt to undergo.
+
+Building a sandbox
+------------------
+
+First off, I am not attempting to say that I am more fit to do this than anyone else. In fact, my goal is to "prove" the opposite: I want to see if this ability is attainable by anyone. I want to experience the upside: a truly lean process of ideation and iteration that removes the physical complexities (one that would make [Steven Blank](http://en.wikipedia.org/wiki/Steve_Blank) proud). 
+
+Luckily, I find it easy to rate, with precision, my ability to imagine *things*; I think I know where my wall is located. As such, I'm going to do my best to track any progress I make. 
+
+I'll train the same way Nikola did: first imagining things I've already seen and places I've already been. My childhood home, neighborhood, travel destinations, products I use, objects, etc. I'm going to imagine the people I've met, the sounds I've heard, and even the emotions I've felt. Following that I'll see if I can go further down the path of creating new experiences and inventions. Specifically, the idea is to create increasingly complex scenes and visualize increasingly complex problems until the wall is inches away. At that point, the test is whether or not the wall can be moved and if it will stay once moved.
+
+Nikola traversed the worlds of physics and electromagnetism in his mind. He manifested his findings into real world developments. I hope the same can be done for the digital world.
+
+The more data, the better the experiment: If anyone is interested in embarking on this journey/test with me, let me know (email, twitter, facebook -- they all work). I'm beyond excited.
+
+---
+
+<p class="small">
+	<img src="https://dl.dropboxusercontent.com/u/5631577/blog/Screen%20Shot%202013-04-12%20at%203.27.01%20PM.png" alt="Marc thinks I will go insane">
+	Thank you to those who helped review this post: Andrew, Vinay, Chris, Rajaishi, Raj, Dino, and Nik
+
+	... and Marc
+</p>
