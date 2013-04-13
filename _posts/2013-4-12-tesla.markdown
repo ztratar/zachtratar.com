@@ -58,7 +58,7 @@ The more data, the better the experiment: If anyone is interested in embarking o
 
 <p class="small">
 	<img src="https://dl.dropboxusercontent.com/u/5631577/blog/Screen%20Shot%202013-04-12%20at%203.27.01%20PM.png" alt="Marc thinks I will go insane">
-	Thank you to those who helped review this post: Andrew, Vinay, Chris, Rajaishi, Raj, Dino, and Nik
+	Thank you to those who helped review this post: Eric, Andrew, Vinay, Chris, Rajaishi, Raj, Dino, and Nik
 
 	... and Marc
 </p>
