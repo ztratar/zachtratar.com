@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
+	{% if page.title == 'Zach Tratar' %}
 	<title>Zach Tratar</title>
+	{% else %}
+	<title>{{ page.title }} - Zach Tratar</title>
+	{% endif %}
 
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
