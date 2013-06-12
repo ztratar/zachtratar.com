@@ -1,0 +1,85 @@
+---
+title: 'PRISM: A Final Blow To Functioning Democracy?'
+layout: 'post'
+---
+
+In the unlikely chance you found yourself here and have no idea who Ed Snowden is, you need to watch this [12-minute interview](http://www.guardian.co.uk/world/video/2013/jun/09/nsa-whistleblower-edward-snowden-interview-video).
+
+Don't have time? Seriously try and make time. If you care at all about your privacy or the principles upon which America was founded, watch it.
+
+PRISM
+-----
+
+The single primary document Ed Snowden leaked outlines an NSA program called "PRISM".
+
+Through all of the speculation, it seems the most likely scenario is that PRISM is a data-collection utility. It connects the NSA internal database to specialized, intermediary servers within companies that provide communication services. This includes Google, Facebook, Verizon, Yahoo, AT&T, Apple, and more.
+
+We've been hearing the Government say over and over that PRISM and these data tools do not "target" American citizens, but according to Edward Snowden the system "ingests everyone by default."
+
+Woah! Those are definitely contradictory statments. Who do we believe? This answer is determined by how we define "target".
+
+It's well known amongst the startup and data communities that you want to track almost everything since data storage is cheap. It's a best practice. Dig a little deeper into news sources and it's easy to determine that the NSA does, in fact, ingest everything about you.
+
+The "targeting" language being used by the White House most likely implies how they *analyze* the data. But again, it's never best practice to simply ignore recorded data. Instead, depending on what you're tracking, you'll just weight data patterns you're looking for. Turns out that *no one* is except from this analysis! The White House claims it does not target Americans simply because they *attempt* to only look for foreigners.
+
+But there is a catch: their attempts are failing! Their algorithm to determine whether or not a person is a foreigner is [only 51% accurate](http://www.informationweek.com/security/privacy/nsa-prism-inside-the-modern-surveillance/240156341). Just under half the people analyzed by their software are, in fact, American citizens.
+
+Now that we know we're being recorded and likely analyzed, let's jump into the high level of what this all means.
+
+The Fall of Functioning Democracy
+---------------------------------
+
+History tends to repeat itself as complex sociological and governmental patterns emerge. Even as [back as Plato](http://en.wikipedia.org/wiki/Plato's_five_regimes), there have been theorized cycles for governmental systems.
+
+Although history tends to show that true democracy performs the best, it -- like everything -- also has it's weaknesses. There aren't many huge points-of-failure in the system, but instead thousands of smaller vulnerabilities.
+
+With no strong influence or unified government to cover these holes, spreading power can create a slowing of decision-making, inefficiencies in process, and thus both instability and mistrust. Instability leads to a populace that craves security, and as security increases over time, it almost always falls into tyranny. The founding fathers knew this, which led them to say things like:
+
+> "Those who surrender freedom for security will not have, nor do they deserve, either one." - Benjamin Franklin
+
+This nation was founded upon the primary ideal of freedom. You as a citizen must never passively nor actively be hindered from thinking, acting, and speaking your mind. A functional democracy requires its populace to be both absolutely free and well-informed.
+
+We the people -- we who are entrusted to properly vote in the best legislators -- are not informed in the slightest.
+
+The US Government's document classification system was originally created to protect documents that would, if released, harm national security. Unfortunately, it is frequently used to hide unpopular and apparently unconstitutional policies. If people do not have access to this critical information, then they, by definition, cannot be informed to the extent required to make intelligent voting decisions. Instead, the NSA has given themselves a "self-certification that they serve the national interest." That doesn't sound like democracy to me.
+
+So now I ask you a question: what does it take to speak your mind? What if it's controversial?
+
+Psychologically, if someone is listening to you and can theoretically use information against you, you are less likely to speak. At that point, *you are no longer free*.
+
+And even if you think you have nothing to hide, [think again](http://kottke.org/13/06/you-commit-three-felonies-a-day). The justice system doesn't always play nice.
+
+Now, I know you're thinking "They'll still never come after me". But in that logic lies a tricky problem.
+
+Why We Should All Care
+----------------------
+
+The cat is now out of the bag. The public now *knows* that the US government is running PRISM-like surveillance programs. Before the leak, using data from programs like this to jail or suppress any individuals' freedoms would entail high risk. The program could be exposed to the public and the intelligence agency would be under fire.
+
+But using the data now is far less risky and will thus be used more often. If we allow governmental programs such as PRISM to exist, then we give the intelligence community the go-ahead to use this data in public forum, however that may evolve.
+
+I can't predict the future, but someone among the NSA will eventually think about building an API on top of it; someone will think about making the data decentralized; someone will think about making it universally accessible. We are on an extremely slippery slope. Edward Snowden spoke up because he believed that if he didn't, our losses as a public would be "irrevocable".
+
+Irrevocable.
+
+This word truly means a lot because it is *never* used when describing software. Snowden himself stated that if he wanted to break down many of the NSA's systems, he could. PRISM included, considering his unfettered access.
+
+So what is this irrevocable system? I think that the NSA is about to finish a new, highly advanced data collection/analysis system -- one that makes PRISM and the other leaked systems look like children's toys.
+
+With their non-democratic self-certification, the NSA is going to continue ingesting every piece of data is can get its hand on. All of your data in one place. It will be spread across numerous locations and have multiple backups.
+
+Once that information is put into the system, it will never cease-to-exist.
+
+Cyber-warfare and complex system intrusions are becoming increasingly common. We cannot build perfect security systems -- new flaws in seemingly-impervious systems are found all of the time.
+
+When, *not if*, there is a massive data leak, what will happen?
+
+The "they'll still never come after me" mentality is now completely moot; we don't even know who "they" are. Maybe it's an identity thief; maybe it's a foreign government -- it could be *anyone*.
+
+Our government is taking these actions in the name of security, but effectively all we're doing is stockpiling ammo, 99.9% of which can only be shot back at ourselves. We then put that ammo behind a shotty wall for safekeeping.
+
+Quite obviously, this does not make us more secure.
+
+Are we sure we want to live in that world? Are we sure our children and grand-children will want to live in that world?
+
+It's completely possible that we are making that choice right now.
