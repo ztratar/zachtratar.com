@@ -20,18 +20,18 @@ Woah! Those are definitely contradictory statments. Who do we believe? This answ
 
 It's well known amongst the startup and data communities that you want to track almost everything since data storage is cheap. It's a best practice. Dig a little deeper into news sources and it's easy to determine that the NSA does, in fact, ingest everything about you.
 
-The "targeting" language being used by the White House most likely implies how they *analyze* the data. But again, it's never best practice to simply ignore recorded data. Instead, depending on what you're tracking, you'll just weight data patterns you're looking for. Turns out that *no one* is except from this analysis! The White House claims it does not target Americans simply because they *attempt* to only look for foreigners.
+The "targeting" language being used by the White House most likely implies how they *analyze* the data. But again, it's never best practice to simply ignore recorded data. Instead, depending on what you're tracking, you'll just weight data patterns you're looking for. Turns out that *no one* is exempt from this analysis! The White House claims it does not target Americans simply because they *attempt* to only look for foreigners.
 
-But there is a catch: their attempts are failing! Their algorithm to determine whether or not a person is a foreigner is [only 51% accurate](http://www.informationweek.com/security/privacy/nsa-prism-inside-the-modern-surveillance/240156341). Just under half the people analyzed by their software are, in fact, American citizens.
+But there is a catch: their attempts are failing! Their algorithm to determine whether or not a person is a foreigner only has a [51% confidence interval](http://www.informationweek.com/security/privacy/nsa-prism-inside-the-modern-surveillance/240156341). Just under half the people analyzed by their software are, in fact, American citizens.
 
 Now that we know we're being recorded and likely analyzed, let's jump into the high level of what this all means.
 
 The Fall of Functioning Democracy
 ---------------------------------
 
-History tends to repeat itself as complex sociological and governmental patterns emerge. Even as [back as Plato](http://en.wikipedia.org/wiki/Plato's_five_regimes), there have been theorized cycles for governmental systems.
+History tends to repeat itself as complex sociological and governmental patterns emerge. Even as far [back as Plato](http://en.wikipedia.org/wiki/Plato's_five_regimes), there have been theorized cycles for governmental systems.
 
-Although history tends to show that true democracy performs the best, it -- like everything -- also has it's weaknesses. There aren't many huge points-of-failure in the system, but instead thousands of smaller vulnerabilities.
+Although history tends to show that true democracy performs the best, it -- like everything -- also has its weaknesses. There aren't many huge points-of-failure in the system, but instead thousands of smaller vulnerabilities.
 
 With no strong influence or unified government to cover these holes, spreading power can create a slowing of decision-making, inefficiencies in process, and thus both instability and mistrust. Instability leads to a populace that craves security, and as security increases over time, it almost always falls into tyranny. The founding fathers knew this, which led them to say things like:
 
@@ -76,7 +76,7 @@ When, *not if*, there is a massive data leak, what will happen?
 
 The "they'll still never come after me" mentality is now completely moot; we don't even know who "they" are. Maybe it's an identity thief; maybe it's a foreign government -- it could be *anyone*.
 
-Our government is taking these actions in the name of security, but effectively all we're doing is stockpiling ammo, 99.9% of which can only be shot back at ourselves. We then put that ammo behind a shotty wall for safekeeping.
+Our government is taking these actions in the name of security, but effectively all we're doing is stockpiling ammo, 99.9% of which can only be shot back at ourselves. We then put that ammo behind a shoddy wall for safekeeping.
 
 Quite obviously, this does not make us more secure.
 
