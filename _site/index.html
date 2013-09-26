@@ -2,10 +2,11 @@
 <html>
 <head>
 	
-	
 	<title>Zach Tratar</title>
 	
 
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 
@@ -28,436 +29,118 @@
 
 
 	<header id="main-header">
-		<div class="container">
-			<div class="face-wrap">
-				<img src="./img/face.png">
+		<div class="container header-primary-content">
+			<div class="face-wrap fade-in">
+				<img src="./img/face_white.png">
 			</div>
-			<h1 id="name">
+			<h1 id="name" class="fade-in">
 				Zach Tratar
 			</h1>
-			<div class="btn-group">
-				<a href="http://twitter.com/zachtratar" target="_blank" class="btn btn-twitter">
-					<i class="twitter-ico"></i>
+			<p class="tagline fade-in">I note my journey here. Usually it's about products, computing, and thinking big.</p>
+			<div class="header-buttons">
+				<a href="/about" class="btn fade-in">About Me</a>
+				<a href="http://twitter.com/zachtratar" target="_blank" class="btn btn-twitter fade-in">
+					<i class="icon-twitter"></i>
 				</a>
-				<div href="#" class="btn btn-caret">
-					<span class="caret"></span>
-					<ul class="dropdown">
-						<li>
-							<a href="http://github.com/ztratar" target="_blank"><i class="icon-github"></i> Github</a>
-						</li>
-						<li>
-							<a href="http://www.linkedin.com/profile/view?id=47247511" target="_blank"><i class="icon-linkedin"></i> LinkedIn</a>
-						</li>
-						<li>
-							<a href="http://facebook.com/ztratar" target="_blank"><i class="icon-facebook"></i> Facebook</a>
-						</li>
-						<li>
-							<a href="mailto:ztratar@gmail.com" class="small"><i class="icon-email"></i> ztratar@gmail.com</a>
-						</li>
-					</ul>
-				</div>
 			</div>
 		</div>
 	</header>	
 
-	<div id="main-sections">
-		<div class="container">
-			<section id="about-section" class="fade-in">
-				<h2 class="hero">I dream things up and build them.</h2>
-				<p>
-				I started 2 companies while studying Computer Engineering at UIUC, left school to join Backplane, and love UX, psychology, and engineering.
-				</p>
-				<a href="/about" class="btn btn-large see-more-about">More about me</a>
-				<div class="more-about hidden">
-					<p>
-						The first company was a <span class="italic">terrible</span> failure. 	
-					</p>
-					<ul>
-						<li>Our mission was to clean up politics.</li>
-						<li>We were freshmen in college.</li>
-						<li>We had never built a product before.</li>
-					</ul>
-					<p>
-						I bring this up is because the experience can clearly give you
-						a sense of who I am. Rattling off a resume is boring and I don't believe in boring an
-						audience.
-					</p>
-					<p>
-						Passion to solve the world's biggest problems is my sole driving force and so
-						far I haven't been able to find the brake.
-						The world has too many things wrong with it but too much beauty to let apathy and inaction
-						win.
-					</p>
-					<p>
-						I'm idealistic when it comes to ideas and realistic when it comes to execution.
-						The realism didn't come natural... I think it's a byproduct of countless bug smashing
-						sessions. 
-					</p>
-					<h3>So how'd I get into tech in the first place?</h3>
-					<p>
-						I found my love for engineering early. In elementary school I would bike down
-						to the local RadioShack to buy electrical components for home-made RC cars. After
-						taking my first physics class, I started to spec out and design new 
-						engines. Of course they weren't very efficient, but there were badass! Fun fact: I thought I
-						was onto a big idea for an engine using the earth's magnetic field and the right-hand-rule
-						until I realized, after 2 weeks, that I was disobeying Newton's 2nd law. <span class="italic small">/fail</span>
-					</p>
-					<p>
-						So yea -- building things. <span class="fun-stuff">Fun stuff!</span>
-					</p>
-					<p>
-						Growing up in Chicago was seemingly perfect if you looked at it from afar, but there
-						are problems everywhere in the world. I watched my family and others suffer from systems that were quite obviously broken.
-						An easily exploitable legal system, a volatile housing market, the substandard to which
-						the American dream has plunged and it's psychological torture on small business owners... you get the idea.
-					</p>
-					<p>
-						I only have evidence thats states my problems are absolutely minimal compared to others. It's not
-						like I'm fighting malaria or losing my savings to superinflation.
-					</p>
-					<p>
-						So what does this mean? It means that there are a lot of solutions out there just waiting to
-						be discovered, designed, and engineered. Software is the scalable medium to tackle most of these problems
-						and I have therefore put myself at the forefront of the industry.
-					</p>
-					<h3>Whatcha doin' now?</h3>
-					<p>
-						I quit school near the top of my class to build Backplane. Right now the average person talks to the same
-						30-50 people they know from school or work. With 2.5 billion people connected to the internet, that is a shame.						
-						Right now the systems to enable great conversation at a very-large-scale do not exist. We are solving that problem.
-					</p>
-					<p>
-						Someone more qualified: go fix politics for the rest of us! <span class="italic">(please?)</span>
-					</p>
-					<p>
-						<a href="https://twitter.com/intent/tweet?screen_name=zachtratar" class="twitter-mention-button" data-size="large" data-related="zachtratar">Tweet to @zachtratar</a>
-						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-					</p>
-				</div>
-			</section>
-			<section id="writing-section" class="fade-in fade-two">
-				<h2>Writing</h2>
-				<div class="blog-posts-minimal">
-					<ul class="blog-posts">
-						
-						
-						<li>
-							<a href="/prism.html">PRISM: A Final Blow To Functioning Democracy?</a>
-							<span>11 Jun 2013</span>
-						</li>
-						
-						
-						
-						
-						<li>
-							<a href="/tesla.html">Training like Tesla: An Experiment of the Mind</a>
-							<span>12 Apr 2013</span>
-						</li>
-						
-						
-						
-						
-						<li>
-							<a href="/facebook.html">The New Facebook News Feed: A UX Breakdown</a>
-							<span>07 Mar 2013</span>
-						</li>
-						
-						
-						
-						
-						<li>
-							<a href="/lets-stop-generalizing.html">Lets Stop Generalizing</a>
-							<span>25 Feb 2013</span>
-						</li>
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-					</ul>
-					<a href="/writing" class="btn btn-large see-all-blog-posts">10 more essays</a>
-				</div>
-				<div class="blog-posts-full hidden">
-					<ul class="blog-posts">
-						
-						<li>
-							<a href="/prism.html">PRISM: A Final Blow To Functioning Democracy?</a>
-							<span>11 Jun 2013</span>
-						</li>
-						
-						<li>
-							<a href="/tesla.html">Training like Tesla: An Experiment of the Mind</a>
-							<span>12 Apr 2013</span>
-						</li>
-						
-						<li>
-							<a href="/facebook.html">The New Facebook News Feed: A UX Breakdown</a>
-							<span>07 Mar 2013</span>
-						</li>
-						
-						<li>
-							<a href="/lets-stop-generalizing.html">Lets Stop Generalizing</a>
-							<span>25 Feb 2013</span>
-						</li>
-						
-						<li>
-							<a href="/new-years.html">New Years Resolutions</a>
-							<span>01 Jan 2013</span>
-						</li>
-						
-						<li>
-							<a href="/passion-finder.html">Passion Finder</a>
-							<span>06 Oct 2012</span>
-						</li>
-						
-						<li>
-							<a href="/american-spirit.html">The American Spirit: Who Bears Responsibility</a>
-							<span>01 Jul 2012</span>
-						</li>
-						
-						<li>
-							<a href="/successful-entrepreneurs.html">Successful Entrepreneurs Build From The Heart</a>
-							<span>29 May 2012</span>
-						</li>
-						
-						<li>
-							<a href="/interconnectivity.html">The Interconnectivity of Quantum Propulsion</a>
-							<span>26 May 2012</span>
-						</li>
-						
-						<li>
-							<a href="/connecting-the-dots.html">Connecting The Dots (All The Way To Silicon Valley)</a>
-							<span>17 Apr 2012</span>
-						</li>
-						
-						<li>
-							<a href="/the-secret-behind-apples-crazy-abilities.html">The Secret Behind Apple's Crazy Abilities</a>
-							<span>24 Jan 2012</span>
-						</li>
-						
-						<li>
-							<a href="/lessons-learned-2.html">Lessons Learned From 2011 : Learn To Be Productive</a>
-							<span>04 Jan 2012</span>
-						</li>
-						
-						<li>
-							<a href="/lessons-learned-1.html">Lessons Learned From 2011 : How To Make Yourself Lucky</a>
-							<span>30 Dec 2011</span>
-						</li>
-						
-						<li>
-							<a href="/down-the-rabbit-hole-i-go.html">Down The Rabbit Hole I Go...</a>
-							<span>04 Dec 2011</span>
-						</li>
-						
-					</ul>
-				</div>
-			</section>
-			<section id="timeline-section">
-				<h2>Timeline</h2>
-				<ul class="timeline"> 
-					<li class="media clearfix">
-						<div class="marker-wrap pull-left">
-							<div class="marker">
-								<span>MAR</span>
-								<span class="date">13'</span>
-							</div>	
-						</div>	
-						<div class="media-body">
-							<h4>Won Paypal and Youtube API 1st prize at SXSW Artists' Hack</h4>
-							<p>
-								I coded the first MVP verson of WeBrowseInPublic.com in Austin, TX. Paypal
-								awarded me 1st prize for the most monetizable app. Youtube had the barebone 
-								requirement of using their API, which was ridiculously easy.
-							</p>
-						</div>
-					</li>
-					<li class="media clearfix">
-						<div class="marker-wrap pull-left">
-							<div class="marker">
-								<span>FEB</span>
-								<span class="date">12'</span>
-							</div>	
-						</div>	
-						<div class="media-body">
-							<h4>Started advising Claco.com</h4>
-						</div>
-					</li>
-					<li class="media clearfix">
-						<div class="marker-wrap pull-left">
-							<div class="marker">
-								<span>AUG</span>
-								<span class="date">11'</span>
-							</div>	
-						</div>	
-						<div class="media-body">
-							<h4>Joined Backplane</h4>
-							<p>
-								First engineering/product hire. I had to drop out 
-								but determined it was worthwhile pretty quickly.
-							</p>
-						</div>
-					</li>
-					<li class="media clearfix">
-						<div class="marker-wrap pull-left">
-							<div class="marker">
-								<span>MAY</span>
-								<span class="date">11'</span>
-							</div>	
-						</div>	
-						<div class="media-body">
-							<h4>Joined Piazza</h4>
-							<p>
-								I quit a consulting internship in Chicago on day 3 (pretty awkward) to come to the valley. I worked on UX and growth hacking -- we went from 30,000 users to 100,000 in under 3 months.
-							</p>
-						</div>
-					</li>
-					<li class="media clearfix">
-						<div class="marker-wrap pull-left">
-							<div class="marker">
-								<span>MAR</span>
-								<span class="date">11'</span>
-							</div>	
-						</div>	
-						<div class="media-body">
-							<h4>Won the 2011 Cozad New Venture Competition</h4>
-							<p>
-								1st place in the Midwest's largest startup pitch/business plan competition, beating out 100+ other teams.
-							</p>
-						</div>
-					</li>
-					<li class="media clearfix">
-						<div class="marker-wrap pull-left">
-							<div class="marker">
-								<span>AUG</span>
-								<span class="date">08'</span>
-							</div>	
-						</div>	
-						<div class="media-body">
-							<h4>Started Instarta</h4>
-							<p>My first company.</p>
-						</div>
-					</li>
-					<li class="media clearfix">
-						<div class="marker-wrap pull-left">
-							<div class="marker">
-								<span>AUG</span>
-								<span class="date">08'</span>
-							</div>	
-						</div>	
-						<div class="media-body">
-							<h4>Began Studying Computer Engineering at UIUC</h4>
-						</div>
-					</li>
-					<li class="media clearfix">
-						<div class="marker-wrap pull-left">
-							<div class="marker">
-								<span>NOV</span>
-								<span class="date">04'</span>
-							</div>	
-						</div>	
-						<div class="media-body">
-							<h4>Developed my first internet product</h4>
-							<p>
-								I built an RSS aggregator for news. You could create accounts, share news across email, and make custom feeds. Pretty cool stuff for having just learned PHP! I shut it down after Google Reader came out.
-							</p>
-						</div>
-					</li>
-					<li class="media clearfix more">
-						<div class="marker-wrap pull-left">
-							<div class="marker">
-								<span class="ellipsis">...</span>
-							</div>	
-						</div>	
-						<a href="#" class="btn btn-bordered see-timeline">See more</a>
-					</li>
-				</ul>
-			</section>
+	<section id="main-page">
+		<div>
+			<h2>Writing</h2>
+			<a href="#">
+				<i class="rss-ico"></i>
+			</a>
 		</div>
-		<section id="photos-section" class="fade-in wait-three">
-			<div class="container">
-				<h2 class="inverted">Photos</h2>
-			</div>
-			<div class="carousel-row">
-				<ul class="img-carousel">
-					<li>
-						<img src="img/photos/1.jpg">
-					</li>
-					<li>
-						<img src="img/photos/2.jpg">
-					</li>
-					<li>
-						<img src="img/photos/3.jpg">
-					</li>
-					<li>
-						<img src="img/photos/4.jpg">
-					</li>
-					<li>
-						<img src="img/photos/5.jpg">
-					</li>
-					<li>
-						<img src="img/photos/6.jpg">
-					</li>
-					<li>
-						<img src="img/photos/7.jpg">
-					</li>
-					<li>
-						<img src="img/photos/8.jpg">
-					</li>
-				</ul>
-			</div>
-			<div class="carousel-row">
-				<ul class="img-carousel">
-					<li>
-						<img src="img/photos/9.jpg">
-					</li>
-					<li>
-						<img src="img/photos/10.jpg">
-					</li>
-					<li>
-						<img src="img/photos/11.jpg">
-					</li>
-					<li>
-						<img src="img/photos/12.jpg">
-					</li>
-					<li>
-						<img src="img/photos/13.jpg">
-					</li>
-					<li>
-						<img src="img/photos/14.jpg">
-					</li>
-				</ul>
-			</div>
-		</section>
-	</div>
+		<ul class="post-cards">	
+			
+			<li>
+				<a href="/prism.html">PRISM: A Final Blow To Functioning Democracy?</a>
+				<span>11 Jun 2013</span>
+			</li>
+			
+			
+			<li>
+				<a href="/tesla.html">Training like Tesla: An Experiment of the Mind</a>
+				<span>12 Apr 2013</span>
+			</li>
+			
+			
+			<li>
+				<a href="/facebook.html">The New Facebook News Feed: A UX Breakdown</a>
+				<span>07 Mar 2013</span>
+			</li>
+			
+			
+			<li>
+				<a href="/lets-stop-generalizing.html">Lets Stop Generalizing</a>
+				<span>25 Feb 2013</span>
+			</li>
+			
+			
+			<li>
+				<a href="/new-years.html">New Years Resolutions</a>
+				<span>01 Jan 2013</span>
+			</li>
+			
+			
+			<li>
+				<a href="/passion-finder.html">Passion Finder</a>
+				<span>06 Oct 2012</span>
+			</li>
+			
+			
+			<li>
+				<a href="/american-spirit.html">The American Spirit: Who Bears Responsibility</a>
+				<span>01 Jul 2012</span>
+			</li>
+			
+			
+			<li>
+				<a href="/successful-entrepreneurs.html">Successful Entrepreneurs Build From The Heart</a>
+				<span>29 May 2012</span>
+			</li>
+			
+			
+			<li>
+				<a href="/interconnectivity.html">The Interconnectivity of Quantum Propulsion</a>
+				<span>26 May 2012</span>
+			</li>
+			
+			
+			<li>
+				<a href="/connecting-the-dots.html">Connecting The Dots (All The Way To Silicon Valley)</a>
+				<span>17 Apr 2012</span>
+			</li>
+			
+			
+			<li>
+				<a href="/the-secret-behind-apples-crazy-abilities.html">The Secret Behind Apple's Crazy Abilities</a>
+				<span>24 Jan 2012</span>
+			</li>
+			
+			
+			<li>
+				<a href="/lessons-learned-2.html">Lessons Learned From 2011 : Learn To Be Productive</a>
+				<span>04 Jan 2012</span>
+			</li>
+			
+			
+			<li>
+				<a href="/lessons-learned-1.html">Lessons Learned From 2011 : How To Make Yourself Lucky</a>
+				<span>30 Dec 2011</span>
+			</li>
+			
+			
+			<li>
+				<a href="/down-the-rabbit-hole-i-go.html">Down The Rabbit Hole I Go...</a>
+				<span>04 Dec 2011</span>
+			</li>
+			
+			
+		</ul>
+	</section>
 
 	<!-- AddThis -->
 	<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
