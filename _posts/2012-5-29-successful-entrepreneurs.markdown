@@ -1,6 +1,7 @@
 ---
 title: Successful Entrepreneurs Build From The Heart
 layout: 'post'
+img: 'http://www.heartprinting.net/images/small_heart_only.gif'
 ---
 
 The tech industry is a haphazard, chaotic scramble of companies, capital, and recruiters. Among this craze, I have been lucky enough to meet, and in some cases befriend, some very talented people - from VCs and CEOs to contractors trying to get their foot in the door.

@@ -1,6 +1,7 @@
 ---
 title: 'Passion Finder'
 layout: 'post'
+img: 'http://day2night.com/wp-content/uploads/2011/02/live-with-passion.jpg'
 ---
 
 I tend to think about random web ideas quite frequently, so here goes a brain dump!

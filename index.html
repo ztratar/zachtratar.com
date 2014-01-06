@@ -4,41 +4,46 @@ title: Zach Tratar
 
 {% include header.html %}
 
-	<header id="main-header">
-		<div class="container header-primary-content">
-			<div class="face-wrap fade-in">
-				<img src="./img/face_white.png">
-			</div>
-			<h1 id="name" class="fade-in">
-				Zach Tratar
-			</h1>
-			<p class="tagline fade-in">I note my journey here. Usually it's about products, computing, and thinking big.</p>
-			<div class="header-buttons">
-				<a href="/about" class="btn fade-in">About Me</a>
-				<a href="http://twitter.com/zachtratar" target="_blank" class="btn btn-twitter fade-in">
-					<i class="icon-twitter"></i>
-				</a>
-			</div>
-		</div>
-	</header>	
+<header>
+	<img class="face" src="img/face.png">
+	<h1>Zach Tratar</h1>
+	<p class="description">Product at Backplane, designer of that which I belive in, engineer of systems to unite the world.</p>
+	<div>
+		<a class="about-me btn">About me</a>
+	</div>
+</header>
 
-	<section id="main-page">
-		<div>
-			<h2>Writing</h2>
-			<a href="#">
-				<i class="rss-ico"></i>
-			</a>
-		</div>
-		<ul class="post-cards">	
-			{% for post in site.posts %}
-			<li>
-				<a href="{{ post.url }}">{{ post.title }}</a>
-				<span>{{ post.date | date_to_string }}</span>
-			</li>
-			{% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
-			{% endfor %}
+<div class="sticky-nav">
+	<div class="container">
+		<ul class="nav stream-filters pull-left">
+			<li class="active"><a href="#" class="all">All</a></li>
+			<li><a href="#" class="photos">Photos</a></li>
+			<li><a href="#" class="writing">Writing</a></li>
 		</ul>
-	</section>
+		<div class="share-buttons pull-right">
+			<div class="share-twitter-wrap">
+				<a href="https://twitter.com/zachtratar" class="twitter-follow-button" data-show-count="true" data-width="220px">Follow @zachtratar</a>
+			</div>
+			<div class="share-facebook-wrap">
+				<div class="fb-follow" data-href="http://www.facebook.com/ztratar" data-colorscheme="light" data-layout="button_count" data-show-faces="true"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<ul class="post-stream">
+		{% for post in site.posts %}
+		<li>	
+			<a href="{{ post.url }}">
+				<h3>{{ post.title }}</h3>
+				<span>{{ post.date | date_to_string }}</span>
+			</a>
+		</li>
+		{% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
+		{% endfor %}
+	</ul>
+</div>
 
 {% include footer.html %}
 

@@ -1,6 +1,7 @@
 ---
 title: 'The New Facebook News Feed: A UX Breakdown'
 layout: 'post'
+img: 'https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-prn1/851563_303789786419109_5899560_n.jpg'
 ---
 
 The internet is blowing up with sensationalized articles on the new [Facebook News Feed](https://www.facebook.com/about/newsfeed). I'm not a fan of that, so instead let's talk about design principles and user behavior.

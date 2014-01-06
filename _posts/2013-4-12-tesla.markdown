@@ -1,6 +1,7 @@
 ---
 title: 'Training like Tesla: An Experiment of the Mind'
 layout: 'post'
+img: 'http://www.mnn.com/sites/default/files/TeslaMuseum_m_0817.jpg'
 ---
 
 I'm going to undergo an experiment with which I am the test subject.

@@ -1,6 +1,7 @@
 ---
 title: 'Lets Stop Generalizing'
 layout: 'post'
+img: 'http://d1avok0lzls2w.cloudfront.net/img_uploads/SEOmoz-Hackernews-Rank.png'
 ---
 
 We're better than that. Seriously.

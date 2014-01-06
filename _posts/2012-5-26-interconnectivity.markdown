@@ -1,6 +1,7 @@
 ---
 title: 'The Interconnectivity of Quantum Propulsion'
 layout: 'post'
+img: 'http://images.fastcompany.com/upload/iondrive1.jpg'
 ---
 
 I know what you're thinking: "Zach + Quantum Propulsion = what?". It's ok, I really haven't shown my theoretical physicist side to many people over the years.

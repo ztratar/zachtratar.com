@@ -7,13 +7,21 @@
 	<title>{{ page.title }} - Zach Tratar</title>
 	{% endif %}
 
-	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" media="screen">
-	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/reset.css" type="text/css">
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+	{% if page.title == 'Zach Tratar' %}
+	<meta name="title" content="Zach Tratar">
+	{% else %}
+	<meta name="title" content="{{ page.title }} - by Zach Tratar">
+	{% endif %}
+	<meta name="description" content="Product at Backplane, designer of that which I belive in, engineer of systems to unite the world.">
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-	<script src="js/main.js" type="text/javascript"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet/less" href="/css/all.less" type="text/css">
+
+	<script src="/js/jquery.js"></script>
+	<script src="/js/underscore.js"></script>
+	<script src="/js/less.js"></script>
+	<script src="/js/main.js" type="text/javascript"></script>
 </head>
 
 <body>

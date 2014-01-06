@@ -1,6 +1,7 @@
 ---
 title: Connecting The Dots (All The Way To Silicon Valley)
 layout: 'post'
+img: 'http://startupphenomenon.com/2013/wp-content/uploads/2013/07/Silicon-Valley.jpg'
 ---
 
 > "You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something - your gut, destiny, life, karma, whatever."

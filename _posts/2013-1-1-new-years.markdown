@@ -1,6 +1,7 @@
 ---
 title: 'New Years Resolutions'
 layout: 'post'
+img: 'http://theiowarepublican.com/wp-content/uploads/2012/12/new-years-resolution.jpg'
 ---
 
 I've never made new years resolutions before, so this is a completely new experience. A quote I recently read inspired me to make this list:

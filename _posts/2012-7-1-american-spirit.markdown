@@ -1,6 +1,7 @@
 ---
 title: 'The American Spirit: Who Bears Responsibility'
 layout: 'post'
+img: 'http://www.lawyersgunsmoneyblog.com/wp-content/uploads/2012/08/american-flag-2a.jpg'
 ---
 
 The Spirit of Building Anew

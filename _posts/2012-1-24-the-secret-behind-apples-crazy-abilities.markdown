@@ -1,6 +1,7 @@
 ---
 title: The Secret Behind Apple's Crazy Abilities
 layout: 'post'
+img: 'http://www.tothetick.com/wp-content/uploads/2013/08/Apple.jpg'
 ---
 
 OK, maybe it's not a "secret", but bloggers are in a frenzy today after Apple reported $13.1 billion dollars in pure profit.
