@@ -1,75 +1,54 @@
 {% include header.html %}
 
-<header id="blog-header">
-	<div class="container">
-		<a href="/" class="btn back-to-home">
-			<span class="home-ico"></span>	
-		</a>
-		<h1 id="name">
-			<a href="/">Zach Tratar</a>
-		</h1>
-		<div class="btn-group">
-			<a href="http://twitter.com/zachtratar" target="_blank" class="btn btn-twitter">
-				<i class="twitter-ico"></i>
+<div class="post">
+	<header id="post-header">
+		<div class="container">
+			<a href="/" class="pull-left">
+				<i class="icon-chevron-left"></i>	
 			</a>
-			<div href="#" class="btn btn-caret">
-				<span class="caret"></span>
-				<ul class="dropdown">
-					<li>
-						<a href="http://github.com/ztratar" target="_blank"><i class="icon-github"></i> Github</a>
-					</li>
-					<li>
-						<a href="http://www.linkedin.com/profile/view?id=47247511" target="_blank"><i class="icon-linkedin"></i> LinkedIn</a>
-					</li>
-					<li>
-						<a href="http://facebook.com/ztratar" target="_blank"><i class="icon-facebook"></i> Facebook</a>
-					</li>
-					<li>
-						<a href="mailto:ztratar@gmail.com" class="small"><i class="icon-email"></i> ztratar@gmail.com</a>
-					</li>
-				</ul>
+		</div>
+	</header>	
+
+	<div class="post-title-container">
+		<div class="post-title-wrap container">
+			<div class="post-info container">
+				<h1 class="post-title">
+					{{ page.title }}
+				</h1>
+				<span><a href="/"><img class="face" src="img/face.png">Zach Tratar</a> on {{ page.date | date_to_string }}</span>
 			</div>
 		</div>
 	</div>
-</header>	
 
-<div class="blog-title-wrap">
-	<h1 class="container blog-title">
-		{{ page.title }}
-	</h1>
-</div>
+	<div class="container post-article">
+		{{ content }}
+	</div>
 
-<div class="container blog-article">
-	{{ content }}
-</div>
+	<div class="container post-article post-sharing">
+		<p>
+			<a href="https://twitter.com/intent/tweet?screen_name=zachtratar" class="twitter-mention-button" data-size="large" data-related="zachtratar">Tweet to @zachtratar</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</p>
+		<div class="fb-comments" data-href="{{ page.url }}" data-width="640" data-num-posts="10"></div>	
+	</div>
 
-<div class="container blog-article blog-sharing">
-	<p>
-		<a href="https://twitter.com/intent/tweet?screen_name=zachtratar" class="twitter-mention-button" data-size="large" data-related="zachtratar">Tweet to @zachtratar</a>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	</p>
-	<div class="fb-comments" data-href="{{ page.url }}" data-width="640" data-num-posts="10"></div>	
-</div>
-
-<div class="blog-footer">
-	<section id="writing-section" class="container">
-		<h2>More writing</h2>
-		<div class="blog-posts-full">
-			<ul class="blog-posts">
+	<div class="post-footer">
+		<section id="writing-section" class="container">
+			<h2>More writing</h2>
+			<ul class="post-stream">
 				{% for post in site.posts %}
 				{% if forloop.index <= 4 %}
 				<li>
-					<a href="{{ post.url }}">{{ post.title }}</a>
-					<span>{{ post.date | date_to_string }}</span>
+					<a href="{{ post.url }}">
+						<h3>{{ post.title }}</h3>
+						<span>{{ post.date | date_to_string }}</span>
+					</a>
 				</li>
 				{% endif %}
 				{% endfor %}
 			</ul>
-		</div>
-	</section>
-	<a href="/" class="footer-home btn">
-		<span class="home-ico"></span> Home
-	</a>
+		</section>
+	</div>
 </div>
 
 {% include footer.html %}
