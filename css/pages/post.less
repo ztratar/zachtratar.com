@@ -56,6 +56,12 @@
 			height: 440px;
 			padding: 0;
 
+			.transition(all 0.2s ease-in-out);
+
+			@media (max-height: 630px) {
+				height: 370px;
+			}
+
 			@media (max-height: 560px) {
 				height: 310px;
 			}
@@ -95,6 +101,16 @@
 
 		p {
 			margin: 0 0 30px 0;
+
+			&.small {
+				font-size: 16px;
+				color: @color3;
+			}
+
+			img {
+				float: left;
+				margin: 0 20px 0 0;
+			}
 		}
 
 		blockquote {
