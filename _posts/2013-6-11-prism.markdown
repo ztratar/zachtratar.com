@@ -1,7 +1,7 @@
 ---
 title: 'PRISM: A Final Blow To Functioning Democracy?'
 layout: 'post'
-img: 'http://news.antiwar.com/wp-content/uploads/2012/07/nsahq.jpg'
+img: 'http://scienceblogs.com/startswithabang/files/2012/08/prism-and-refraction-of-light-into-rainbow-AJHD.jpeg'
 ---
 
 In the unlikely chance you found yourself here and have no idea who Ed Snowden is, you need to watch this [12-minute interview](http://www.guardian.co.uk/world/video/2013/jun/09/nsa-whistleblower-edward-snowden-interview-video).

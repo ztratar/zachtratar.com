@@ -44,7 +44,7 @@
 	</header>	
 
 	<div class="post-title-container">
-		<div class="post-title-wrap container">
+		<div class="post-title-wrap container has-img">
 			<div class="post-info container">
 				<h1 class="post-title">
 					The New Facebook News Feed: A UX Breakdown
@@ -52,7 +52,22 @@
 				<span><a href="/"><img class="face" src="img/face.png">Zach Tratar</a> on 07 Mar 2013</span>
 			</div>
 		</div>
+		
+		<div class="bg-img" style="background-image: url('https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-prn1/851563_303789786419109_5899560_n.jpg')"></div>
+		
 	</div>
+
+	<!-- AddThis Button BEGIN -->
+	<div class="addthis_side addthis_toolbox addthis_32x32_style" style="left:50px;top:50px;">
+		<a class="addthis_button_preferred_1"></a>
+		<a class="addthis_button_preferred_2"></a>
+		<a class="addthis_button_preferred_3"></a>
+		<a class="addthis_button_preferred_4"></a>
+		<a class="addthis_button_compact"></a>
+	</div>
+	<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ztratar"></script>
+	<!-- AddThis Button END -->
 
 	<div class="container post-article">
 		<p>The internet is blowing up with sensationalized articles on the new <a href='https://www.facebook.com/about/newsfeed'>Facebook News Feed</a>. I&#8217;m not a fan of that, so instead let&#8217;s talk about design principles and user behavior.</p>
@@ -98,14 +113,14 @@
 
 	<div class="container post-article post-sharing">
 		<p>
-			<a href="https://twitter.com/intent/tweet?screen_name=zachtratar" class="twitter-mention-button" data-size="large" data-related="zachtratar">Tweet to @zachtratar</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-text="The New Facebook News Feed: A UX Breakdown by @zachtratar" data-size="large" data-related="zachtratar">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 		</p>
 		<div class="fb-comments" data-href="http://zachtratar.com/facebook.html" data-width="700" data-num-posts="10"></div>	
 	</div>
 
 	<div class="post-footer">
-		<section id="writing-section" class="container">
+		<div class="container">
 			<h2>More writing</h2>
 			<ul class="post-stream">
 				
@@ -166,7 +181,7 @@
 				
 				
 			</ul>
-		</section>
+		</div>
 	</div>
 </div>
 
@@ -177,7 +192,7 @@
 				<div class="fb-follow" data-href="http://www.facebook.com/ztratar" data-colorscheme="dark" data-layout="standard" data-show-faces="true"></div>
 			</div>
 			<div>
-				<a href="#" class="btn btn-default btn-default-light subscribe-btn"><i class="icon-rss"></i> Subscribe to my blog</a>
+				<a href="/rss.xml" class="btn btn-default btn-default-light subscribe-btn"><i class="icon-rss"></i> Subscribe to my blog</a>
 				<a href="https://twitter.com/zachtratar" class="twitter-follow-button" data-show-count="true" data-size="large">Follow @zachtratar</a>
 			</div>
 		</div>

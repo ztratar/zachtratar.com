@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+        <channel>
+                <title>Zach Tratar</title>
+                <description>Ramblings on startups, design, engineering, and political philosophy.</description>
+                <link>http://zachtratar.com</link>
+                <atom:link href="http://zachtratar.com/feed.xml" rel="self" type="application/rss+xml" />
+                
+                        <item>
+                                <title>PRISM: A Final Blow To Functioning Democracy?</title>
+                                <description>&lt;p&gt;In the unlikely chance you found yourself here and have no idea who Ed Snowden is, you need to watch this &lt;a href='http://www.guardian.co.uk/world/video/2013/jun/09/nsa-whistleblower-edward-snowden-interview-video'&gt;12-minute interview&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Don&amp;#8217;t have time? Seriously try and make time. If you care at all about your privacy or the principles upon which America was founded, watch it.&lt;/p&gt;
+
+&lt;h2 id='prism'&gt;PRISM&lt;/h2&gt;
+
+&lt;p&gt;The single primary document Ed Snowden leaked outlines an NSA program called &amp;#8220;PRISM&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;Through all of the speculation, it seems the most likely scenario is that PRISM is a data-collection utility. It connects the NSA internal database to specialized, intermediary servers within companies that provide communication services. This includes Google, Facebook, Verizon, Yahoo, AT&amp;amp;T, Apple, and more.&lt;/p&gt;
+
+&lt;p&gt;We&amp;#8217;ve been hearing the Government say over and over that PRISM and these data tools do not &amp;#8220;target&amp;#8221; American citizens, but according to Edward Snowden the system &amp;#8220;ingests everyone by default.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;Woah! Those are definitely contradictory statments. Who do we believe? This answer is determined by how we define &amp;#8220;target&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s well known amongst the startup and data communities that you want to track almost everything since data storage is cheap. It&amp;#8217;s a best practice. Dig a little deeper into news sources and it&amp;#8217;s easy to determine that the NSA does, in fact, ingest everything about you.&lt;/p&gt;
+
+&lt;p&gt;The &amp;#8220;targeting&amp;#8221; language being used by the White House most likely implies how they &lt;em&gt;analyze&lt;/em&gt; the data. But again, it&amp;#8217;s never best practice to simply ignore recorded data. Instead, depending on what you&amp;#8217;re tracking, you&amp;#8217;ll just weight data patterns you&amp;#8217;re looking for. Turns out that &lt;em&gt;no one&lt;/em&gt; is exempt from this analysis! The White House claims it does not target Americans simply because they &lt;em&gt;attempt&lt;/em&gt; to only look for foreigners.&lt;/p&gt;
+
+&lt;p&gt;But there is a catch: their attempts are failing! Their algorithm to determine whether or not a person is a foreigner only has a &lt;a href='http://www.informationweek.com/security/privacy/nsa-prism-inside-the-modern-surveillance/240156341'&gt;51% confidence interval&lt;/a&gt;. Just under half the people analyzed by their software are, in fact, American citizens.&lt;/p&gt;
+
+&lt;p&gt;Now that we know we&amp;#8217;re being recorded and likely analyzed, let&amp;#8217;s jump into the high level of what this all means.&lt;/p&gt;
+
+&lt;h2 id='the_fall_of_functioning_democracy'&gt;The Fall of Functioning Democracy&lt;/h2&gt;
+
+&lt;p&gt;History tends to repeat itself as complex sociological and governmental patterns emerge. Even as far &lt;a href='http://en.wikipedia.org/wiki/Plato&amp;apos;s_five_regimes'&gt;back as Plato&lt;/a&gt;, there have been theorized cycles for governmental systems.&lt;/p&gt;
+
+&lt;p&gt;Although history tends to show that true democracy performs the best, it &amp;#8211; like everything &amp;#8211; also has its weaknesses. There aren&amp;#8217;t many huge points-of-failure in the system, but instead thousands of smaller vulnerabilities.&lt;/p&gt;
+
+&lt;p&gt;With no strong influence or unified government to cover these holes, spreading power can create a slowing of decision-making, inefficiencies in process, and thus both instability and mistrust. Instability leads to a populace that craves security, and as security increases over time, it almost always falls into tyranny. The founding fathers knew this, which led them to say things like:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#8220;Those who surrender freedom for security will not have, nor do they deserve, either one.&amp;#8221; - Benjamin Franklin&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This nation was founded upon the primary ideal of freedom. You as a citizen must never passively nor actively be hindered from thinking, acting, and speaking your mind. A functional democracy requires its populace to be both absolutely free and well-informed.&lt;/p&gt;
+
+&lt;p&gt;We the people &amp;#8211; we who are entrusted to properly vote in the best legislators &amp;#8211; are not informed in the slightest.&lt;/p&gt;
+
+&lt;p&gt;The US Government&amp;#8217;s document classification system was originally created to protect documents that would, if released, harm national security. Unfortunately, it is frequently used to hide unpopular and apparently unconstitutional policies. If people do not have access to this critical information, then they, by definition, cannot be informed to the extent required to make intelligent voting decisions. Instead, the NSA has given themselves a &amp;#8220;self-certification that they serve the national interest.&amp;#8221; That doesn&amp;#8217;t sound like democracy to me.&lt;/p&gt;
+
+&lt;p&gt;So now I ask you a question: what does it take to speak your mind? What if it&amp;#8217;s controversial?&lt;/p&gt;
+
+&lt;p&gt;Psychologically, if someone is listening to you and can theoretically use information against you, you are less likely to speak. At that point, &lt;em&gt;you are no longer free&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;And even if you think you have nothing to hide, &lt;a href='http://kottke.org/13/06/you-commit-three-felonies-a-day'&gt;think again&lt;/a&gt;. The justice system doesn&amp;#8217;t always play nice.&lt;/p&gt;
+
+&lt;p&gt;Now, I know you&amp;#8217;re thinking &amp;#8220;They&amp;#8217;ll still never come after me&amp;#8221;. But in that logic lies a tricky problem.&lt;/p&gt;
+
+&lt;h2 id='why_we_should_all_care'&gt;Why We Should All Care&lt;/h2&gt;
+
+&lt;p&gt;The cat is now out of the bag. The public now &lt;em&gt;knows&lt;/em&gt; that the US government is running PRISM-like surveillance programs. Before the leak, using data from programs like this to jail or suppress any individuals&amp;#8217; freedoms would entail high risk. The program could be exposed to the public and the intelligence agency would be under fire.&lt;/p&gt;
+
+&lt;p&gt;But using the data now is far less risky and will thus be used more often. If we allow governmental programs such as PRISM to exist, then we give the intelligence community the go-ahead to use this data in public forum, however that may evolve.&lt;/p&gt;
+
+&lt;p&gt;I can&amp;#8217;t predict the future, but someone among the NSA will eventually think about building an API on top of it; someone will think about making the data decentralized; someone will think about making it universally accessible. We are on an extremely slippery slope. Edward Snowden spoke up because he believed that if he didn&amp;#8217;t, our losses as a public would be &amp;#8220;irrevocable&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;Irrevocable.&lt;/p&gt;
+
+&lt;p&gt;This word truly means a lot because it is &lt;em&gt;never&lt;/em&gt; used when describing software. Snowden himself stated that if he wanted to break down many of the NSA&amp;#8217;s systems, he could. PRISM included, considering his unfettered access.&lt;/p&gt;
+
+&lt;p&gt;So what is this irrevocable system? I think that the NSA is about to finish a new, highly advanced data collection/analysis system &amp;#8211; one that makes PRISM and the other leaked systems look like children&amp;#8217;s toys.&lt;/p&gt;
+
+&lt;p&gt;With their non-democratic self-certification, the NSA is going to continue ingesting every piece of data is can get its hand on. All of your data in one place. It will be spread across numerous locations and have multiple backups.&lt;/p&gt;
+
+&lt;p&gt;Once that information is put into the system, it will never cease-to-exist.&lt;/p&gt;
+
+&lt;p&gt;Cyber-warfare and complex system intrusions are becoming increasingly common. We cannot build perfect security systems &amp;#8211; new flaws in seemingly-impervious systems are found all of the time.&lt;/p&gt;
+
+&lt;p&gt;When, &lt;em&gt;not if&lt;/em&gt;, there is a massive data leak, what will happen?&lt;/p&gt;
+
+&lt;p&gt;The &amp;#8220;they&amp;#8217;ll still never come after me&amp;#8221; mentality is now completely moot; we don&amp;#8217;t even know who &amp;#8220;they&amp;#8221; are. Maybe it&amp;#8217;s an identity thief; maybe it&amp;#8217;s a foreign government &amp;#8211; it could be &lt;em&gt;anyone&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our government is taking these actions in the name of security, but effectively all we&amp;#8217;re doing is stockpiling ammo, 99.9% of which can only be shot back at ourselves. We then put that ammo behind a shoddy wall for safekeeping.&lt;/p&gt;
+
+&lt;p&gt;Quite obviously, this does not make us more secure.&lt;/p&gt;
+
+&lt;p&gt;Are we sure we want to live in that world? Are we sure our children and grand-children will want to live in that world?&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s completely possible that we are making that choice right now.&lt;/p&gt;</description>
+                                <pubDate>Tue, 11 Jun 2013 00:00:00 -0700</pubDate>
+                                <link>http://zachtratar.com//prism.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//prism.html</guid>
+                        </item>
+                
+                        <item>
+                                <title>Training like Tesla: An Experiment of the Mind</title>
+                                <description>&lt;p&gt;I&amp;#8217;m going to undergo an experiment with which I am the test subject.&lt;/p&gt;
+
+&lt;p&gt;The idea manifested while I was reading &amp;#8221;&lt;a href='http://www.amazon.com/My-Inventions-Autobiography-introduction-ebook/dp/B004W48LAG'&gt;My Inventions: The autobiography of Nikola Tesla&lt;/a&gt;&amp;#8221;. The man is believed among scientific minds to have been savant-like and it certainly shows in his writing.&lt;/p&gt;
+
+&lt;p&gt;It is easy to make assumptions as to how an engineer could write, but Nikola defies those assumptions. He defies the standards to which people apply him, and by all counts he did that in absolutely every field in his life. Almost no human to have ever lived has accomplished as much as Nikola.&lt;/p&gt;
+
+&lt;p&gt;As with any person who exhibits abilities seemingly beyond our grasp, we begin to wonder how they got there in the first place. What made them great? Did they eat their wheaties? Did they go through special training? Were they born with it? Entire debates have forged through history around nature versus nurture for the explicit purpose of understanding what makes one human being more productive to society than another.&lt;/p&gt;
+
+&lt;h2 id='the_power_of_imagination'&gt;The power of imagination&lt;/h2&gt;
+
+&lt;p&gt;And here, at least in the reference of Nikola, we have data. Well&amp;#8230; we have what he wrote down, which we can only assume to be as honest as possible.&lt;/p&gt;
+
+&lt;p&gt;What made Nikola great was his precise and grandiose imagination. He grew up with an intense visual imagination that tormented him when he was unable to control it. It would present itself forcibly unto his mind when he was trying to interact in the real world. He grew up without confidence in himself thinking that this was a shackle destined to cripple his life-long worth and validity. But he learned to control it. And for all the pain he suffered, the sheer beauty of the upside is hard to match. I could do no better to describe it than he:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#8220;I soon discovered that my best comfort was attained if I simply went on in my vision further and further, getting new impressions all the time, and so I began to travel; of course, in my mind. Every night, (and sometimes during the day), when alone, I would start on my journeys &amp;#8211; see new places, cities and countries; live there, meet people and make friendship and acquaintances&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;This I did constantly until I was about seventeen, when my thoughts turned seriously to invention. Then I observed to my delight that I could visualize with the greatest facility. I need no models, drawings or experiments. I could picture them all as real in my mind&amp;#8230; I do not rush into actual work. When I get an idea, I start at once building it up in my imagination. I change the construction, make improvements and operate the device in my mind. It is absolutely immaterial to me whether I run my turbine in thought or test it in my shop.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;- Nikola Tesla&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you&amp;#8217;re an engineer or &amp;#8220;builder&amp;#8221; you&amp;#8217;re probably feeling jealous right about now; or maybe you think he is crazy. Either way, this guy&amp;#8217;s imagination was a private sandbox with zero limitations. It emulated reality so accurately that he could invent and discover in ways that others could not do in hundreds of lifetimes. The electricity powering your screen right now was surely, at least at point, transmitted as alternating current. Nikola did that. Let&amp;#8217;s also not forget about the &lt;a href='http://www.pbs.org/tesla/ll/ll_whoradio.html'&gt;Radio&lt;/a&gt; or &lt;a href='http://www.fi.edu/learn/case-files/tesla/motor.html'&gt;Electric Motor&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id='is_this_an_innate_talent_or_is_it_developed'&gt;Is this an innate talent or is it developed?&lt;/h2&gt;
+
+&lt;p&gt;Everyday tasks are not usually intense enough to put stress on the imagination. They are relatively easy and entail things like planning out the next couple minutes of your day, writing short emails, or remembering where the checkbook is located.&lt;/p&gt;
+
+&lt;p&gt;But every so often we all face complicated problems. They start out simple enough and as higher-level goals, but at some point, as you mentally break them down, you hit a large wall. The clarity with which you can visualize, plan, and think is drastically reduced and you bring the process into the physical world through writing or drawing. UX Designers wireframe, engineers whiteboard or jump into code, interior designers start grabbing fabric samples, etc.&lt;/p&gt;
+
+&lt;p&gt;We don&amp;#8217;t usually question this natural wall. But change your perspective on imagination for a moment and think of it &lt;em&gt;purely&lt;/em&gt; as a skill you can develop. Just as you can rate your other abilities &amp;#8211; maybe you&amp;#8217;re a great coder or orator &amp;#8211; rate your imagination. How &lt;em&gt;useful&lt;/em&gt; is it to you right now?&lt;/p&gt;
+
+&lt;p&gt;To me, it seems the utility provided by one&amp;#8217;s imagination is in direct correlation with this wall&amp;#8217;s location. The more in-depth you can think with absolute clarity before ramming into the barrier, the better use you will get out of your imagination.&lt;/p&gt;
+
+&lt;p&gt;Thus, we want to learn to move our wall; we want to push it further and further, inch by inch, until its limiting effects are diminished and we gain a newfound freedom in our own imagination. Nikola&amp;#8217;s wall was miles and miles away during his peak but he admits to not having the same abilities as a child, so it seems that this is an ability one can foster.&lt;/p&gt;
+
+&lt;p&gt;Perhaps Nikola&amp;#8217;s mental travels, inventions, and constant use of his imagination trained him. Perhaps those experiences pushed his wall further and further until he was left with a giant sandbox. That&amp;#8217;s the experiment I will attempt to undergo.&lt;/p&gt;
+
+&lt;h2 id='building_a_sandbox'&gt;Building a sandbox&lt;/h2&gt;
+
+&lt;p&gt;First off, I am not attempting to say that I am more fit to do this than anyone else. In fact, my goal is to &amp;#8220;prove&amp;#8221; the opposite: I want to see if this ability is attainable by anyone. I want to experience the upside: a truly lean process of ideation and iteration that removes the physical complexities (one that would make &lt;a href='http://en.wikipedia.org/wiki/Steve_Blank'&gt;Steven Blank&lt;/a&gt; proud).&lt;/p&gt;
+
+&lt;p&gt;Luckily, I find it easy to rate, with precision, my ability to imagine &lt;em&gt;things&lt;/em&gt;; I think I know where my wall is located. As such, I&amp;#8217;m going to do my best to track any progress I make.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ll train the same way Nikola did: first imagining things I&amp;#8217;ve already seen and places I&amp;#8217;ve already been. My childhood home, neighborhood, travel destinations, products I use, objects, etc. I&amp;#8217;m going to imagine the people I&amp;#8217;ve met, the sounds I&amp;#8217;ve heard, and even the emotions I&amp;#8217;ve felt. Following that I&amp;#8217;ll see if I can go further down the path of creating new experiences and inventions. Specifically, the idea is to create increasingly complex scenes and visualize increasingly complex problems until the wall is inches away. At that point, the test is whether or not the wall can be moved and if it will stay once moved.&lt;/p&gt;
+
+&lt;p&gt;Nikola traversed the worlds of physics and electromagnetism in his mind. He manifested his findings into real world developments. I hope the same can be done for the digital world.&lt;/p&gt;
+
+&lt;p&gt;The more data, the better the experiment: If anyone is interested in embarking on this journey/test with me, let me know (email, twitter, facebook &amp;#8211; they all work). I&amp;#8217;m beyond excited.&lt;/p&gt;
+&lt;hr /&gt;&lt;p class='small'&gt;
+	&lt;img alt='Marc thinks I will go insane' src='https://dl.dropboxusercontent.com/u/5631577/blog/Screen%20Shot%202013-04-12%20at%203.27.01%20PM.png' /&gt;
+	Thank you to those who helped review this post: Eric, Andrew, Vinay, Chris, Rajaishi, Raj, Dino, and Nik
+
+	... and Marc
+&lt;/p&gt;</description>
+                                <pubDate>Fri, 12 Apr 2013 00:00:00 -0700</pubDate>
+                                <link>http://zachtratar.com//tesla.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//tesla.html</guid>
+                        </item>
+                
+                        <item>
+                                <title>The New Facebook News Feed: A UX Breakdown</title>
+                                <description>&lt;p&gt;The internet is blowing up with sensationalized articles on the new &lt;a href='https://www.facebook.com/about/newsfeed'&gt;Facebook News Feed&lt;/a&gt;. I&amp;#8217;m not a fan of that, so instead let&amp;#8217;s talk about design principles and user behavior.&lt;/p&gt;
+
+&lt;h2 id='the_stories_are_frigin_huge'&gt;The &amp;#8220;Stories&amp;#8221; are frigin HUGE&lt;/h2&gt;
+
+&lt;p&gt;This was the biggest surprise in my opinion.&lt;/p&gt;
+
+&lt;p&gt;There are a couple emotions you want to achieve in feeds. The first is zen &amp;#8211; it&amp;#8217;s calming to get lost and just keep scrolling. The second is usually balanced chaos. The more stuff you see, the more active the site feels. Facebook still has zen, but the chaos seems to have been thrown out in favor of further simplicity. It takes more scrolling to see less items, but nothing is fighting for your attention. Instead of thinking, you&amp;#8217;re either looking at the top most &amp;#8220;story&amp;#8221; or you&amp;#8217;re scrolling to the next one.&lt;/p&gt;
+
+&lt;p&gt;Mobile works the same way. As you move from phone to computer the experience won&amp;#8217;t be nearly as jarring. If the feeds are identical on mobile and desktop, I wouldn&amp;#8217;t be surprised if they release a feature later to sync your spot on the feed.&lt;/p&gt;
+
+&lt;h2 id='this_is_facebooks_biggest_change_yet_but_the_risk_is_being_overestimated'&gt;This is Facebook&amp;#8217;s biggest change yet, but the risk is being overestimated&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href='http://techcrunch.com/2013/03/07/facebook-risks-it-all/'&gt;Techcrunch&amp;#8217;s article&lt;/a&gt; says this is their most risky change yet. After the &lt;a href='http://en.wikipedia.org/wiki/Facebook_Beacon'&gt;Beacon&lt;/a&gt; incident years ago, Facebook has become a more data-driven company. They have a huge data research team pillaging their logs to track user behavior. Is this is a big change? You betcha&amp;#8230; it&amp;#8217;s the home page! On web applications with a news feed system, a heavy majority of all interaction is done on the home page. Is this a risky choice? Not really. They&amp;#8217;re releasing is slowly and watching the data. Risk is mitigated as they iterate &amp;#8211; and they will. Compared to the risk presented when Facebook opened up their &lt;a href='http://money.cnn.com/2007/05/24/technology/facebook.fortune/'&gt;first developer APIs&lt;/a&gt;, this is nothing (and it&amp;#8217;s only because of the data).&lt;/p&gt;
+
+&lt;h2 id='sorting_has_been_optimized_out'&gt;Sorting has been optimized out&lt;/h2&gt;
+
+&lt;p&gt;By default, the feed is being changed to a combination of &amp;#8220;new&amp;#8221; and &amp;#8220;popular&amp;#8221;. This is not done very often. Facebook can only do this effectively because their average user comes back to the site multiple times a day. This also means that the &lt;a href='http://edgerank.net/'&gt;demonized edge-rank algorithm&lt;/a&gt; is probably taking more of a backseat or was altered substantially. Changing an algorithm from being entirely score based to purely chronologically dependent isn&amp;#8217;t easy at scale. I can&amp;#8217;t be 100% sure, but they probably managed to do this in one of two ways: 1. Manipulate the algorithm to give chronology a big boost or 2. Change the data structure to a cached stack while disallowing newly-calculated posts to overwrite incumbent data.&lt;/p&gt;
+
+&lt;p&gt;Users just want products that work. Over time, the algorithms to determine feed-worthy stories have become more and more accurate. I would find myself sorting by &amp;#8220;most recent&amp;#8221; very frequently just a year ago, but now I never click the button. If I&amp;#8217;m like most users, then they finally found the sweet spot. That sweet spot enabled them to remove clutter from the interface and bridge the gap properly to mobile. Good job Facebook.&lt;/p&gt;
+
+&lt;h2 id='navigation_now_follows_real_design_rules'&gt;Navigation now follows real design rules&lt;/h2&gt;
+
+&lt;p&gt;Almost all great web application have sidebars. They prove themselves as a great foundation for navigation and widget-style features, but can easily grow cumbersome. Less is usually more, but sometimes the metrics say otherwise. Design ideologies should never get in the way of what works for the end user.&lt;/p&gt;
+
+&lt;p&gt;This new sidebar works very well for a couple reasons.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It&amp;#8217;s not melded into the same background as the rest of the site anymore. The different background creates a contrast that makes the separation feel clean instead of cluttered.&lt;/li&gt;
+
+&lt;li&gt;Because it is a sidebar instead of a widget, the common design rule of minimizing the number of container elements is followed.&lt;/li&gt;
+
+&lt;li&gt;It&amp;#8217;s responsive to the site width. I&amp;#8217;d be curious to see what their analytics say about clickthroughs since certain studies have shown that icon-only navigation performs worse than those aided with text. That being said, the effect is dampened since Facebook is already a well-understood product by a majority of its user-base.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='so_what_does_this_all_mean'&gt;So what does this all mean?&lt;/h2&gt;
+
+&lt;p&gt;It could mean many things. When shown larger posts, people naturally place a higher level of importance on it. Skipping a post without interacting with it feels like a riskier action, and thus, activity on posts further up the feed is likely going to increase while activity on posts further down will decrease. The like button and other assorted actions are no longer blue, but their click-targets have been increased in size. I would place a bet saying this combination results in more clicks.&lt;/p&gt;
+
+&lt;p&gt;With forced chronology and the hypothesis mentioned above, I think the end result for most users will be more action on posts right when they create them and less importance or notifications on historically older, but popular posts. It&amp;#8217;s more about the &amp;#8220;new&amp;#8221; than the &amp;#8220;popular&amp;#8221; and thus you&amp;#8217;ll want to keep posting more to garner more likes. Feed that thirst for acceptance amongst your peers! This all fits very neatly into &lt;a href='http://news.cnet.com/8301-1023_3-57536659-93/zuckerberg-in-10-years-folks-will-share-1000-times-what-they-do-now/'&gt;Mark&amp;#8217;s pseudo-Moore&amp;#8217;s law&lt;/a&gt;.&lt;/p&gt;</description>
+                                <pubDate>Thu, 07 Mar 2013 00:00:00 -0800</pubDate>
+                                <link>http://zachtratar.com//facebook.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//facebook.html</guid>
+                        </item>
+                
+                        <item>
+                                <title>Lets Stop Generalizing</title>
+                                <description>&lt;p&gt;We&amp;#8217;re better than that. Seriously.&lt;/p&gt;
+
+&lt;p&gt;I find it quite disingenuous when people give advice to others without a full understanding of their situation. The truly skilled people at conflict resolution are popular for their ability to listen, not just say the right words. But we, the hacker community, have quite a problem. It&amp;#8217;s nothing to be ashamed of and it&amp;#8217;s completely natural, but it is something that I think we should strive to improve.&lt;/p&gt;
+
+&lt;p&gt;We generalize too much. Yahoo recently stated it was not allowing remote work anymore and &lt;a href='http://37signals.com/svn/posts/3453-no-more-remote-work-at-yahoo'&gt;David over at 37Signals&lt;/a&gt; promptly posted his pro-remote working blog article. I respect David immensely and indeed I think overall remote working is a very healthy practice. But let&amp;#8217;s get straight to the facts: every process &amp;#8211; whether engineering or operational &amp;#8211; has both pros and cons. The environment in which it&amp;#8217;s applied has significant impact on it&amp;#8217;s effectiveness and value-add to the end corporation and user.&lt;/p&gt;
+
+&lt;p&gt;Plain and simple: Remote working did not work at Yahoo.&lt;/p&gt;
+
+&lt;p&gt;It didn&amp;#8217;t. People familiar with the organization constantly talk about how it led to increased numbers of engineering failures among teams. It drained productivity. It pushed people to be so individualistic that they had no sense of team. Marissa and the executive team at Yahoo aren&amp;#8217;t stupid and they deserve a little more compassion from us. We don&amp;#8217;t have the metrics they were looking at. We don&amp;#8217;t truly understand the Yahoo culture. And even if remote work wasn&amp;#8217;t the cause of these problems, stopping it might be part of a solution.&lt;/p&gt;
+
+&lt;p&gt;Instead of hammering Yahoo for such a &amp;#8220;blind&amp;#8221; and &amp;#8220;clueless&amp;#8221; decision, we should be asking questions to facilitate a better understanding.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Why did remote work not work as effectively for a large organization?&lt;/li&gt;
+
+&lt;li&gt;What aspects of Yahoo&amp;#8217;s culture led to the decline in productivity through remote work?&lt;/li&gt;
+
+&lt;li&gt;What data do we assume the executive team was looking at? What should they have been looking at?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is not black and white. This is grey. As Nate Silver puts it: &lt;a href='http://www.amazon.com/dp/159420411X'&gt;let&amp;#8217;s be more like foxes and less like hedgehogs&lt;/a&gt;.&lt;/p&gt;</description>
+                                <pubDate>Mon, 25 Feb 2013 00:00:00 -0800</pubDate>
+                                <link>http://zachtratar.com//lets-stop-generalizing.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//lets-stop-generalizing.html</guid>
+                        </item>
+                
+                        <item>
+                                <title>New Years Resolutions</title>
+                                <description>&lt;p&gt;I&amp;#8217;ve never made new years resolutions before, so this is a completely new experience. A quote I recently read inspired me to make this list:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#8220;Our own life is the instrument with which we experiment with the truth&amp;#8221; - Thich Nhat Hang&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id='read_write_and_learn_more'&gt;Read, write, and learn more&lt;/h2&gt;
+
+&lt;p&gt;A couple months ago I got a Kindle Paperwhite and rediscovered reading as a hobby. First I dove into &lt;a href='http://www.amazon.com/Cloud-Atlas-Novel-David-Mitchell/dp/0375507256'&gt;Cloud Atlas&lt;/a&gt;, a truly unique novel whose plot spans multiple lifetimes. I had never &amp;#8220;gotten lost&amp;#8221; in a book before, so reading CA was such a unique experience that I picked up an urge to keep reading. So far, it&amp;#8217;s been great! Next up on my reading list are &lt;a href='http://www.amazon.com/Signal-Noise-Many-Predictions-Fail/dp/159420411X/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1357072711&amp;amp;sr=1-1&amp;amp;keywords=signal+and+noise'&gt;The Signal and the Noise&lt;/a&gt; and &lt;a href='http://www.amazon.com/Confessions-Public-Speaker-English/dp/1449301959/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1357072741&amp;amp;sr=1-1&amp;amp;keywords=confessions+of+a+public+speaker'&gt;Confessions of a Public Speaker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I watched a couple documentaries &amp;#8211; my favorites being &lt;a href='http://video.pbs.org/video/1312522241/'&gt;Becoming Human&lt;/a&gt; and &lt;a href='http://topdocumentaryfilms.com/guns-germs-and-steel/'&gt;Guns, Germs, and Steel&lt;/a&gt;. These two documentaries together tell a very wholistic story of humanity. Really fascinating stuff. I&amp;#8217;m definitely going to write a blog post about those two next.&lt;/p&gt;
+
+&lt;p&gt;Over the course of reading and watching, I&amp;#8217;ve also started taking notes on everything I learn. Hopefully this will turn into better developed thoughts and more writing! My goal for 2013 is to read 2 books, watch 8 documentaries, and write 2 blog posts every month.&lt;/p&gt;
+
+&lt;h2 id='become_a_morning_person'&gt;Become a morning person&lt;/h2&gt;
+
+&lt;p&gt;I&amp;#8217;m currently a night owl. It&amp;#8217;s likely a habit I developed through Computer Engineering MPs or in High School from late night gaming sessions. Gotta love being a nerd. Lately though, I&amp;#8217;ve noticed that whenever I can wake up earlier in the morning &amp;#8211; usually by luck &amp;#8211; I&amp;#8217;m much more prepared to take on the day.&lt;/p&gt;
+
+&lt;p&gt;Startup cultures aren&amp;#8217;t very strict with morning work schedules. Without outside factors forcing me to wake up earlier, I&amp;#8217;m going to create one through this new years resolution! In addition to waking up earlier, I&amp;#8217;m going to try and get 8 hours of sleep a night. That&amp;#8217;s gonna be hard to pull off.&lt;/p&gt;
+
+&lt;h2 id='explore_new_activities'&gt;Explore new activities&lt;/h2&gt;
+
+&lt;p&gt;People commonly refer to maintaining a balance between mind, body, and spirit. My currently lifestyle is 100% mind and to hell with the rest. I know it&amp;#8217;s cliche, but it&amp;#8217;s time to start working out again! The goal is 2 times a week.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m not much of a spiritual person, but I think there is a silver-lining in many practices normally considered spiritual. After reading both &lt;a href='http://www.amazon.com/Sacred-Hoops-Spiritual-Lessons-Hardwood/dp/1401308813'&gt;Sacred Hoops&lt;/a&gt; and &lt;a href='http://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1357072868&amp;amp;sr=1-1&amp;amp;keywords=steve+jobs'&gt;Steve Jobs&lt;/a&gt;, I&amp;#8217;ve become interested in Zen meditation. I don&amp;#8217;t see it as a way to reach enlightenment or anything, but just as a way to organize thoughts and gain an inner sense of calmness. When I&amp;#8217;m in that calm, brainstorming state (which right now only happens randomly), I get my best ideas. If I can start inducing that state on demand I think I can be more productive. Goal: play around with meditation. If I like it, 2-3 times a week sounds good.&lt;/p&gt;
+
+&lt;p&gt;I really want to travel more and explore cultures that I have no connection with. An all-out road trip throughout an entire continent or country sounds exciting&amp;#8230; probably China, Brazil, or Western Europe. Not sure which yet &amp;#8211; anyone have recommendations?&lt;/p&gt;
+
+&lt;h2 id='material_lifestyle_improvements'&gt;Material lifestyle improvements&lt;/h2&gt;
+
+&lt;p&gt;People give a bad rap to goals that involve material goods, but screw it, I&amp;#8217;m putting them in here.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m going to finally be getting a car and, at some point, I want to move into my own place downtown SF. I&amp;#8217;ve only experienced living in a city for 3 days before, but even from that show time I could tell I was a city person. The new apartment will also be the first time I get real furniture and not just the cheapest thing I can find at IKEA (No hate. IKEA has served me well in the past).&lt;/p&gt;
+
+&lt;p&gt;Once that&amp;#8217;s set up, I want to rig the apartment with tech. &lt;a href='http://arduino.cc/blog/category/hacks/home-hacks/'&gt;Automate tasks with arduinos&lt;/a&gt;&amp;#8230; maybe a Rube Goldberg machine to make breakfast? Haha.&lt;/p&gt;
+
+&lt;p&gt;Alright&amp;#8230; now I officially have a list of things to which I can hold myself accountable. Blog post #1 &lt;em&gt;done&lt;/em&gt;!&lt;/p&gt;</description>
+                                <pubDate>Tue, 01 Jan 2013 00:00:00 -0800</pubDate>
+                                <link>http://zachtratar.com//new-years.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//new-years.html</guid>
+                        </item>
+                
+                        <item>
+                                <title>Passion Finder</title>
+                                <description>&lt;p&gt;I tend to think about random web ideas quite frequently, so here goes a brain dump!&lt;/p&gt;
+
+&lt;p&gt;At the highest of levels, humanity thrives around individuals finding their passion and taking a &amp;#8220;deep dive&amp;#8221; into that area. People&amp;#8217;s passion often brings people together around ideas and action. Martin Luther King Jr, The Wright Brothers, Steve Jobs&amp;#8230; you get the idea.&lt;/p&gt;
+
+&lt;p&gt;But there are many people out there who can&amp;#8217;t find their own passion. It&amp;#8217;s hard to just sit down at a desk or on a couch and think &amp;#8220;What am I passionate about?&amp;#8221; People always say we live in an era of information overload, but why is this question so difficult to answer? Information overload causes people to shut off their minds to too many things. Most people don&amp;#8217;t have enough holistic information on any given subject to discover that it is their passion.&lt;/p&gt;
+
+&lt;p&gt;And even those who have a sense of direction don&amp;#8217;t always have the guts to go out and invest large amounts of time. First, you have to get off the couch. Then, you usually have to buy supplies/equipment. Then, you have to work your ass off. During this process, you&amp;#8217;re expectations will be much higher than your actual performance, and you&amp;#8217;re likely to lose interest. The select few who overcome each and every obstacle - take each punch as it is thrown - will be those who can truly say they are passionate about something.&lt;/p&gt;
+
+&lt;h2 id='lets_find_a_solution'&gt;Let&amp;#8217;s find a solution&lt;/h2&gt;
+
+&lt;p&gt;This is a big problem. A solution at scale will not only better individuals lives, but also entire communities, nations, and industries.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m going to focus on a single solution: Mentorship (but not in the traditional sense!)&lt;/p&gt;
+
+&lt;p&gt;Mentorship is powerful, as it drastically increases your chances of overcoming every single barrier mentioned above. It&amp;#8217;s a flexible solution to an extremely dynamic problem. Jane thinks she is passionate about bird-watching and Bill thinks his calling is Nano-robotics. Both can find mentors. Jane can&amp;#8217;t seem to find the right equipment for bird watching. Bill started researching Nano-robotics, but isn&amp;#8217;t confident that his background in Analog Signal Processing gives him real potential in the field. Mentors have the indivudual capability to assess these problems and figure out solutions: Jane should buy a pair of WP Naturescape Binoculars and Bill should do selective research on nano-scale signal interference.&lt;/p&gt;
+
+&lt;p&gt;I think the technology-driven mentorship space is ripe for innovation. It&amp;#8217;s honestly pretty easy to monetize and is - most importantly - good for humanity.&lt;/p&gt;
+
+&lt;h2 id='fixing_one_problem_can_solve_another'&gt;Fixing one problem can solve another&lt;/h2&gt;
+
+&lt;p&gt;Mentorship is a great solution to this passion problem&amp;#8230; but it, itself, needs fixing. Luckily, it seems easier to fix! 2-for-1&amp;#8230; woot!&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#8217;s outline the problems with mentorship:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;It&amp;#8217;s hard to find a person passionate about a specific subject, let alone a mentor.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Being a mentor is a big hassle. Subject areas that are less common will have mentors who usually have less and less time.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Mentorship is an unstructured process, and expectations are hard to figure out.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;People mentor others they already like and no one else. Mentoring strangers? Pay me.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Ok, so we need to build a product that matches people in a reasonably unstructured fashion around their passions, but is also non-committal. The product also needs to represent each individual in a personal way and get them talking, so they are more open to mentorship in the future. In addition, some sort of reward will get more people talking.&lt;/p&gt;
+
+&lt;p&gt;Great. I&amp;#8217;ve got a job, but I also work on pet projects. This is one of them. If you want to be a part, email me at ztratar@gmail.com and let&amp;#8217;s get cracking.&lt;/p&gt;</description>
+                                <pubDate>Sat, 06 Oct 2012 00:00:00 -0700</pubDate>
+                                <link>http://zachtratar.com//passion-finder.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//passion-finder.html</guid>
+                        </item>
+                
+                        <item>
+                                <title>The American Spirit: Who Bears Responsibility</title>
+                                <description>&lt;h2 id='the_spirit_of_building_anew'&gt;The Spirit of Building Anew&lt;/h2&gt;
+
+&lt;p&gt;Americans have grown up under the ideology that we all take responsibility for our own actions - but do we?&lt;/p&gt;
+
+&lt;p&gt;Responsibility is perceived to be this looming hulk of a beast by many, and indeed I&amp;#8217;ve ran into people who blatantly say &amp;#8220;I don&amp;#8217;t like or want responsibility&amp;#8221;. The thought of you being responsible for something generates stress. And we&amp;#8217;re all human - we all succumb to a bit of stress now and then. But where are all of the people saying &amp;#8220;Bring it on!&amp;#8221;? (and no, I&amp;#8217;m not talking about cheerleaders)&lt;/p&gt;
+
+&lt;p&gt;A friend of mine led to me start watching debates ran by Intelligence Squared. I&amp;#8217;ve watched a couple recently and two have stood out: &amp;#8220;Is Big Government Stifling The American Spirit?&amp;#8221; and &amp;#8220;Does China Do Capitalism Better Than America?&amp;#8221; These debates were fantastic and display both sides of the story. I highly recommend watching them.&lt;/p&gt;
+
+&lt;p&gt;So what did these two debates get at exactly? How did they overlap? They both talked about how this nation was founded and the principles that guided its success. There is no single solution to anything, so I took most opinions with a grain of salt, but there was one glaring point that kept being repeated: &amp;#8220;The US isn&amp;#8217;t what it used to be!&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;No&amp;#8230; really? Of course it&amp;#8217;s not what it used to be. Things change. I&amp;#8217;m an entrepreneur and an engineer, so I love the way technology has pushed this country and the world in my lifetime. It&amp;#8217;s clear that morals, standards, and etiquette has changed over the years. A stark difference I don&amp;#8217;t necessarily enjoy to observe has to do with social responsibility.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m young and didn&amp;#8217;t live in the 19th century or the roaring 20&amp;#8217;s, and indeed there are few centenarians (old people) even alive today who can fact check, but history books do make it seem like this &amp;#8220;can do&amp;#8221; attitude was more prevalent back in the day. The US was the vibrant nation filled with eager and excited people out to fix the world. We still have this trait lingering around, but even in Silicon Valley, it&amp;#8217;s common to find those who just don&amp;#8217;t care.&lt;/p&gt;
+
+&lt;p&gt;So what caused all of this? I have a theory, but it goes against most of my own economic and political beliefs. What I&amp;#8217;m about to discuss isn&amp;#8217;t an end-all be-all. It is a theory based on both macro-economic and individualistic observations, take it as such.&lt;/p&gt;
+
+&lt;h2 id='the_theory'&gt;The Theory&lt;/h2&gt;
+
+&lt;p&gt;I think the Government&amp;#8217;s prevalence in our day-to-day lives has shifted the average burden of all responsibility off of the individual.&lt;/p&gt;
+
+&lt;p&gt;Do I think we have a huge government in the US? I don&amp;#8217;t.&lt;/p&gt;
+
+&lt;p&gt;Do I think big government is even a necessarily bad thing? Not always.&lt;/p&gt;
+
+&lt;p&gt;Do I think the thought of larger government decreases social responsibility off of individuals? Yes.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#8217;s also define big government. I want to define it in an emotional sense, rather than a number-crunch. There are metrics that can argue nearly any side of any debate if you look hard enough&amp;#8230; data overload. Even if the government isn&amp;#8217;t big right now, does it feel big? Lots of people are talking about big government, so maybe that even contributes to our feelings.&lt;/p&gt;
+
+&lt;p&gt;When most see something wrong, whether it be discrimination, regulation, crime rates, corruption, etc, the initial reaction is the blame the government. We no longer, as in the 1800&amp;#8217;s, carry around pistols and protect our own neighborhoods. We no longer gather in droves like those who did for Martin Luther King. We no longer act as individuals for causes greater than ourselves - we just blame our politicians who are doing it poorly for us. It&amp;#8217;s become our natural tendency to blame someone else and to push responsibility off of ourselves. We&amp;#8217;ve become docile.&lt;/p&gt;
+
+&lt;p&gt;Now I&amp;#8217;m not saying to go buy a pistol and go wild, wild, west on your jerk-face neighbor (Seriously don&amp;#8217;t&amp;#8230; by the way). If you think education needs help, go out and tutor kids, donate to schools, support local teachers, and get others to help.&lt;/p&gt;
+
+&lt;h2 id='is_it_bad_parenting'&gt;Is it Bad Parenting?&lt;/h2&gt;
+
+&lt;p&gt;As others take care of issues for us, we ultimately just go with the flow. It&amp;#8217;s like children who have parents who clean their room. If they stop cleaning the room, it gets messy. Then the kid complains that it isn&amp;#8217;t clean. Clean it up yourself, kiddo!&lt;/p&gt;
+
+&lt;p&gt;But, that is ideological. It just won&amp;#8217;t work. Since the kid is used to having his room cleaned, he now demands his room be cleaned or he&amp;#8217;ll vote in new parents! You can&amp;#8217;t starve the beast - er, starve the parents - as making them weak will also ruin their ability to take their kid to school. It&amp;#8217;s an evil cycle, and the problem is not fundamentally with the parents; it&amp;#8217;s with the kid. The kid who wants the new shiny toy but doesn&amp;#8217;t want to do the chores. The kid who cries when he scrapes his face, but refuses to wear a helmet.&lt;/p&gt;
+
+&lt;p&gt;The kid needs to grow up, solve his own problems, and be willing to help the other kid across the street. He&amp;#8217;s a smart kid&amp;#8230; luckily. He&amp;#8217;s a free kid&amp;#8230; luckily. And this kid has the potential to fix the world if he chooses to do so. So is big government stifling the American Spirit? No. It&amp;#8217;s likely just us.&lt;/p&gt;
+
+&lt;h2 id='digression__copout'&gt;Digression / Cop-out&lt;/h2&gt;
+
+&lt;p&gt;I&amp;#8217;ll digress with an excerpt from John F. Kennedy&amp;#8217;s inaugural speech:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#8220;In your hands, my fellow citizens, more than in mine, will rest the final success or failure of our course. Since this country was founded, each generation of Americans has been summoned to give testimony to its national loyalty. The graves of young Americans who answered the call to service surround the globe.&lt;/p&gt;
+
+&lt;p&gt;Now the trumpet summons us again - not as a call to bear arms, though arms we need; not as a call to battle, though embattled we are - but a call to bear the burden of a long twilight struggle, year in and year out, &amp;#8220;rejoicing in hope, patient in tribulation&amp;#8221; - a struggle against the common enemies of man: tyranny, poverty, disease, and war itself.&lt;/p&gt;
+
+&lt;p&gt;Can we forge against these enemies a grand and global alliance, North and South, East and West, that can assure a more fruitful life for all mankind? Will you join in that historic effort?&lt;/p&gt;
+
+&lt;p&gt;In the long history of the world, only a few generations have been granted the role of defending freedom in its hour of maximum danger. I do not shank from this responsibility - I welcome it. I do not believe that any of us would exchange places with any other people or any other generation. The energy, the faith, the devotion which we bring to this endeavour will light our country and all who serve it - and the glow from that fire can truly light the world.&lt;/p&gt;
+
+&lt;p&gt;And so, my fellow Americans: ask not what your country can do for you - ask what you can do for your country.&lt;/p&gt;
+
+&lt;p&gt;My fellow citizens of the world: ask not what America will do for you, but what together we can do for the freedom of man.&lt;/p&gt;
+
+&lt;p&gt;Finally, whether you are citizens of America or citizens of the world, ask of us the same high standards of strength and sacrifice which we ask of you. With a good conscience our only sure reward, with history the final judge of our deeds, let us go forth to lead the land we love, asking His blessing and His help, but knowing that here on earth God&amp;#8217;s work must truly be our own.&amp;#8221;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+                                <pubDate>Sun, 01 Jul 2012 00:00:00 -0700</pubDate>
+                                <link>http://zachtratar.com//american-spirit.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//american-spirit.html</guid>
+                        </item>
+                
+                        <item>
+                                <title>Successful Entrepreneurs Build From The Heart</title>
+                                <description>&lt;p&gt;The tech industry is a haphazard, chaotic scramble of companies, capital, and recruiters. Among this craze, I have been lucky enough to meet, and in some cases befriend, some very talented people - from VCs and CEOs to contractors trying to get their foot in the door.&lt;/p&gt;
+
+&lt;p&gt;There is one characteristic that seems to be very polarized in the valley: heart.&lt;/p&gt;
+
+&lt;p&gt;So, that&amp;#8217;s what I want to talk about.&lt;/p&gt;
+
+&lt;p&gt;When I say that someone has heart, what I mean is that they are seriously emotionally involved with their work. They do what they do for a reason, and that reason is not encompassed solely by logic. It&amp;#8217;s that purely human urge to move forward.&lt;/p&gt;
+
+&lt;p&gt;I believe heart is the essential ingredient to a Silicon Valley &amp;#8220;success story.&amp;#8221; People either have it or they don&amp;#8217;t, and after talking to someone for 5 minutes, it&amp;#8217;s usually obvious where they stand.&lt;/p&gt;
+
+&lt;p&gt;Building from the heart means:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;If out looking for a job, you don&amp;#8217;t choose a company because you want to network with the founders or get a fantastic salary. You choose a company because what you&amp;#8217;ll be working on blows your mind.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;You get excited every time you pitch your product/idea because you re-realize that what you&amp;#8217;re doing is easily worth the hardship.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;When your friends say &amp;#8220;Why do you work so much?&amp;#8221;, you think &amp;#8220;work&amp;#8230;? This is play.&amp;#8221;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;You do whatever it takes to see the vision become reality - whether that means learning to pitch or learning to program. (Or squatting at AOL, like my friend Eric).&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;You get impatient. Not because you&amp;#8217;re directly mad at yourself or others, but because the damn thing isn&amp;#8217;t built yet and you want to use it!&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;When someone tries to poach you, you mirror it back! If they want to work with you, they better join you, not vice-versa.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you don&amp;#8217;t have heart, it&amp;#8217;s my opinion that you&amp;#8217;re not working on the right idea. If you do, keep doing what you&amp;#8217;re doing and luck will find it&amp;#8217;s way to you.&lt;/p&gt;</description>
+                                <pubDate>Tue, 29 May 2012 00:00:00 -0700</pubDate>
+                                <link>http://zachtratar.com//successful-entrepreneurs.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//successful-entrepreneurs.html</guid>
+                        </item>
+                
+                        <item>
+                                <title>The Interconnectivity of Quantum Propulsion</title>
+                                <description>&lt;p&gt;I know what you&amp;#8217;re thinking: &amp;#8220;Zach + Quantum Propulsion = what?&amp;#8221;. It&amp;#8217;s ok, I really haven&amp;#8217;t shown my theoretical physicist side to many people over the years.&lt;/p&gt;
+
+&lt;p&gt;My love of physics began in high school and propelled me into a world of physical understanding and inventing things on paper. I&amp;#8217;ve got a binder full of ideas back in Illinois. These are the things I would dream about, get inspired by in the morning, and run calculations on during the day. This eventually led me to study Computer Engineering at UIUC. I&amp;#8217;m a huge nerd, ok?&lt;/p&gt;
+
+&lt;p&gt;Today, a fast company article caught my attention: &lt;a href='http://www.fastcompany.com/1837966/mustafas-space-drive-an-egyptian-students-quantum-physics-invention'&gt;&amp;#8220;Mustafa&amp;#8217;s Space Drive: An Egyption Student&amp;#8217;s Quantum Physics Invention&amp;#8221;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Aisha Mustafa, a 19-year-old Physics student in Egypt, patented a quantum propulsion system that takes advantage of the Casimir effect, a cavity between two charged plates that generates a repulsive force around it. It isn&amp;#8217;t completely known why it works. To add to the confusion, it also appears to defy Newton&amp;#8217;s laws.&lt;/p&gt;
+
+&lt;p&gt;So why is this crazy? For one, it&amp;#8217;s a friggin&amp;#8217; quantum propulsion system! Oh, and secondly, I diagramed this exact engine six months ago on a late-night physics bender. I&amp;#8217;ll post some pictures later if I can find the diagrams. I will also explain the ideas at the end of this post. Either way, you should have seen my face when I first read the article.&lt;/p&gt;
+
+&lt;p&gt;So now I sit here, hanging out at the Bloc / ClassConnect house in Palo Alto, thinking about what to do&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;I thought about the complications of this engine for a really long time - I almost certainly could help Aisha if put in contact. So I just sent the writer of the article a &lt;a href='https://twitter.com/zachtratar/status/206533355225890816'&gt;tweet&lt;/a&gt;. Hopefully he can connect me.&lt;/p&gt;
+
+&lt;p&gt;What about the patent and the IP? I don&amp;#8217;t care about ownership of the idea/execution. To me, patents have become a force against open innovation. In addition, as many commenters on Fastco have stated, this whole thing hasn&amp;#8217;t even been peer reviewed. Nonetheless, I want to help.&lt;/p&gt;
+
+&lt;h2 id='the_tech'&gt;The Tech&lt;/h2&gt;
+
+&lt;p&gt;So how did I even think about this? Late-night physics benders are pretty strange, and brainstorming ideas means a lack of fact-checking. That&amp;#8217;s why I never took much of this seriously. Therefore, if you see some &amp;#8220;bad physics&amp;#8221; below, realize it isn&amp;#8217;t meant to prove causation. Also, the bullet points order is bad. Sorry.&lt;/p&gt;
+
+&lt;p&gt;First, I was inspired by the idea of an engine powered by gravity. Anyone who talks to me about physics will realize that I am obsessed with gravity. It&amp;#8217;s almost like I&amp;#8217;m pulled to it&amp;#8230; (bad pun).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Movement via a gravitational field would require&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A large mass at the destination, which would pull you to it.&lt;/li&gt;
+
+&lt;li&gt;A reduction of mass within your area.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With my electrical engineering background, I figured it would be fun to relate this to electricity.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;In terms of an electric field, you can represent the space-time in which electrons are observed as a bar &amp;#8212;-. Naturally, there are boundaries in between materials and space that inhibit free-flowing election movement &lt;em&gt;-&lt;/em&gt;-_-_. When an electric field is applied, the potential soy the areas that are lower can be risen via a voltage, which will raise them, and allows electrons to basically fall down and move, thus creating current.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What if atoms are similarly organized and the field&amp;#8217;s applied can be conditioned via gravity. Gravitational potential would therefore be applicable to electric potential and electron density.&lt;/li&gt;
+
+&lt;li&gt;Just how a positive electric potential is categorized by an abundance of electrons, what if a negative gravitational potential can be achieved with antimatter placement and anti-matter generated fields?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These thoughts led me to go on a wikipedia rampage. After juggernaut/hulking through 50+ articles, I stumbled across the &lt;a href='http://en.wikipedia.org/wiki/Casimir_effect'&gt;Casimir effect&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The Casimir effect that takes advantage of Van Der Waals forces has show that a point in space can become mass-negative, and shows signs towards repulsion of that around it!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In a point in space, it&amp;#8217;s mass is not only calculated by the particles, but also the stress-tensor coefficient, or the forces spreading the space apart. In the case of the Casimir effect, particles and space seem to bend together from Van Der Waals forces, thus making a space-negative region.&lt;/li&gt;
+
+&lt;li&gt;If you could make a bigger region with this same effect, it would exert a repulsive force on everything around it. Theoretically, it seems possible to make an engine with such forces by enclosing an area of vacuum with material and exerting large force on the internals.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Boom. Here is how I tried to rationalize these findings:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Space-time can be visualized as a 2d plane that bends according to mass, or energy if referring to super relativity. * As energy pushes this plane downwards, things naturally move towards these depressions - thus, gravity? * What if you could do the reverse and create a mountain?&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;It appears that the conditions from the Casimir effect, whereas a point in spice is split more than a vacuum, somehow accumulates a negative energy balance. This negative energy balance on the 2d plane can be visualized as a peak, which pushes everything around it away. * So two plates create this small peak between themselves. If they successfully push themselves apart, then there is no more Casimir effect :( * What if you hold the plates together? Force them to remain at a consistent distance from each other and create a perpetual Casimir effect?&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Because the Casimir effect generates this negative-energy space, then the repulsive force applied to objects around the peak affects more than just the plates.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Forcing two plates together will generate a net force where the plates remain in their static positions but any objects around the Casimir peak, where the plates end, will be repelled.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Thus, the driving fuel for this reaction cannot simply be the plates existence. This system either creates perpetual energy or the fuel source is something not currently observable.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Anti-matter creation? Small amounts of matter/anit-matter collisions?&lt;/li&gt;
+
+&lt;li&gt;Hmmm, the scientists who discovered the effect believe it may be used to stabilize wormholes&lt;/li&gt;
+
+&lt;li&gt;What the hell am I getting into.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What the hell indeed. Nevertheless, I produced a physical mockup of what the engine may look like and ran some calculations. Then I went to bed and continued my normal life.&lt;/p&gt;</description>
+                                <pubDate>Sat, 26 May 2012 00:00:00 -0700</pubDate>
+                                <link>http://zachtratar.com//interconnectivity.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//interconnectivity.html</guid>
+                        </item>
+                
+                        <item>
+                                <title>Connecting The Dots (All The Way To Silicon Valley)</title>
+                                <description>&lt;blockquote&gt;
+&lt;p&gt;&amp;#8220;You can&amp;#8217;t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something - your gut, destiny, life, karma, whatever.&amp;#8221; -Steve Jobs&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It seems &amp;#8220;the long-term&amp;#8221; is something that just happens&amp;#8230; possibly destiny. It&amp;#8217;s easy to mentally grasp the cause and effect patterns of the short-term, and due to this, we containerize our thoughts into &amp;#8220;short-term&amp;#8221; and &amp;#8220;long-term&amp;#8221;. You&amp;#8217;ve probably written down goals before, or have been instructed to in school. &amp;#8220;First, write down your long-term goals. Now think about what small steps will get you there.&amp;#8221; Makes sense&amp;#8230; if the world was that simple. But the world is a complex environment that constantly changes.&lt;/p&gt;
+
+&lt;p&gt;So saying &amp;#8220;do A, then B, and you will achieve C&amp;#8221; is a oversimplification. A and B are moving targets, and in reality, there are hundreds to millions of As and Bs. Choosing which path to follow is the hard part.&lt;/p&gt;
+
+&lt;p&gt;Every moment in life is a choice you have control over. At any second, you could get in your car and go on a road trip to Vegas. At any second, you could pick up a book and learn something new&amp;#8230; possibly marine biology? If your goal was to land a job, wouldn&amp;#8217;t it be funny if your interviewer studied marine biology or was also just in Vegas? That kind of stuff happens!&lt;/p&gt;
+
+&lt;p&gt;I think embracing the chaos around decisions and results is the only mentality that makes sense. If nothing you do is meaningless, do what you love. Want to go on a road trip? Do it. Want to drop out of school? Do it. Life is too short to dwell on the past or containerize your future.&lt;/p&gt;
+
+&lt;p&gt;I think my path to Silicon Valley displays how seemingly random events can align — how dots can connect. As someone who is a methodical planner, I can say that it wasn&amp;#8217;t my planning that brought be out here. I just did what felt right when opportunities — things I couldn&amp;#8217;t have planned for — came my way.&lt;/p&gt;
+
+&lt;p&gt;So here fit is, a &amp;#8220;brief&amp;#8221; timeline of events in my life that led me to become an internet entrepreneur.&lt;/p&gt;
+
+&lt;h2 id='the_foundation'&gt;The Foundation&lt;/h2&gt;
+
+&lt;p&gt;It&amp;#8217;s the 4th grade (yes, this is truly the foundation). Growing up, my family frequently took vacations to Ixtapa, Mexico. I met an artist there who was skilled at drawing cartoons, especially a show called Dragon Ball Z (DBZ). I decided to replicate him, and actually grew to become talented. I developed a reputation around school for being a good artist, so I decided to teach others how to draw. As I gained a crowd, I noticed another crowd forming across the room. I walked over to see what the fuss was about. I then met Devneel, who was also drawing DBZ characters by coincidence — instant friendship. We became competitive at everything, from math worksheets to drawing. I started to love math and I developed an interest in design through drawing competitions.&lt;/p&gt;
+
+&lt;p&gt;My newfound competitive nature eventually led me to video games while my curious nature led me to computers. How the heck did those things work anyways? And thus, the nerdy part of my life begins! In middle school, I joined video gamer teams known as &amp;#8220;clans&amp;#8221; and joined overclock.net, a computer enthusiast forum. I started building computers and gaming websites. I also started making desktop backgrounds in Photoshop for everyone on overclock.net. This lasted all the way into high school, and by senior year, I was rocking out designs, PHP, and awesome K/D ratios — that sure brought the ladies (not :P). I thought about monetizing my abilities, but was too entrenched in video games to care. I also wasn&amp;#8217;t putting any effort into school. I never studied, not even for AP exams, but somehow managed to do well enough to get into UIUC for Computer Engineering. Lucky me&amp;#8230; I was barely average at the time for admissions, had no extra-curriculars, and no backup schools interested me.&lt;/p&gt;
+
+&lt;h2 id='college_begins'&gt;College Begins&lt;/h2&gt;
+
+&lt;p&gt;Getting into the University of Illinois&amp;#8217; Computer Engineering curriculum was a big deal. At the time, it was ranked 3rd in the nation, right behind MIT and Stanford. I had to prove myself. After getting situated in my dorm, I immediately quit gaming and erased them off my computer. Devneel, who was also admitted to UIUC, and I met up within the first week of school and subsequently decided to build a startup together. We both had coding experience, I could design, and two others joined on as co-founders. Instarta was born, a text-message polling platform for politicians. They could blast questions to their constituents who would then vote to help decide the strategic direction of their city, state, and ultimately nation. I got the bug for entrepreneurship&amp;#8230; big-time.&lt;/p&gt;
+
+&lt;p&gt;While this was starting, I was also commonly going to info sessions for student organizations on campus. My roommate was walking out the door to a information session that I hadn&amp;#8217;t heard about&amp;#8230; but I was tired. Then he said &amp;#8220;free pizza,&amp;#8221; and we walked over to the engineering campus. I was introduced to Engineering Council that day and was elected as their freshman committee&amp;#8217;s webmaster a week later. I moved up in the organization throughout my sophomore and junior years, eventually became Vice President and developed numerous connections on campus. During the start of my Junior year, I met the student body president through random Engineering Council activities.. He invited me to a party, and although I barely knew him, I decided to go. At that party I met Jason, a friend of his. I had heard of Jason before, as he had won numerous business case competitions and was known as the kid who rejected Wharton. We talked business consulting, student organizations, and became friends quickly.&lt;/p&gt;
+
+&lt;h2 id='a_competition_network'&gt;A Competition Network&lt;/h2&gt;
+
+&lt;p&gt;Back to sophomore year: Instarta was going well. We had developed the technology to blast text-messages and receive messages en masse. When we went to demo the product, we had multiple connections lined up and beta politicians users. When we were ready for them to jump on, however, political season was in full gear and no one wanted to take the risk. We got screwed. Instarta discussed a buyout offer from a political party, but we didn&amp;#8217;t even negotiate because we wanted to build a non-partisan platform. Another year chugged along as Instarta began pivoting through different products and technologies. I learned resilience.&lt;/p&gt;
+
+&lt;p&gt;As Instarta slid downhill, I was enrolled in a &amp;#8220;High Tech Venture Marketing&amp;#8221; class. I had coffee with my professor, who ran the school&amp;#8217;s entrepreneurship center, and she told me about her problems managing a business plan competition. Schools across the nation had the same problem, and I knew a simple website could be a solution. Contendable, a website to manage and compete in competitions, was born. I was both a programmer and designer, but didn&amp;#8217;t have time for both. After learning from Instarta, I also knew I wanted help on the business end of things. So who did I know that would be suitable? Who would know the market well? I met up with Jason, and he joined on as a co-founder. While the product designs were being fleshed out, we enrolled our company into the Cozad 2011 New Venture Competition. Ironically, we ended up winning. We won a competition that our internet application was designed to assist! We earned a cash prize, legal help, and incubator space in Chicago for summer 2011.&lt;/p&gt;
+
+&lt;p&gt;We decided we wanted more help on the development side, so we both used our personal connections. Jason had a friend named Will, who I had heard of before for being a top-notch computer science student. We met with Will over coffee and I showed him the designs for Contendable.com. He liked the product, but unfortunately had no time as he just quit Microsoft to work on another startup called Piazza. Coffee was over, and we moved on.&lt;/p&gt;
+
+&lt;p&gt;We found one programmer and pushed on product development while talking to some Venture Capitalists. We had an offer for some funding, but rejected it because it wasn&amp;#8217;t very enticing and Jason was really excited about his consulting internship. Jason had received the internship offer I had really wanted (I wanted to test out the consulting lifestyle). I ended up getting a job I was happy with in downtown Chicago. At this point, we were seeing lackluster progress on development, so I said screw it, and started learning Ruby on Rails to build the product myself. I was already juggling twenty things, but this was my chance to make something great.&lt;/p&gt;
+
+&lt;h2 id='summer_2011'&gt;Summer 2011&lt;/h2&gt;
+
+&lt;p&gt;After final exams, summer began. I had a cool, relaxing week off before work started&amp;#8230; so naturally I put in 15 hours of work a day into Contendable. I packed all of my things and moved into an Art Institute dorm room in the middle of downtown Chicago. I had always wanted to live downtown, so this felt incredible. A day later I started by job as a business consultant. Everyone at work was accountable and upbeat. The offices were clean, neat, and modern, a huge upgrade from what I had experienced at GE the previous year. The other three interns were also pretty cool, and I quickly got comfortable in the environment. I was living with 80-100 people my age in the middle of downtown Chicago, I had just turned 21, and 10 of my friends were within walking distance. So badass.&lt;/p&gt;
+
+&lt;p&gt;On day 2, Tuesday, I&amp;#8217;m grabbing a quick dinner with my parents when I get an email. It&amp;#8217;s from Will.&lt;/p&gt;
+
+&lt;p&gt;Apparently Piazza, the company he joined, was about to close $2M dollar financing round with Sequoia Capital, arguably the biggest name in VC. Huge deal. Will simply says &amp;#8220;We need a designer. Come over to Palo Alto for the summer.&amp;#8221; If Palo Alto sounds familiar, it&amp;#8217;s because that&amp;#8217;s where Google, Facebook, and every huge tech company got their boost. It&amp;#8217;s the worldwide heaven for entrepreneurs and computer geeks. I disregarded the email a little, thinking about how much I loved where I was at that time. This wasn&amp;#8217;t the time to take a risk&amp;#8230; I had it all going for me. The back of my mind was wandering, though. I loved entrepreneurship, even through the thick and thin. I knew what life would be like in Chicago as a consultant. I had never been to California before, let alone worked in Palo Alto. If I didn&amp;#8217;t go now, I may never go&amp;#8230;. shit shit shit.&lt;/p&gt;
+
+&lt;p&gt;I called many friends that night, and the advice I received shouldn&amp;#8217;t have been surprising. They all said &amp;#8220;It sounds like you really want to go.&amp;#8221; My mind was already made up, I just didn&amp;#8217;t realize it. I get a call from Piazza&amp;#8217;s CEO, who sounded intelligent and confident. I figured the Valley was crawling with talented people. Since I wanted to learn from the best, I had to go. I left comfort and stability for a dream.&lt;/p&gt;
+
+&lt;p&gt;I arrived in Palo Alto and started working the day I got in. I picked up the code and design behind Piazza in a couple hours and pushed live changes the first day — it was awesome. I lived in Photoshop during the day and Textmate/Google Docs at night (coding Contendable&amp;#8217;s backend in rails and getting business development/product feedback done). It was hard: I was only pulling 4-5 hours of sleep a night, but I was in the Valley. To make the situation harder, I couldn&amp;#8217;t find housing. So I lived in the office for two weeks. That includes washing my hair in the office&amp;#8217;s sink. Yeah, not exactly California Dreamin&amp;#8217;.&lt;/p&gt;
+
+&lt;h2 id='backplane'&gt;Backplane&lt;/h2&gt;
+
+&lt;p&gt;I started networking by getting coffee with random people in the valley, but little did I know that my next step was 20 feet away from my desk. Piazza shared office space with Backplane, a startup I knew nothing about. I just knew the two guys working in the office had a fog machine in their tiny 10&amp;#8217; by 10&amp;#8217; office and visualized tweets about Lady Gaga on the wall with a projector. I peeped my head in and asked &amp;#8220;What the hell do you guys do?&amp;#8221; The startup, Backplane, had the idea to create a platform for &amp;#8220;fans&amp;#8221; — and they were starting with Lady Gaga&amp;#8217;s Littlemonsters.com. While working on Contendable at night, I started hanging out with a co-founder of Backplane. He helped me design Contendable and I helped him with Littlemonsters. As I learned more about Backplane, it became more intriguing. People form communities around lots of things, and Contendable was about community around competitions. What made me passionate for Contendable made me passionate for Backplane, but I thought nothing of it.&lt;/p&gt;
+
+&lt;p&gt;About 40 days into my internship at Piazza, I opened up my email and found an offer letter from Backplane. It ended with &amp;#8220;Maybe it&amp;#8217;s time to try something new.&amp;#8221; But I still had a year of school left, what was I going to do&amp;#8230;. drop out? Hah!&lt;/p&gt;
+
+&lt;p&gt;I dropped out and joined Backplane as the first hire. We&amp;#8217;re now rocking it, empowering togetherness, and the dream is coming together. I&amp;#8217;ll write a post about that later.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s hard to say what would have happened if any of these stepping stones were moved or removed. It&amp;#8217;s hard to determine how any of this actually works.&lt;/p&gt;
+
+&lt;p&gt;If I didn&amp;#8217;t ask Jason to be my partner, would I have ever met Will? If Instarta never failed and two years of solid work wasn&amp;#8217;t thrown down the drain, would I have been able to leave the Midwest and migrate to the Valley?&lt;/p&gt;
+
+&lt;p&gt;I don&amp;#8217;t know. All I know is this: I feel like I&amp;#8217;m in the right place, right now. Thus, I won&amp;#8217;t be giving 90% or 99%, I&amp;#8217;m giving it my all. =)&lt;/p&gt;</description>
+                                <pubDate>Tue, 17 Apr 2012 00:00:00 -0700</pubDate>
+                                <link>http://zachtratar.com//connecting-the-dots.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//connecting-the-dots.html</guid>
+                        </item>
+                
+        </channel>
+</rss>
