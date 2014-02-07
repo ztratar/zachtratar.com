@@ -1,0 +1,93 @@
+---
+title: Zach Tratar - About
+---
+
+{% include header.html %}
+
+<div class="post">
+	<header id="post-header">
+		<div class="container">
+			<a href="/" class="pull-left">
+				<i class="icon-chevron-left"></i>	
+			</a>
+		</div>
+	</header>	
+
+	<div class="post-title-container about-me">
+		<div class="post-title-wrap container about-me">
+			<div class="post-info container">
+				<h1 class="post-title">
+					About me
+				</h1>
+			</div>
+		</div>
+	</div>
+
+	<!-- AddThis Button BEGIN -->
+	<div class="addthis_side addthis_toolbox addthis_32x32_style" style="left:50px;top:50px;">
+		<a class="addthis_button_preferred_1"></a>
+		<a class="addthis_button_preferred_2"></a>
+		<a class="addthis_button_preferred_3"></a>
+		<a class="addthis_button_preferred_4"></a>
+		<a class="addthis_button_compact"></a>
+	</div>
+	<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ztratar"></script>
+	<!-- AddThis Button END -->
+
+	<div class="container post-article">
+		<h2>I dream things up and build them.</h2>
+		<p>I started 2 companies while studying Computer Engineering at UIUC, left school to join Backplane, and love UX, psychology, and engineering.</p>
+		<p>The first company was a terrible failure.</p>
+		<ul>
+			<li>Our mission was to clean up politics.</li>
+			<li>We were freshmen in college.</li>
+			<li>We had never built a product before.</li>
+		</ul>
+		<p>I bring this up is because the experience can clearly give you a sense of who I am. Rattling off a resume is boring and I don't believe in boring an audience.</p>
+		<p>Passion to solve the world's biggest problems is my sole driving force and so far I haven't been able to find the brake. The world has too many things wrong with it but too much beauty to let apathy and inaction win.</p>
+		<p>I'm idealistic when it comes to ideas and realistic when it comes to execution. The realism didn't come natural... I think it's a byproduct of countless bug smashing sessions.</p>
+		<h3>SO HOW'D I GET INTO TECH IN THE FIRST PLACE?</h3>
+		<p>I found my love for engineering early. In elementary school I would bike down to the local RadioShack to buy electrical components for home-made RC cars. After taking my first physics class, I started to spec out and design new engines. Of course they weren't very efficient, but there were badass! Fun fact: I thought I was onto a big idea for an engine using the earth's magnetic field and the right-hand-rule until I realized, after 2 weeks, that I was disobeying Newton's 2nd law. /fail</p>
+		<p>So yea -- building things. Fun stuff!</p>
+		<p>Growing up in Chicago was seemingly perfect if you looked at it from afar, but there are problems everywhere in the world. I watched my family and others suffer from systems that were quite obviously broken. An easily exploitable legal system, a volatile housing market, the substandard to which the American dream has plunged and it's psychological torture on small business owners... you get the idea.</p>
+		<p>I only have evidence thats states my problems are absolutely minimal compared to others. It's not like I'm fighting malaria or losing my savings to superinflation.</p>
+		<p>So what does this mean? It means that there are a lot of solutions out there just waiting to be discovered, designed, and engineered. Software is the scalable medium to tackle most of these problems and I have therefore put myself at the forefront of the industry.</p>
+		<h3>WHATCHA DOIN' NOW?</h3>
+		<p>I quit school near the top of my class to build Backplane. Right now the average person talks to the same 30-50 people they know from school or work. With 2.5 billion people connected to the internet, that is a shame.	 Right now the systems to enable great conversation at a very-large-scale do not exist. We are solving that problem.</p>
+		<p>Someone more qualified: go fix politics for the rest of us! (please?)</p>
+	</div>
+
+	<div class="container post-article post-sharing">
+		<p>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ page.title}} by @zachtratar" data-size="large" data-related="zachtratar">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		</p>
+		<div class="fb-comments-container" data-page-url="http://zachtratar.com{{ page.url }}">
+			<div class="fb-comments" data-href="http://zachtratar.com{{ page.url }}" data-width="700" data-num-posts="10"></div>	
+		</div>
+	</div>
+
+	<div class="post-footer">
+		<div class="container">
+			<h2>More writing</h2>
+			<ul class="post-stream">
+				{% for post in site.posts %}
+				{% if forloop.index <= 4 %}
+				<li>
+					<a href="{{ post.url }}">
+						<h3>{{ post.title }}</h3>
+						<span>{{ post.date | date_to_string }}</span>
+					</a>
+				</li>
+				{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
+
+{% include footer.html %}
+
+</body>
+</html>

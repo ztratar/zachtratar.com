@@ -37,6 +37,18 @@
 		margin: 0 0 60px 0;
 		background: #fcfcfc;
 		position: relative;
+
+		@media (max-width: 960px) {
+			margin: 0 0 40px 0;
+		}
+
+		&.about-me {
+			margin: 0 0 30px 0;
+
+			@media (max-width: 960px) {
+				margin: 0 0 -30px 0;
+			}
+		}
 	
 		&:after {
 			content: '';
@@ -88,6 +100,14 @@
 
 			@media (max-height: 560px) {
 				height: 310px;
+			}
+
+			&.about-me {
+				height: 100px !important;
+
+				.post-info h1 {
+					margin-bottom: 10px;
+				}
 			}
 
 			&.has-img {
