@@ -1,6 +1,11 @@
-source :rubygems
+source 'https://rubygems.org'
+
 gem 'rack'
 gem 'rack-contrib'
 gem 'heroku'
 
-gem 'jekyll-less'
+# LOCAL GEMS
+
+#gem 'therubyracer'
+#gem 'jekyll-less'
+#gem 'closure-compiler'

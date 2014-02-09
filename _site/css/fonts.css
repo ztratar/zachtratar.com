@@ -1,4 +1,16 @@
-@font-face { font-family: 'Avenir-Book'; src: url('../fonts/Avenir-Book.otf'); } 
-@font-face { font-family: 'Avenir-BookItalic'; src: url('../fonts/Avenir-BookItalic.otf'); } 
-@font-face { font-family: 'Avenir-Heavy'; src: url('../fonts/Avenir-Heavy.otf'); } 
-@font-face { font-family: 'Freight-Book'; src: url('../fonts/Freight-Book.ttf'); } 
+@font-face {
+  font-family: 'Avenir-Book';
+  src: url('../fonts/Avenir-Book.otf');
+}
+@font-face {
+  font-family: 'Avenir-BookItalic';
+  src: url('../fonts/Avenir-BookItalic.otf');
+}
+@font-face {
+  font-family: 'Avenir-Heavy';
+  src: url('../fonts/Avenir-Heavy.otf');
+}
+@font-face {
+  font-family: 'Freight-Book';
+  src: url('../fonts/Freight-Book.ttf');
+}

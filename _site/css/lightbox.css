@@ -3,7 +3,6 @@ body:after {
   content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
   display: none;
 }
-
 /* line 11, ../sass/lightbox.sass */
 .lightboxOverlay {
   position: absolute;
@@ -15,7 +14,6 @@ body:after {
   opacity: 0.8;
   display: none;
 }
-
 /* line 20, ../sass/lightbox.sass */
 .lightbox {
   position: absolute;
@@ -40,7 +38,6 @@ body:after {
 .lightbox a img {
   border: none;
 }
-
 /* line 35, ../sass/lightbox.sass */
 .lb-outerContainer {
   position: relative;
@@ -61,12 +58,10 @@ body:after {
   display: table;
   clear: both;
 }
-
 /* line 44, ../sass/lightbox.sass */
 .lb-container {
   padding: 4px;
 }
-
 /* line 47, ../sass/lightbox.sass */
 .lb-loader {
   position: absolute;
@@ -77,7 +72,6 @@ body:after {
   text-align: center;
   line-height: 0;
 }
-
 /* line 56, ../sass/lightbox.sass */
 .lb-cancel {
   display: block;
@@ -86,7 +80,6 @@ body:after {
   margin: 0 auto;
   background: url(../img/loading.gif) no-repeat;
 }
-
 /* line 63, ../sass/lightbox.sass */
 .lb-nav {
   position: absolute;
@@ -96,26 +89,24 @@ body:after {
   width: 100%;
   z-index: 10;
 }
-
 /* line 71, ../sass/lightbox.sass */
 .lb-container > .nav {
   left: 0;
 }
-
 /* line 74, ../sass/lightbox.sass */
 .lb-nav a {
   outline: none;
 }
-
 /* line 77, ../sass/lightbox.sass */
-.lb-prev, .lb-next {
+.lb-prev,
+.lb-next {
   width: 49%;
   height: 100%;
   cursor: pointer;
   /* Trick IE into showing hover */
+
   display: block;
 }
-
 /* line 84, ../sass/lightbox.sass */
 .lb-prev {
   left: 0;
@@ -125,7 +116,6 @@ body:after {
 .lb-prev:hover {
   background: url(../img/prev.png) left 48% no-repeat;
 }
-
 /* line 90, ../sass/lightbox.sass */
 .lb-next {
   right: 0;
@@ -135,7 +125,6 @@ body:after {
 .lb-next:hover {
   background: url(../img/next.png) right 48% no-repeat;
 }
-
 /* line 96, ../sass/lightbox.sass */
 .lb-dataContainer {
   margin: 0 auto;
@@ -155,7 +144,6 @@ body:after {
   display: table;
   clear: both;
 }
-
 /* line 103, ../sass/lightbox.sass */
 .lb-data {
   padding: 0 4px;
