@@ -9,14 +9,12 @@
 	<meta name="title" content="The New Facebook News Feed: A UX Breakdown - by Zach Tratar">
 	
 	<meta name="description" content="Product at Backplane, designer of that which I belive in, engineer of systems to unite the world.">
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet/less" href="/css/all.less" type="text/css">
+	<link rel="stylesheet" href="/css/all.css" type="text/css">
 
-	<script src="/js/jquery.js"></script>
-	<script src="/js/underscore.js"></script>
-	<script src="/js/less.js"></script>
+	<script src="/js/jquery.js" type="text/javascript"></script>
+	<script src="/js/underscore.js" type="text/javascript"></script>
 	<script src="/js/main.js" type="text/javascript"></script>
 	<script src="/js/lightbox.js" type="text/javascript"></script>
 </head>
@@ -71,45 +69,45 @@
 	<!-- AddThis Button END -->
 
 	<div class="container post-article">
-		<p>The internet is blowing up with sensationalized articles on the new <a href='https://www.facebook.com/about/newsfeed'>Facebook News Feed</a>. I&#8217;m not a fan of that, so instead let&#8217;s talk about design principles and user behavior.</p>
+		<p>The internet is blowing up with sensationalized articles on the new <a href="https://www.facebook.com/about/newsfeed">Facebook News Feed</a>. I’m not a fan of that, so instead let’s talk about design principles and user behavior.</p>
 
-<h2 id='the_stories_are_frigin_huge'>The &#8220;Stories&#8221; are frigin HUGE</h2>
+<h2 id="the_stories_are_frigin_huge">The “Stories” are frigin HUGE</h2>
 
 <p>This was the biggest surprise in my opinion.</p>
 
-<p>There are a couple emotions you want to achieve in feeds. The first is zen &#8211; it&#8217;s calming to get lost and just keep scrolling. The second is usually balanced chaos. The more stuff you see, the more active the site feels. Facebook still has zen, but the chaos seems to have been thrown out in favor of further simplicity. It takes more scrolling to see less items, but nothing is fighting for your attention. Instead of thinking, you&#8217;re either looking at the top most &#8220;story&#8221; or you&#8217;re scrolling to the next one.</p>
+<p>There are a couple emotions you want to achieve in feeds. The first is zen – it’s calming to get lost and just keep scrolling. The second is usually balanced chaos. The more stuff you see, the more active the site feels. Facebook still has zen, but the chaos seems to have been thrown out in favor of further simplicity. It takes more scrolling to see less items, but nothing is fighting for your attention. Instead of thinking, you’re either looking at the top most “story” or you’re scrolling to the next one.</p>
 
-<p>Mobile works the same way. As you move from phone to computer the experience won&#8217;t be nearly as jarring. If the feeds are identical on mobile and desktop, I wouldn&#8217;t be surprised if they release a feature later to sync your spot on the feed.</p>
+<p>Mobile works the same way. As you move from phone to computer the experience won’t be nearly as jarring. If the feeds are identical on mobile and desktop, I wouldn’t be surprised if they release a feature later to sync your spot on the feed.</p>
 
-<h2 id='this_is_facebooks_biggest_change_yet_but_the_risk_is_being_overestimated'>This is Facebook&#8217;s biggest change yet, but the risk is being overestimated</h2>
+<h2 id="this_is_facebooks_biggest_change_yet_but_the_risk_is_being_overestimated">This is Facebook’s biggest change yet, but the risk is being overestimated</h2>
 
-<p><a href='http://techcrunch.com/2013/03/07/facebook-risks-it-all/'>Techcrunch&#8217;s article</a> says this is their most risky change yet. After the <a href='http://en.wikipedia.org/wiki/Facebook_Beacon'>Beacon</a> incident years ago, Facebook has become a more data-driven company. They have a huge data research team pillaging their logs to track user behavior. Is this is a big change? You betcha&#8230; it&#8217;s the home page! On web applications with a news feed system, a heavy majority of all interaction is done on the home page. Is this a risky choice? Not really. They&#8217;re releasing is slowly and watching the data. Risk is mitigated as they iterate &#8211; and they will. Compared to the risk presented when Facebook opened up their <a href='http://money.cnn.com/2007/05/24/technology/facebook.fortune/'>first developer APIs</a>, this is nothing (and it&#8217;s only because of the data).</p>
+<p><a href="http://techcrunch.com/2013/03/07/facebook-risks-it-all/">Techcrunch’s article</a> says this is their most risky change yet. After the <a href="http://en.wikipedia.org/wiki/Facebook_Beacon">Beacon</a> incident years ago, Facebook has become a more data-driven company. They have a huge data research team pillaging their logs to track user behavior. Is this is a big change? You betcha… it’s the home page! On web applications with a news feed system, a heavy majority of all interaction is done on the home page. Is this a risky choice? Not really. They’re releasing is slowly and watching the data. Risk is mitigated as they iterate – and they will. Compared to the risk presented when Facebook opened up their <a href="http://money.cnn.com/2007/05/24/technology/facebook.fortune/">first developer APIs</a>, this is nothing (and it’s only because of the data).</p>
 
-<h2 id='sorting_has_been_optimized_out'>Sorting has been optimized out</h2>
+<h2 id="sorting_has_been_optimized_out">Sorting has been optimized out</h2>
 
-<p>By default, the feed is being changed to a combination of &#8220;new&#8221; and &#8220;popular&#8221;. This is not done very often. Facebook can only do this effectively because their average user comes back to the site multiple times a day. This also means that the <a href='http://edgerank.net/'>demonized edge-rank algorithm</a> is probably taking more of a backseat or was altered substantially. Changing an algorithm from being entirely score based to purely chronologically dependent isn&#8217;t easy at scale. I can&#8217;t be 100% sure, but they probably managed to do this in one of two ways: 1. Manipulate the algorithm to give chronology a big boost or 2. Change the data structure to a cached stack while disallowing newly-calculated posts to overwrite incumbent data.</p>
+<p>By default, the feed is being changed to a combination of “new” and “popular”. This is not done very often. Facebook can only do this effectively because their average user comes back to the site multiple times a day. This also means that the <a href="http://edgerank.net/">demonized edge-rank algorithm</a> is probably taking more of a backseat or was altered substantially. Changing an algorithm from being entirely score based to purely chronologically dependent isn’t easy at scale. I can’t be 100% sure, but they probably managed to do this in one of two ways: 1. Manipulate the algorithm to give chronology a big boost or 2. Change the data structure to a cached stack while disallowing newly-calculated posts to overwrite incumbent data.</p>
 
-<p>Users just want products that work. Over time, the algorithms to determine feed-worthy stories have become more and more accurate. I would find myself sorting by &#8220;most recent&#8221; very frequently just a year ago, but now I never click the button. If I&#8217;m like most users, then they finally found the sweet spot. That sweet spot enabled them to remove clutter from the interface and bridge the gap properly to mobile. Good job Facebook.</p>
+<p>Users just want products that work. Over time, the algorithms to determine feed-worthy stories have become more and more accurate. I would find myself sorting by “most recent” very frequently just a year ago, but now I never click the button. If I’m like most users, then they finally found the sweet spot. That sweet spot enabled them to remove clutter from the interface and bridge the gap properly to mobile. Good job Facebook.</p>
 
-<h2 id='navigation_now_follows_real_design_rules'>Navigation now follows real design rules</h2>
+<h2 id="navigation_now_follows_real_design_rules">Navigation now follows real design rules</h2>
 
 <p>Almost all great web application have sidebars. They prove themselves as a great foundation for navigation and widget-style features, but can easily grow cumbersome. Less is usually more, but sometimes the metrics say otherwise. Design ideologies should never get in the way of what works for the end user.</p>
 
 <p>This new sidebar works very well for a couple reasons.</p>
 
 <ol>
-<li>It&#8217;s not melded into the same background as the rest of the site anymore. The different background creates a contrast that makes the separation feel clean instead of cluttered.</li>
+<li>It’s not melded into the same background as the rest of the site anymore. The different background creates a contrast that makes the separation feel clean instead of cluttered.</li>
 
 <li>Because it is a sidebar instead of a widget, the common design rule of minimizing the number of container elements is followed.</li>
 
-<li>It&#8217;s responsive to the site width. I&#8217;d be curious to see what their analytics say about clickthroughs since certain studies have shown that icon-only navigation performs worse than those aided with text. That being said, the effect is dampened since Facebook is already a well-understood product by a majority of its user-base.</li>
+<li>It’s responsive to the site width. I’d be curious to see what their analytics say about clickthroughs since certain studies have shown that icon-only navigation performs worse than those aided with text. That being said, the effect is dampened since Facebook is already a well-understood product by a majority of its user-base.</li>
 </ol>
 
-<h2 id='so_what_does_this_all_mean'>So what does this all mean?</h2>
+<h2 id="so_what_does_this_all_mean">So what does this all mean?</h2>
 
 <p>It could mean many things. When shown larger posts, people naturally place a higher level of importance on it. Skipping a post without interacting with it feels like a riskier action, and thus, activity on posts further up the feed is likely going to increase while activity on posts further down will decrease. The like button and other assorted actions are no longer blue, but their click-targets have been increased in size. I would place a bet saying this combination results in more clicks.</p>
 
-<p>With forced chronology and the hypothesis mentioned above, I think the end result for most users will be more action on posts right when they create them and less importance or notifications on historically older, but popular posts. It&#8217;s more about the &#8220;new&#8221; than the &#8220;popular&#8221; and thus you&#8217;ll want to keep posting more to garner more likes. Feed that thirst for acceptance amongst your peers! This all fits very neatly into <a href='http://news.cnet.com/8301-1023_3-57536659-93/zuckerberg-in-10-years-folks-will-share-1000-times-what-they-do-now/'>Mark&#8217;s pseudo-Moore&#8217;s law</a>.</p>
+<p>With forced chronology and the hypothesis mentioned above, I think the end result for most users will be more action on posts right when they create them and less importance or notifications on historically older, but popular posts. It’s more about the “new” than the “popular” and thus you’ll want to keep posting more to garner more likes. Feed that thirst for acceptance amongst your peers! This all fits very neatly into <a href="http://news.cnet.com/8301-1023_3-57536659-93/zuckerberg-in-10-years-folks-will-share-1000-times-what-they-do-now/">Mark’s pseudo-Moore’s law</a>.</p>
 	</div>
 
 	<div class="container post-article post-sharing">
@@ -215,7 +213,7 @@
 
   (function() {
 	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
 	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
