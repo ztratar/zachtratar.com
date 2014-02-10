@@ -7772,6 +7772,7 @@ header.main-header .header-wrap img.face {
   border-radius: 100px;
   -webkit-transition: all 0.14s ease-out;
   transition: all 0.14s ease-out;
+  background: grey;
 }
 header.main-header .header-wrap h1 {
   margin: 52px 0 31px;
