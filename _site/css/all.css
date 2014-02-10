@@ -7812,6 +7812,7 @@ header.main-header .header-wrap .share-buttons .fb-follow {
 }
 header.main-header .header-wrap .share-buttons .fb-follow.fb_iframe_widget span {
   min-width: 90px !important;
+  max-width: 93px !important;
   min-height: 20px !important;
 }
 @media (max-height: 580px) {
