@@ -11,6 +11,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="/css/all.css" type="text/css">
+
+	<!-- Google Analytics.js -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-27467149-1', 'auto');
+	ga('send', 'pageview');
+
+	</script>
+	<!-- End Google Analytics -->
 </head>
 
 <body>
@@ -41,15 +54,13 @@
 	</div>
 
 	<!-- AddThis Button BEGIN -->
-	<div class="addthis_side addthis_toolbox addthis_32x32_style" style="left:50px;top:50px;">
+	<div id="addthis_tb" class="addthis_side addthis_toolbox addthis_32x32_style" style="left:50px;top:50px;">
 		<a class="addthis_button_preferred_1"></a>
 		<a class="addthis_button_preferred_2"></a>
 		<a class="addthis_button_preferred_3"></a>
 		<a class="addthis_button_preferred_4"></a>
 		<a class="addthis_button_compact"></a>
 	</div>
-	<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ztratar"></script>
 	<!-- AddThis Button END -->
 
 	<div class="container post-article">
@@ -113,7 +124,6 @@
 	<div class="container post-article post-sharing">
 		<p>
 			<a href="https://twitter.com/share" class="twitter-share-button" data-text="Training like Tesla: An Experiment of the Mind by @zachtratar" data-size="large" data-related="zachtratar">Tweet</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 		</p>
 		<div class="fb-comments-container" data-page-url="http://zachtratar.com/tesla.html">
 			<div class="fb-comments" data-href="http://zachtratar.com/tesla.html" data-width="700" data-num-posts="10"></div>	
@@ -202,9 +212,63 @@
 </div>
 
 
+<script type='text/javascript' src='/bundles/78b826599e84f58800b19b53b4a6f6b0.js'></script>
+
+
+<!-- INSTANTCLICK SETUP -->
+<script type="text/javascript" data-no-instant>
+	var initJSLibraries = function() {
+		var indexFollowButton = $('.share-facebook-wrap');
+
+		if (window.addthis && window.addthis.toolbox) {
+			window.addthis.init();
+			window.addthis.toolbox('#addthis_tb', undefined, {
+				url: location.origin + location.pathname + location.search	
+			});
+		}
+
+		if (window.FB) {
+			if (indexFollowButton.length) {
+				indexFollowButton.html('<div class="fb-follow" data-href="http://www.facebook.com/ztratar" data-colorscheme="light" data-layout="button_count"></div>');	
+			}
+			window.FB.XFBML.parse();
+		}
+
+		if (window.Lightbox && window.LightboxOptions) {
+			new window.Lightbox(new window.LightboxOptions());
+		}
+	};
+
+	InstantClick.on('change', function() {
+		// Track the page view
+		ga('send', 'pageview', location.pathname + location.search);
+		initJSLibraries();
+	});
+	initJSLibraries();
+
+	InstantClick.init(30);
+</script>
+
+<!-- TWITTER SDK -->
+<script data-no-instant>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<! -- Facebook SDK -->
+<script data-no-instant>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=234553156601167";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Twitter -->
+<script data-no-instant>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 <!-- ADDTHIS -->
-<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ztratar"></script>
+<script type="text/javascript" data-no-instant>var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ztratar" data-no-instant></script>
+
+
 
 </body>
 </html>
