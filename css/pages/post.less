@@ -220,17 +220,33 @@
 				opacity: .9;
 			}
 		}
+
+		img {
+			max-width: 100%;
+
+			@media (max-width: 640px) {
+				width: 100%;
+			}
+		}
 	}
 
 	.post-footer {
 		background: @very-light-blue;
 		padding: 70px 0 30px;
 
+		@media (max-width: 960px) {
+			padding: 40px 0 30px;
+		}
+
 		h2 {
 			margin: 0 0 -20px 26px;
 			color: rgb(124, 124, 136);
 			text-transform: uppercase;
 			font-size: 18px;
+
+			@media (max-width: 960px) {
+				margin-bottom: 30px;
+			}
 		}
 	}
 }

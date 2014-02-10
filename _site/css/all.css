@@ -8210,13 +8210,31 @@ ul.post-images li a:hover {
   font-weight: 600;
   opacity: .9;
 }
+.post .post-article img {
+  max-width: 100%;
+}
+@media (max-width: 640px) {
+  .post .post-article img {
+    width: 100%;
+  }
+}
 .post .post-footer {
   background: #f0f3fa;
   padding: 70px 0 30px;
+}
+@media (max-width: 960px) {
+  .post .post-footer {
+    padding: 40px 0 30px;
+  }
 }
 .post .post-footer h2 {
   margin: 0 0 -20px 26px;
   color: #7c7c88;
   text-transform: uppercase;
   font-size: 18px;
+}
+@media (max-width: 960px) {
+  .post .post-footer h2 {
+    margin-bottom: 30px;
+  }
 }

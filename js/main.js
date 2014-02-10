@@ -22,6 +22,8 @@ $(function() {
 				}	
 			}, 16));
 		}
+
+		resizeWidgets(true);
 	});
 
 	$window.on('resize', _.throttle(function() {
