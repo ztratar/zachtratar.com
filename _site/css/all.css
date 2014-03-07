@@ -7811,6 +7811,7 @@ header.main-header .header-wrap .share-buttons .fb-follow {
   min-width: 93px;
 }
 header.main-header .header-wrap .share-buttons .fb-follow.fb_iframe_widget span {
+  display: block;
   min-width: 90px !important;
   max-width: 93px !important;
   min-height: 20px !important;
