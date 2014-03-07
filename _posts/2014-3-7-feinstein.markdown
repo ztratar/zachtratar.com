@@ -3,7 +3,7 @@ title: 'My Reply To Senator Feinstein'
 layout: 'post'
 ---
 
->> Dianne Feinstein, Senator for California and Head of the Intelligence committee, just sent out an email supporting the NSA surveillance programs. I put her email in the comments section, if you want to read the full text. This is my reply.
+>> Dianne Feinstein, Senator for California and Head of the Intelligence committee, just sent out an email supporting the NSA surveillance programs. I put her email in the comments section and the PDF she attached can be found [here](/files/Feinstein-Chronicle.pdf), if you want to read the full text. This is my reply.
 
 Senator Feinstein,
 
