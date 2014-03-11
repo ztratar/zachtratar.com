@@ -1,0 +1,69 @@
+---
+title: 'Followr, Twitter Bots, and Ethical Considerations'
+layout: 'post'
+img: 'http://www.slashgear.com/wp-content/uploads/2013/10/twitter1.jpg'
+---
+
+Twitter has a massive problem: new users have an extremely difficult time getting started. People who give it a chance and invest real time into the network usually fizzle out after a couple days, leaving without a clue as to what makes it great. Case in point: I now consider myself an active Twitter user, though it took 6 tries and 5 years to finally 'get it'. Oh, and I'm in the frigin' tech industry!
+
+When you join Twitter you have no followers — it's like being brought into an empty room and being told "have fun!" Even though you can stare at a wall for 2 minutes before leaving, the average person is going to leave a heck of a lot quicker. You can import your friends and contacts lists, but that's a long shot -- chances are those people aren't using Twitter either. For people to follow you, you need to fill out a fancy bio, tweet some interesting things, and hope people find you by luck. Oh, but Twitter's sign up process must help... right? Wrong. It tells you to follow influencers, the people who are least likely to listen to what you have to say.
+
+All of these barriers hit you in the face before you derive any value from the product. I believe Twitter has a potential thousands of times greater than its current footprint, but it has to fix this problem. Until it does, I believe helping them out a bit to be a good thing.
+
+Opportunity In The Depths
+-------------------------
+
+The beauty of Twitter is its simple architecture. There is a lot you can do with it; even though the default functionality is lacking, we can make it better ourselves.
+
+How can we make Twitter better? I think there can be many pieces to this puzzle and now is the time to get creative. One of the best solutions I've found lies in the most controversial of places: automation.
+
+Every "traditional" twitter bot I've seen was written with two goals in mind: First, to avoid detection and second, to gain followers in vast numbers. Absolutely everything else is at the expense of these two goals, and thus, bots tarnish the system.
+
+That got me thinking, could you make a bot that truly enhances the network?
+
+When I asked around, many people seemed to have a vendetta against all automation within social networks. I think this is due to historically poor bot design. Automation itself is not bad, but is in fact critical to the effectiveness of all modern applications. Certain tasks simply suit themselves towards automation: email newsletters, notification clustering, information collection and analysis, etc.
+
+Twitter bots can take many types of actions, including following and then unfollowing users, auto-replying, and favoriting tweets. All of these actions are disingenuous, favoriting being the least. That's the negative. The positive lies with the cold, hard fact that favoriting tweets gets you followers — the same possible followers you likely need as a new user to make Twitter useful. So what if you could outweigh the negative with the positive?
+
+Introducing Followr
+-------------------
+
+Today, I'm releasing a little project called [Followr](https://chrome.google.com/webstore/detail/followr/phbifpkhlenmpjndnmjppbdhcocdlalk) to the public. Followr is a Twitter bot, pure and simple, but it aims to be very different than the status quo in three ways:
+
+1. Instead of being a menace to the Twitter ecosystem, **Followr's goal is to be the first truly tasteful bot** — the first bot designed to actually help holistically improve Twitter.
+2. **Followr is open-source**. I'll be happy if others pitch in to make it even better.
+3. Followr is a chrome extension. It uses the native Twitter website as a proxy to work its magic, so **it can't be shut down with ease**.
+
+The difference between Followr and traditional Twitter bots lies in the net value created. A tasteful bot does vastly more good than harm. 
+
+I would be lying if I said Followr is a ‘pure' tool. The truth is that results matter more: Followr makes Twitter a more friendly, usable network. It enables more people to discover you through shared interests. It can theoretically help give a voice to every individual whose at an unfair advantage because they came to the game late. I sincerely hope it can help you as it has helped the others I started it for.
+
+How does it work, how will it work?
+-----------------------------------
+
+The first version, released today, has minimal functionality. It takes a list of topics you like, searches for tweets about them, and favorites a couple of them. Whereas traditional bots favorite a massive amount of tweets and spam, Followr only favorites 12 or so tweets every 30 minutes your browser is open. For Twitter members with high follower counts this won't do much, but for those new to the system it can make the experience. Followr also rewards you with more favorites when you interact with others through legitimate discussions and retweets.
+
+Even though much improvement is still possible, after observing the habits of users, I've found that Followr, in its current form, creates a net positive value. I think it could made substantially more effective by implementing and improving in some key areas, such as the following:
+
+**Intelligent Tweet Selection**
+
+Some automatically favorited tweets will resonate with you while others won't. A better bot can increase the number of the former and minimize the latter, making the favorites more valuable and giving you better connections with better people.
+
+**Better Behavior Driven Rewards**
+
+Turning on Followr and never going back to Twitter would be a terrible thing. This is why Followr should learn your behavior over time and reward you for doing good. If you use Twitter like a bot, Followr should ideally shut itself off. There are many ideas that can be explored in this vertical.
+
+**Analytics**
+
+How many people followed me organically vs Followr? Right now, the analytics for that answer aren't built. Followr can't do some basic things, like give weighted priority to one topic over another or check if you're already followed by a user it's favoriting. It also has a severe "pretty graph" deficiency, which most certainly requires a remedy!
+
+**Whatever you can think up**
+
+Have an idea? We can talk about it on Github Issues or on Twitter! Shoot me a tweet [@zachtratar](http://twitter.com/zachtratar).
+
+Final Thoughts
+--------------
+
+Some will disagree with this approach and that's ok. I know it's a tad controversial, but I find it naive to deem good automation impossible. It can be done. Since Followr is a chrome extension, it will auto-update on people's browsers as improvements are created. I'm excited to what the future holds.
+
+[You can download Followr on the Chrome Web Store](https://chrome.google.com/webstore/detail/followr/phbifpkhlenmpjndnmjppbdhcocdlalk). If you like it, please review it! Don't like it? I'm all ears.

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Followr, Twitter Bots, and Ethical Considerations - Zach Tratar</title>
+	
+	
+	<meta name="title" content="Followr, Twitter Bots, and Ethical Considerations - by Zach Tratar">
+	
+	<meta name="description" content="Product at Backplane, designer of that which I belive in, engineer of systems to unite the world.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8"> 
+
+	<link rel="stylesheet" href="/css/all.css" type="text/css">
+
+	<!-- Google Analytics.js -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-27467149-1', 'auto');
+	ga('send', 'pageview');
+
+	</script>
+	<!-- End Google Analytics -->
+</head>
+
+<body>
+	<div id="fb-root"></div>
+
+
+<div class="post">
+	<header id="post-header">
+		<div class="container">
+			<a href="/" class="pull-left">
+				<i class="icon-chevron-left"></i>	
+			</a>
+		</div>
+	</header>	
+
+	<div class="post-title-container">
+		<div class="post-title-wrap container has-img">
+			<div class="post-info container">
+				<h1 class="post-title">
+					Followr, Twitter Bots, and Ethical Considerations
+				</h1>
+				<span><a href="/"><img class="face" src="img/face.png">Zach Tratar</a> on 10 Mar 2014</span>
+			</div>
+		</div>
+		
+		<div class="bg-img" style="background-image: url('http://www.slashgear.com/wp-content/uploads/2013/10/twitter1.jpg')"></div>
+		
+	</div>
+
+	<!-- AddThis Button BEGIN -->
+	<div id="addthis_tb" class="addthis_side addthis_toolbox addthis_32x32_style" style="left:50px;top:50px;">
+		<a class="addthis_button_preferred_1"></a>
+		<a class="addthis_button_preferred_2"></a>
+		<a class="addthis_button_preferred_3"></a>
+		<a class="addthis_button_preferred_4"></a>
+		<a class="addthis_button_compact"></a>
+	</div>
+	<!-- AddThis Button END -->
+
+	<div class="container post-article">
+		<p>When you join Twitter you have no followers — it’s like being brought into an empty room and being told “have fun!” Even though you can stare at a wall for 2 minutes before leaving, the average person is going to leave a heck of a lot quicker. You can import your friends and contacts lists, but that’s a long shot – chances are those people aren’t using Twitter either. For people to follow you, you need to fill out a fancy bio, tweet some interesting things, and hope people find you by luck. Oh, but Twitter’s sign up process must help… right? Wrong. It tells you to follow influencers, the people who are least likely to listen to what you have to say.</p>
+
+<p>All of these barriers hit you in the face before you derive any value from the product. I believe Twitter has a potential thousands of times greater than its current footprint, but it has to fix this problem. Until it does, I believe helping them out a bit to be a good thing.</p>
+
+<h2 id="opportunity_in_the_depths">Opportunity In The Depths</h2>
+
+<p>The beauty of Twitter is its simple architecture. There is a lot you can do with it; even though the default functionality is lacking, we can make it better ourselves.</p>
+
+<p>How can we make Twitter better? I think there can be many pieces to this puzzle and now is the time to get creative. One of the best solutions I’ve found lies in the most controversial of places: automation.</p>
+
+<p>Every “traditional” twitter bot I’ve seen was written with two goals in mind: First, to avoid detection and second, to gain followers in vast numbers. Absolutely everything else is at the expense of these two goals, and thus, bots tarnish the system.</p>
+
+<p>That got me thinking, could you make a bot that truly enhances the network?</p>
+
+<p>When I asked around, many people seemed to have a vendetta against all automation within social networks. I think this is due to historically poor bot design. Automation itself is not bad, but is in fact critical to the effectiveness of all modern applications. Certain tasks simply suit themselves towards automation: email newsletters, notification clustering, information collection and analysis, etc.</p>
+
+<p>Twitter bots can take many types of actions, including following and then unfollowing users, auto-replying, and favoriting tweets. All of these actions are disingenuous, favoriting being the least. That’s the negative. The positive lies with the cold, hard fact that favoriting tweets gets you followers — the same possible followers you likely need as a new user to make Twitter useful. So what if you could outweigh the negative with the positive?</p>
+
+<h2 id="introducing_followr">Introducing Followr</h2>
+
+<p>Today, I’m releasing a little project called <a href="https://chrome.google.com/webstore/detail/followr/phbifpkhlenmpjndnmjppbdhcocdlalk">Followr</a> to the public. Followr is a Twitter bot, pure and simple, but it aims to be very different than the status quo in three ways:</p>
+
+<ol>
+<li>Instead of being a menace to the Twitter ecosystem, <strong>Followr’s goal is to be the first truly tasteful bot</strong> — the first bot designed to actually help holistically improve Twitter.</li>
+
+<li><strong>Followr is open-source</strong>. I’ll be happy if others pitch in to make it even better.</li>
+
+<li>Followr is a chrome extension. It uses the native Twitter website as a proxy to work its magic, so <strong>it can’t be shut down with ease</strong>.</li>
+</ol>
+
+<p>The difference between Followr and traditional Twitter bots lies in the net value created. A tasteful bot does vastly more good than harm.</p>
+
+<p>I would be lying if I said Followr is a ‘pure’ tool. The truth is that results matter more: Followr makes Twitter a more friendly, usable network. It enables more people to discover you through shared interests. It can theoretically help give a voice to every individual whose at an unfair advantage because they came to the game late. I sincerely hope it can help you as it has helped the others I started it for.</p>
+
+<h2 id="how_does_it_work_how_will_it_work">How does it work, how will it work?</h2>
+
+<p>The first version, released today, has minimal functionality. It takes a list of topics you like, searches for tweets about them, and favorites a couple of them. Whereas traditional bots favorite a massive amount of tweets and spam, Followr only favorites 12 or so tweets every 30 minutes your browser is open. For Twitter members with high follower counts this won’t do much, but for those new to the system it can make the experience. Followr also rewards you with more favorites when you interact with others through legitimate discussions and retweets.</p>
+
+<p>Even though much improvement is still possible, after observing the habits of users, I’ve found that Followr, in its current form, creates a net positive value. I think it could made substantially more effective by implementing and improving in some key areas, such as the following:</p>
+
+<p><strong>Intelligent Tweet Selection</strong></p>
+
+<p>Some automatically favorited tweets will resonate with you while others won’t. A better bot can increase the number of the former and minimize the latter, making the favorites more valuable and giving you better connections with better people.</p>
+
+<p><strong>Better Behavior Driven Rewards</strong></p>
+
+<p>Turning on Followr and never going back to Twitter would be a terrible thing. This is why Followr should learn your behavior over time and reward you for doing good. If you use Twitter like a bot, Followr should ideally shut itself off. There are many ideas that can be explored in this vertical.</p>
+
+<p><strong>Analytics</strong></p>
+
+<p>How many people followed me organically vs Followr? Right now, the analytics for that answer aren’t built. Followr can’t do some basic things, like give weighted priority to one topic over another or check if you’re already followed by a user it’s favoriting. It also has a severe “pretty graph” deficiency, which most certainly requires a remedy!</p>
+
+<p><strong>Whatever you can think up</strong></p>
+
+<p>Have an idea? We can talk about it on Github Issues or on Twitter! Shoot me a tweet <a href="http://twitter.com/zachtratar">@zachtratar</a>.</p>
+
+<h2 id="final_thoughts">Final Thoughts</h2>
+
+<p>Some will disagree with this approach and that’s ok. I know it’s a tad controversial, but I find it naive to deem good automation impossible. It can be done. Since Followr is a chrome extension, it will auto-update on people’s browsers as improvements are created. I’m excited to what the future holds.</p>
+
+<p><a href="https://chrome.google.com/webstore/detail/followr/phbifpkhlenmpjndnmjppbdhcocdlalk">You can download Followr on the Chrome Web Store</a>. If you like it, please review it! Don’t like it? I’m all ears.</p>
+	</div>
+
+	<div class="container post-article post-sharing">
+		<p>
+			<a href="https://twitter.com/share"
+				class="twitter-share-button" data-text="Followr, Twitter Bots, and Ethical Considerations by @zachtratar" data-url="http://zachtratar.com/followr.html" data-size="large" data-related="zachtratar">Tweet</a>
+		</p>
+	</div>
+
+	<div class="container post-comments">
+		<div class="fb-comments-container" data-page-url="http://zachtratar.com/followr.html">
+			<div class="fb-comments" data-href="http://zachtratar.com/followr.html" data-width="700" data-num-posts="10"></div>	
+		</div>
+	</div>
+
+	<div class="post-footer">
+		<div class="container">
+			<h2>More writing</h2>
+			<ul class="post-stream">
+				
+				
+				<li>
+					<a href="/followr.html">
+						<h3>Followr, Twitter Bots, and Ethical Considerations</h3>
+						<span>10 Mar 2014</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="/feinstein.html">
+						<h3>My Reply To Senator Feinstein</h3>
+						<span>07 Mar 2014</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="/grateful.html">
+						<h3>What I'm Grateful For</h3>
+						<span>26 Sep 2013</span>
+					</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="/prism.html">
+						<h3>PRISM: A Final Blow To Functioning Democracy?</h3>
+						<span>11 Jun 2013</span>
+					</a>
+				</li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="footer">
+	<div class="container">
+		<p><strong>Feel free to reach out!</strong> I usually ramble about startups, design, engineering, public policy, history, and philosophy.</p>
+		<div class="fb-follow-container">
+			<div class="fb-follow" data-href="http://www.facebook.com/ztratar" data-colorscheme="dark" data-layout="standard" data-show-faces="true" data-width="450"></div>
+		</div>
+		<div>
+			<a href="/rss.xml" class="btn btn-default btn-default-light subscribe-btn"><i class="icon-rss"></i> Subscribe to my blog</a>
+			<a href="https://twitter.com/zachtratar" class="twitter-follow-button" data-show-count="true" data-size="large">Follow @zachtratar</a>
+		</div>
+	</div>
+</div>
+
+
+<script type='text/javascript' src='/bundles/0b30e01ed675a9ecde7f38d94f6606e0.js'></script>
+
+
+<!-- TWITTER SDK -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<! -- Facebook SDK -->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=234553156601167";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Twitter -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<!-- ADDTHIS -->
+<script type="text/javascript" data-no-instant>var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ztratar" data-no-instant></script>
+
+
+
+</body>
+</html>
