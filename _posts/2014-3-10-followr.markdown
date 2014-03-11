@@ -28,7 +28,7 @@ Twitter bots can take many types of actions, including following and then unfoll
 Introducing Followr
 -------------------
 
-Today, I'm releasing a little project called [Followr](https://chrome.google.com/webstore/detail/followr/phbifpkhlenmpjndnmjppbdhcocdlalk) to the public. Followr is a Twitter bot, pure and simple, but it aims to be very different than the status quo in three ways:
+Today, I'm releasing a little project called [Followr](http://ztratar.github.io/followr) to the public. Followr is a Twitter bot, pure and simple, but it aims to be very different than the status quo in three ways:
 
 1. Instead of being a menace to the Twitter ecosystem, **Followr's goal is to be the first truly tasteful bot** — the first bot designed to actually help holistically improve Twitter.
 2. **Followr is open-source**. I'll be happy if others pitch in to make it even better.
@@ -66,4 +66,4 @@ Final Thoughts
 
 Some will disagree with this approach and that's ok. I know it's a tad controversial, but I find it naive to deem good automation impossible. It can be done. Since Followr is a chrome extension, it will auto-update on people's browsers as improvements are created. I'm excited to what the future holds.
 
-[You can download Followr on the Chrome Web Store](https://chrome.google.com/webstore/detail/followr/phbifpkhlenmpjndnmjppbdhcocdlalk). If you like it, please review it! Don't like it? I'm all ears.
+[You can download Followr here](http://ztratar.github.io/followr). If you like it, please review it! Don't like it? I'm all ears.
