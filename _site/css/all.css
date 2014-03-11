@@ -8190,6 +8190,10 @@ ul.post-images li a:hover {
 .post .post-article h3 {
   margin: 60px 0 30px;
 }
+.post .post-article ol,
+.post .post-article ul {
+  margin-bottom: 40px;
+}
 .post .post-article p {
   margin: 0 0 30px 0;
 }

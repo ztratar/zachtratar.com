@@ -7,6 +7,74 @@
                 <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
                 
                         <item>
+                                <title>Followr, Twitter Bots, and Ethical Considerations</title>
+                                <description>&lt;p&gt;When you join Twitter you have no followers — it’s like being brought into an empty room and being told “have fun!” Even though you can stare at a wall for 2 minutes before leaving, the average person is going to leave a heck of a lot quicker. You can import your friends and contacts lists, but that’s a long shot – chances are those people aren’t using Twitter either. For people to follow you, you need to fill out a fancy bio, tweet some interesting things, and hope people find you by luck. Oh, but Twitter’s sign up process must help… right? Wrong. It tells you to follow influencers, the people who are least likely to listen to what you have to say.&lt;/p&gt;
+
+&lt;p&gt;All of these barriers hit you in the face before you derive any value from the product. I believe Twitter has a potential thousands of times greater than its current footprint, but it has to fix this problem. Until it does, I believe helping them out a bit to be a good thing.&lt;/p&gt;
+
+&lt;h2 id=&quot;opportunity_in_the_depths&quot;&gt;Opportunity In The Depths&lt;/h2&gt;
+
+&lt;p&gt;The beauty of Twitter is its simple architecture. There is a lot you can do with it; even though the default functionality is lacking, we can make it better ourselves.&lt;/p&gt;
+
+&lt;p&gt;How can we make Twitter better? I think there can be many pieces to this puzzle and now is the time to get creative. One of the best solutions I’ve found lies in the most controversial of places: automation.&lt;/p&gt;
+
+&lt;p&gt;Every “traditional” twitter bot I’ve seen was written with two goals in mind: First, to avoid detection and second, to gain followers in vast numbers. Absolutely everything else is at the expense of these two goals, and thus, bots tarnish the system.&lt;/p&gt;
+
+&lt;p&gt;That got me thinking, could you make a bot that truly enhances the network?&lt;/p&gt;
+
+&lt;p&gt;When I asked around, many people seemed to have a vendetta against all automation within social networks. I think this is due to historically poor bot design. Automation itself is not bad, but is in fact critical to the effectiveness of all modern applications. Certain tasks simply suit themselves towards automation: email newsletters, notification clustering, information collection and analysis, etc.&lt;/p&gt;
+
+&lt;p&gt;Twitter bots can take many types of actions, including following and then unfollowing users, auto-replying, and favoriting tweets. All of these actions are disingenuous, favoriting being the least. That’s the negative. The positive lies with the cold, hard fact that favoriting tweets gets you followers — the same possible followers you likely need as a new user to make Twitter useful. So what if you could outweigh the negative with the positive?&lt;/p&gt;
+
+&lt;h2 id=&quot;introducing_followr&quot;&gt;Introducing Followr&lt;/h2&gt;
+
+&lt;p&gt;Today, I’m releasing a little project called &lt;a href=&quot;https://chrome.google.com/webstore/detail/followr/phbifpkhlenmpjndnmjppbdhcocdlalk&quot;&gt;Followr&lt;/a&gt; to the public. Followr is a Twitter bot, pure and simple, but it aims to be very different than the status quo in three ways:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Instead of being a menace to the Twitter ecosystem, &lt;strong&gt;Followr’s goal is to be the first truly tasteful bot&lt;/strong&gt; — the first bot designed to actually help holistically improve Twitter.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Followr is open-source&lt;/strong&gt;. I’ll be happy if others pitch in to make it even better.&lt;/li&gt;
+
+&lt;li&gt;Followr is a chrome extension. It uses the native Twitter website as a proxy to work its magic, so &lt;strong&gt;it can’t be shut down with ease&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The difference between Followr and traditional Twitter bots lies in the net value created. A tasteful bot does vastly more good than harm.&lt;/p&gt;
+
+&lt;p&gt;I would be lying if I said Followr is a ‘pure’ tool. The truth is that results matter more: Followr makes Twitter a more friendly, usable network. It enables more people to discover you through shared interests. It can theoretically help give a voice to every individual whose at an unfair advantage because they came to the game late. I sincerely hope it can help you as it has helped the others I started it for.&lt;/p&gt;
+
+&lt;h2 id=&quot;how_does_it_work_how_will_it_work&quot;&gt;How does it work, how will it work?&lt;/h2&gt;
+
+&lt;p&gt;The first version, released today, has minimal functionality. It takes a list of topics you like, searches for tweets about them, and favorites a couple of them. Whereas traditional bots favorite a massive amount of tweets and spam, Followr only favorites 12 or so tweets every 30 minutes your browser is open. For Twitter members with high follower counts this won’t do much, but for those new to the system it can make the experience. Followr also rewards you with more favorites when you interact with others through legitimate discussions and retweets.&lt;/p&gt;
+
+&lt;p&gt;Even though much improvement is still possible, after observing the habits of users, I’ve found that Followr, in its current form, creates a net positive value. I think it could made substantially more effective by implementing and improving in some key areas, such as the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Intelligent Tweet Selection&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Some automatically favorited tweets will resonate with you while others won’t. A better bot can increase the number of the former and minimize the latter, making the favorites more valuable and giving you better connections with better people.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Better Behavior Driven Rewards&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Turning on Followr and never going back to Twitter would be a terrible thing. This is why Followr should learn your behavior over time and reward you for doing good. If you use Twitter like a bot, Followr should ideally shut itself off. There are many ideas that can be explored in this vertical.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Analytics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;How many people followed me organically vs Followr? Right now, the analytics for that answer aren’t built. Followr can’t do some basic things, like give weighted priority to one topic over another or check if you’re already followed by a user it’s favoriting. It also has a severe “pretty graph” deficiency, which most certainly requires a remedy!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Whatever you can think up&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Have an idea? We can talk about it on Github Issues or on Twitter! Shoot me a tweet &lt;a href=&quot;http://twitter.com/zachtratar&quot;&gt;@zachtratar&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;final_thoughts&quot;&gt;Final Thoughts&lt;/h2&gt;
+
+&lt;p&gt;Some will disagree with this approach and that’s ok. I know it’s a tad controversial, but I find it naive to deem good automation impossible. It can be done. Since Followr is a chrome extension, it will auto-update on people’s browsers as improvements are created. I’m excited to what the future holds.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/followr/phbifpkhlenmpjndnmjppbdhcocdlalk&quot;&gt;You can download Followr on the Chrome Web Store&lt;/a&gt;. If you like it, please review it! Don’t like it? I’m all ears.&lt;/p&gt;</description>
+                                <pubDate>Mon, 10 Mar 2014 00:00:00 -0700</pubDate>
+                                <link>http://localhost:4000//followr.html</link>
+                                <guid isPermaLink="true">http://localhost:4000//followr.html</guid>
+                        </item>
+                
+                        <item>
                                 <title>My Reply To Senator Feinstein</title>
                                 <description>&lt;blockquote&gt;
 &lt;blockquote&gt;
@@ -480,52 +548,6 @@
                                 <pubDate>Sun, 01 Jul 2012 00:00:00 -0700</pubDate>
                                 <link>http://localhost:4000//american-spirit.html</link>
                                 <guid isPermaLink="true">http://localhost:4000//american-spirit.html</guid>
-                        </item>
-                
-                        <item>
-                                <title>Successful Entrepreneurs Build From The Heart</title>
-                                <description>&lt;p&gt;The tech industry is a haphazard, chaotic scramble of companies, capital, and recruiters. Among this craze, I have been lucky enough to meet, and in some cases befriend, some very talented people - from VCs and CEOs to contractors trying to get their foot in the door.&lt;/p&gt;
-
-&lt;p&gt;There is one characteristic that seems to be very polarized in the valley: heart.&lt;/p&gt;
-
-&lt;p&gt;So, that’s what I want to talk about.&lt;/p&gt;
-
-&lt;p&gt;When I say that someone has heart, what I mean is that they are seriously emotionally involved with their work. They do what they do for a reason, and that reason is not encompassed solely by logic. It’s that purely human urge to move forward.&lt;/p&gt;
-
-&lt;p&gt;I believe heart is the essential ingredient to a Silicon Valley “success story.” People either have it or they don’t, and after talking to someone for 5 minutes, it’s usually obvious where they stand.&lt;/p&gt;
-
-&lt;p&gt;Building from the heart means:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;If out looking for a job, you don’t choose a company because you want to network with the founders or get a fantastic salary. You choose a company because what you’ll be working on blows your mind.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;You get excited every time you pitch your product/idea because you re-realize that what you’re doing is easily worth the hardship.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;When your friends say “Why do you work so much?”, you think “work…? This is play.”&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;You do whatever it takes to see the vision become reality - whether that means learning to pitch or learning to program. (Or squatting at AOL, like my friend Eric).&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;You get impatient. Not because you’re directly mad at yourself or others, but because the damn thing isn’t built yet and you want to use it!&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;When someone tries to poach you, you mirror it back! If they want to work with you, they better join you, not vice-versa.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;If you don’t have heart, it’s my opinion that you’re not working on the right idea. If you do, keep doing what you’re doing and luck will find it’s way to you.&lt;/p&gt;</description>
-                                <pubDate>Tue, 29 May 2012 00:00:00 -0700</pubDate>
-                                <link>http://localhost:4000//successful-entrepreneurs.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//successful-entrepreneurs.html</guid>
                         </item>
                 
         </channel>
