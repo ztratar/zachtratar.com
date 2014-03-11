@@ -7,24 +7,19 @@ $(function() {
 		widgetState = windowWidth > 940 ? 'large' : 'small',
 		resizeWidgets;
 
-	InstantClick.on('change', function() {
-		$addThis = $('.addthis_toolbox');
-
-		if ($addThis) {
-			$window.off('scroll.addThis').on('scroll.addThis', _.throttle(function() {
-				var scroll = $window.scrollTop();			
-				if ((windowHeight > 630 && scroll > 530)
-						|| (windowHeight <= 630 && windowHeight > 560 && scroll > 460)
-						|| (windowHeight <= 560 && scroll > 370)) {
-					$addThis.addClass('fixed');	
-				} else {
-					$addThis.removeClass('fixed');	
-				}	
-			}, 16));
-		}
-
-		resizeWidgets(true);
-	});
+	$addThis = $('.addthis_toolbox');
+	if ($addThis) {
+		$window.off('scroll.addThis').on('scroll.addThis', _.throttle(function() {
+			var scroll = $window.scrollTop();			
+			if ((windowHeight > 630 && scroll > 530)
+					|| (windowHeight <= 630 && windowHeight > 560 && scroll > 460)
+					|| (windowHeight <= 560 && scroll > 370)) {
+				$addThis.addClass('fixed');	
+			} else {
+				$addThis.removeClass('fixed');	
+			}	
+		}, 16));
+	}
 
 	$window.on('resize', _.throttle(function() {
 		windowHeight = $window.height();
@@ -57,5 +52,6 @@ $(function() {
 		}
 	};
 	$window.on('resize.socialWidgets', _.throttle(resizeWidgets, 200));
+
 	resizeWidgets(true);
 });

@@ -8240,3 +8240,15 @@ ul.post-images li a:hover {
     margin-bottom: 30px;
   }
 }
+.post .fb-comments {
+  display: block;
+  padding: 0 0 40px 0;
+}
+.post .fb-comments > span {
+  display: block;
+  min-height: 220px;
+}
+.post .fb-comments iframe {
+  position: relative !important;
+  min-height: 220px;
+}
