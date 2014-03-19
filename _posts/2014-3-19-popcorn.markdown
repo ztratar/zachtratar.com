@@ -1,0 +1,76 @@
+---
+title: "Popcorn Time And Tech's Duty To Do The Right Thing"
+layout: 'post'
+---
+
+*When I first started writing this post, I didn’t know where it would end up. This post covers many topics — maybe too many — so I want to emphasize one thing right now: the last section means the most to me. If you’re only going to read for 15-20 seconds, please skip to the last section. Thanks, Zach.*
+
+My Apathy
+---------
+
+I vividly remember the first time I used Napster. I was 10.
+
+My cousin and I were playing video games when his older sister began to play a new Blink-182 song on her computer. I ran over to check it out and saw a blue download bar moving at speeds I had never seen - turns out my Uncle had just bought a T1 internet connection.    
+
+My cousin and I stayed up all night downloading music illegally. We didn’t know any better. We had only a faint idea of copyright law and this program, so readily accessible, surely didn’t *feel* bad. Bad things are hard to do, *right?* Plus, this was fun! Bad things can’t be fun, *right?*
+
+Although I stopped downloading and torrenting files years ago, I was never truly disturbed by pirating. I didn’t like the idea of taking someones work for free, but my disdain wasn’t at a level where I felt like I wanted to say anything, let alone take action. When I watched Governments destroy the lives of The Pirate Bay creators, I vilified the Governments. If my friend loaded up a torrent to stream on a projector, I wouldn’t think twice… I’d just go in the kitchen and make some popcorn.
+
+Popcorn Time
+------------
+
+I was shown Popcorn Time a couple weeks ago and my mind was subsequently blown. Popcorn Time was beautiful — it was the first beautiful pirating application I had ever seen. I could search for nearly any movie and have it playing in a matter of seconds with two clicks. This was something my Mom could use.
+
+For the first time, in that brief moment of realization, I felt scared — even sorry — for the media industry.
+
+As they say, with great power comes great responsibility. Popcorn Time is too good at what it does. I know where to draw the line for my own uses of technology, but most ten year olds, for example, aren’t going to give a shit. Nothing easy and fun can be that bad, *right?* They’re going to download and download until one day, their parents finally ask “Hey, what is that?”
+
+Oh, you know, “it’s just this app where I can get any movie for free!” Many parents won’t know any better. The kids will install it for them, skip the fear-provoking warning screen, and move the entire, blissfully ignorant family into torrenting territory.
+
+This territory has been historically small due to the illicit nature of piracy and its accompanying environment. Back in the early 2000s, Napster, Limewire, and Kazaa were distribution machines for not only music, but also computer viruses. If people didn’t weren’t technically savvy, they were likely to download something stupid and brick their computer. Many people chose to not run the risk. The suspect conditions surrounding piracy still live today; most torrenting sites are plastered with porn ads and get-rich-quick schemes.
+
+Even with all of these things preventing piracy, over half of all Americans have admitted to partaking. Half — that’s a lot!
+
+<img src="http://images.dailytech.com/nimage/Piracy_Percentages_Wide.png">
+
+Remove the unpleasing experience from piracy and what can happen? Popcorn Time will not be the last application open this door. It has proven that you can layer a great, seemingly clean experience on top of an illicit foundation. They’ve shown that doing so can result in a flock of people wanting more — after all, everyone needs to save money in these tough times.
+
+I don’t know how many people would use something like Popcorn Time, but I think the number could be extraordinarily high — so high that it may not only do significant damage, but also shake the media industry into a partial collapse. I don’t want that to happen. The media industry creates beautiful pieces of artwork that help inspire and define generations. It enables dreams and floods people with shared imaginations in a sometimes otherwise dark world. It’s an important asset for this nation and the world.
+
+The Media Industry
+------------------
+
+The media industry knows they need to adapt to continue making money, but how should they adapt? It’s a difficult question to answer, so let’s get some perspective.
+
+The entire music industry, for example, is not massive — overall revenue last year was only $16.5 billion. WhatsApp, a single company, sold for $19 billion to Facebook last month. The kingpins of media are attempting to protect their revenue streams to the best of their abilities and they see piracy as their primary enemy. With limited capital, the best means of exerting power is through… you guessed it, Government!
+
+Unfortunately for them (and us), they don’t collectively understand technology. Every attempt they make to fix copyright protection results in proposed legislation that tramples internet freedom. I think there are many people in tech who would be on their side if real compromise was put on the table.
+
+As ineffective as the media industry may be at proposing such compromise, I’m also seeing apathy from tech industry leadership. We constantly put the ball in the media industry’s court to create legislation before we say “No! That sucks too!”
+
+So again, *how* should they adapt?
+
+This may be controversial, but I don’t think they possess the abilities to cleanly save themselves. If they’re on their own, I believe there will be collateral damage. Internet freedom will continually be in the crosshairs, albeit unnecessary, if the media industry doesn’t get help.
+
+I think the goals for the media industry are pretty clear, so why doesn’t the tech industry give it a shot?
+
+Legislation that hits a good middle ground is possible if and only if the right people are working on it. I think the leaders of the tech industry need to to go the extra mile, work with Hollywood, and spearhead their own version of fresh, internet-preserving copyright protection law.
+
+Doing The Right Thing
+---------------------
+
+I just ranted about the media industry — can these same concepts be generalized? Should they be? Let’s think philosophically.
+
+Technology possesses great power — the likes of which are being scrutinized by the world. Who are these techies on buses? Why can’t I afford rent anymore? Why are robots replacing hard-working people in factories?
+
+As technology moves forward, it is inevitable that it will grow in both good and bad ways. "Software is eating the world" — think about that sentence for the second. To engineers it is a rallying cry for beautiful efficiency, to others it sounds flat out horrifying.
+
+We’re all human. Transition is extremely hard — it is emotionally draining upon individuals and society. For technology to make the most optimal impact, it must be smooth and welcomed, its benefits clear as day and its intentions unquestionably pure.
+
+People should be uniting around Science and Technology, not against it. Technology must be viewed as something magical instead of malicious. It is so easy for technology, computing especially, to seem cold, self-interested, and reckless; making it friendly, warm, and benevolent will take effort. 
+
+Technology has enabled piracy to flip the media industry upside down and that is just the beginning. Very soon, technology will start having more pronounced effects on labor and manufacturing through 3D printing and the internet of things. We won’t be talking about piracy and media then, we’ll be talking about millions of jobs and economic conditions never studied in recorded history. As a whole, our quest for innovation must be balanced with careful wisdom and — I’ll say it — an appreciation for the status quo.
+
+We cannot enact change that affects billions of lives and then say “fend for yourself, figure out the new rules”. I believe we must hold out our hands, share   a vision for what is newly possible, and, most importantly, show people what role they can play.
+
+That is in our ability — *no ones else’s*, and thus I believe it is our duty.
