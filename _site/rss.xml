@@ -48,7 +48,11 @@
 
 &lt;p&gt;&lt;strong&gt;Code Cleanup&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;I admittedly fell into callback hell. The code could use a good ol’ refactoring to become squeaky clean. I’m thinking about implementing the next version using Promises, which would be quite fun. The CSS is also getting quite gross — I’ll switch over to LESS &amp;amp; Grunt.&lt;/p&gt;</description>
+&lt;p&gt;I admittedly fell into callback hell. The code could use a good ol’ refactoring to become squeaky clean. I’m thinking about implementing the next version using Promises, which would be quite fun. The CSS is also getting quite gross — I’ll switch over to LESS &amp;amp; Grunt.&lt;/p&gt;
+
+&lt;h2 id=&quot;some_lovely_reviews&quot;&gt;Some lovely reviews&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&#39;full&#39; src=&#39;/img/posts/followrV1/reviews.jpg&#39; /&gt;&lt;/p&gt;</description>
                                 <pubDate>Wed, 26 Mar 2014 00:00:00 -0700</pubDate>
                                 <link>http://localhost:4000//followrv1.html</link>
                                 <guid isPermaLink="true">http://localhost:4000//followrv1.html</guid>

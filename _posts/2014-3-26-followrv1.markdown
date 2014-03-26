@@ -45,3 +45,8 @@ Now that I’m satisfied with the interface and basic favoriting mechanisms, I w
 **Code Cleanup**
 
 I admittedly fell into callback hell. The code could use a good ol’ refactoring to become squeaky clean. I’m thinking about implementing the next version using Promises, which would be quite fun. The CSS is also getting quite gross — I’ll switch over to LESS & Grunt.
+
+Some lovely reviews
+-------------------
+
+<img class="full" src="/img/posts/followrV1/reviews.jpg">
