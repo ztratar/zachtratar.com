@@ -7,6 +7,54 @@
                 <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
                 
                         <item>
+                                <title>Followr V1: New Features and Insights</title>
+                                <description>&lt;p&gt;I &lt;a href=&quot;http://zachtratar.com/followr.html&quot;&gt;wrote about&lt;/a&gt; and launched Followr two weeks ago, a chrome extension designed to help people gain traction on twitter through automated means.&lt;/p&gt;
+
+&lt;p&gt;I was truly surprised by people’s reactions. I expected to be crushed by the community, but nearly everyone was kind and positive. Oh – there was one person who called me mentally delusional. &lt;em&gt;Thanks, stranger!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I received so much great feedback that I decided to act quickly. Today, I’m releasing Followr v1.0.0, the 2nd public release. You can &lt;a href=&quot;http://ztratar.github.io/followr&quot;&gt;download it here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;new_features_in_v1&quot;&gt;New Features In V1&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;History &amp;amp; Conversion Tracking&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can now see what actions Followr is taking in the “History” page. When favorites convert into followers, the specific tweet is marked as “Converted!” You can also see your total gained followers from Followr on the “Setup” page.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Granular Control&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the most requested features was a blacklist, and so it came to be. Followr will never favorite tweets that contain words in the blacklist. Multi-word search queries were also returning poorly relevant results, so Followr now searches for exact query strings.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Improved Interface &amp;amp; Tutorial&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The previous interface was missing a lot of highly relevant information. The new tutorial guides and informs new users. The extension popout now shows you which account Followr is using. I rebuilt the entire interface front the ground up, so pictures will do more justice than words.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#39;full&#39; src=&#39;/img/posts/followrV1/setup-tab.png&#39; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#39;full&#39; src=&#39;/img/posts/followrV1/history-tab.png&#39; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#39;full&#39; src=&#39;/img/posts/followrV1/progress.png&#39; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stealth / Anti-Detection Improvements&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Opening up Followr would previously append a ?followr=true variable to the window — lame. Followr now uses script injection to control Twitter’s native frontend controls. The time interval that dictates when Followr runs has also been randomized.&lt;/p&gt;
+
+&lt;h2 id=&quot;so_whats_next&quot;&gt;So, what’s next?&lt;/h2&gt;
+
+&lt;p&gt;There is still much work to be done and Followr is open-source, so let me know if you want to help out!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Query Effectiveness&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that I’m satisfied with the interface and basic favoriting mechanisms, I want to make fewer actions convert into more followers. To do this, the search queries will be optimized using previous data. I would probably be able to do a better job on this if I centralized some data, but I’m not sure that’s a good choice. Thoughts?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Code Cleanup&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I admittedly fell into callback hell. The code could use a good ol’ refactoring to become squeaky clean. I’m thinking about implementing the next version using Promises, which would be quite fun. The CSS is also getting quite gross — I’ll switch over to LESS &amp;amp; Grunt.&lt;/p&gt;</description>
+                                <pubDate>Wed, 26 Mar 2014 00:00:00 -0700</pubDate>
+                                <link>http://localhost:4000//followrv1.html</link>
+                                <guid isPermaLink="true">http://localhost:4000//followrv1.html</guid>
+                        </item>
+                
+                        <item>
                                 <title>Popcorn Time And Tech&#39;s Duty To Do The Right Thing</title>
                                 <description>&lt;p&gt;&lt;em&gt;When I first started writing this post, I didn’t know where it would end up. This post covers many topics — maybe too many — so I want to emphasize one thing right now: the last section means the most to me. If you’re only going to read for 15-20 seconds, please skip to the last section. Thanks, Zach.&lt;/em&gt;&lt;/p&gt;
 
@@ -506,58 +554,6 @@
                                 <pubDate>Tue, 01 Jan 2013 00:00:00 -0800</pubDate>
                                 <link>http://localhost:4000//new-years.html</link>
                                 <guid isPermaLink="true">http://localhost:4000//new-years.html</guid>
-                        </item>
-                
-                        <item>
-                                <title>Passion Finder</title>
-                                <description>&lt;p&gt;I tend to think about random web ideas quite frequently, so here goes a brain dump!&lt;/p&gt;
-
-&lt;p&gt;At the highest of levels, humanity thrives around individuals finding their passion and taking a “deep dive” into that area. People’s passion often brings people together around ideas and action. Martin Luther King Jr, The Wright Brothers, Steve Jobs… you get the idea.&lt;/p&gt;
-
-&lt;p&gt;But there are many people out there who can’t find their own passion. It’s hard to just sit down at a desk or on a couch and think “What am I passionate about?” People always say we live in an era of information overload, but why is this question so difficult to answer? Information overload causes people to shut off their minds to too many things. Most people don’t have enough holistic information on any given subject to discover that it is their passion.&lt;/p&gt;
-
-&lt;p&gt;And even those who have a sense of direction don’t always have the guts to go out and invest large amounts of time. First, you have to get off the couch. Then, you usually have to buy supplies/equipment. Then, you have to work your ass off. During this process, you’re expectations will be much higher than your actual performance, and you’re likely to lose interest. The select few who overcome each and every obstacle - take each punch as it is thrown - will be those who can truly say they are passionate about something.&lt;/p&gt;
-
-&lt;h2 id=&quot;lets_find_a_solution&quot;&gt;Let’s find a solution&lt;/h2&gt;
-
-&lt;p&gt;This is a big problem. A solution at scale will not only better individuals lives, but also entire communities, nations, and industries.&lt;/p&gt;
-
-&lt;p&gt;I’m going to focus on a single solution: Mentorship (but not in the traditional sense!)&lt;/p&gt;
-
-&lt;p&gt;Mentorship is powerful, as it drastically increases your chances of overcoming every single barrier mentioned above. It’s a flexible solution to an extremely dynamic problem. Jane thinks she is passionate about bird-watching and Bill thinks his calling is Nano-robotics. Both can find mentors. Jane can’t seem to find the right equipment for bird watching. Bill started researching Nano-robotics, but isn’t confident that his background in Analog Signal Processing gives him real potential in the field. Mentors have the indivudual capability to assess these problems and figure out solutions: Jane should buy a pair of WP Naturescape Binoculars and Bill should do selective research on nano-scale signal interference.&lt;/p&gt;
-
-&lt;p&gt;I think the technology-driven mentorship space is ripe for innovation. It’s honestly pretty easy to monetize and is - most importantly - good for humanity.&lt;/p&gt;
-
-&lt;h2 id=&quot;fixing_one_problem_can_solve_another&quot;&gt;Fixing one problem can solve another&lt;/h2&gt;
-
-&lt;p&gt;Mentorship is a great solution to this passion problem… but it, itself, needs fixing. Luckily, it seems easier to fix! 2-for-1… woot!&lt;/p&gt;
-
-&lt;p&gt;Let’s outline the problems with mentorship:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;It’s hard to find a person passionate about a specific subject, let alone a mentor.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Being a mentor is a big hassle. Subject areas that are less common will have mentors who usually have less and less time.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Mentorship is an unstructured process, and expectations are hard to figure out.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;People mentor others they already like and no one else. Mentoring strangers? Pay me.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Ok, so we need to build a product that matches people in a reasonably unstructured fashion around their passions, but is also non-committal. The product also needs to represent each individual in a personal way and get them talking, so they are more open to mentorship in the future. In addition, some sort of reward will get more people talking.&lt;/p&gt;
-
-&lt;p&gt;Great. I’ve got a job, but I also work on pet projects. This is one of them. If you want to be a part, email me at ztratar@gmail.com and let’s get cracking.&lt;/p&gt;</description>
-                                <pubDate>Sat, 06 Oct 2012 00:00:00 -0700</pubDate>
-                                <link>http://localhost:4000//passion-finder.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//passion-finder.html</guid>
                         </item>
                 
         </channel>

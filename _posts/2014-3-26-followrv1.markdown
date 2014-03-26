@@ -1,0 +1,47 @@
+---
+title: 'Followr V1: New Features and Insights'
+layout: 'post'
+img: '/img/posts/followrV1/bg.jpg'
+---
+
+I [wrote about](http://zachtratar.com/followr.html) and launched Followr two weeks ago, a chrome extension designed to help people gain traction on twitter through automated means.
+
+I was truly surprised by people's reactions. I expected to be crushed by the community, but nearly everyone was kind and positive.  Oh -- there was one person who called me mentally delusional. *Thanks, stranger!*
+
+I received so much great feedback that I decided to act quickly. Today, I’m releasing Followr v1.0.0, the 2nd public release. You can [download it here](http://ztratar.github.io/followr).
+
+New Features In V1
+------------------
+
+**History & Conversion Tracking**
+
+You can now see what actions Followr is taking in the “History” page. When favorites convert into followers, the specific tweet is marked as “Converted!” You can also see your total gained followers from Followr on the “Setup” page.
+
+**Granular Control**
+
+One of the most requested features was a blacklist, and so it came to be. Followr will never favorite tweets that contain words in the blacklist. Multi-word search queries were also returning poorly relevant results, so Followr now searches for exact query strings.
+
+**Improved Interface & Tutorial**
+
+The previous interface was missing a lot of highly relevant information. The new tutorial guides and informs new users. The extension popout now shows you which account Followr is using. I rebuilt the entire interface front the ground up, so pictures will do more justice than words.
+
+<img class="full" src="/img/posts/followrV1/setup-tab.png">
+<img class="full" src="/img/posts/followrV1/history-tab.png">
+<img class="full" src="/img/posts/followrV1/progress.png">
+
+**Stealth / Anti-Detection Improvements**
+
+Opening up Followr would previously append a ?followr=true variable to the window — lame. Followr now uses script injection to control Twitter’s native frontend controls. The time interval that dictates when Followr runs has also been randomized.
+
+So, what’s next?
+----------------
+
+There is still much work to be done and Followr is open-source, so let me know if you want to help out!
+
+**Query Effectiveness**
+
+Now that I’m satisfied with the interface and basic favoriting mechanisms, I want to make fewer actions convert into more followers. To do this, the search queries will be optimized using previous data. I would probably be able to do a better job on this if I centralized some data, but I’m not sure that’s a good choice. Thoughts?
+
+**Code Cleanup**
+
+I admittedly fell into callback hell. The code could use a good ol’ refactoring to become squeaky clean. I’m thinking about implementing the next version using Promises, which would be quite fun. The CSS is also getting quite gross — I’ll switch over to LESS & Grunt.

@@ -8205,6 +8205,10 @@ ul.post-images li a:hover {
   float: left;
   margin: 0 20px 0 0;
 }
+.post .post-article p img.full {
+  float: none;
+  margin: 0;
+}
 .post .post-article blockquote {
   border: none;
   padding: 20px 20px 1px;
