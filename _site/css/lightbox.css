@@ -104,7 +104,6 @@ body:after {
   height: 100%;
   cursor: pointer;
   /* Trick IE into showing hover */
-
   display: block;
 }
 /* line 84, ../sass/lightbox.sass */

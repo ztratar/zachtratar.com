@@ -3,18 +3,18 @@
         <channel>
                 <title>Zach Tratar</title>
                 <description>Ramblings on startups, design, engineering, and political philosophy.</description>
-                <link>http://localhost:4000</link>
-                <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+                <link>http://zachtratar.com</link>
+                <atom:link href="http://zachtratar.com/feed.xml" rel="self" type="application/rss+xml" />
                 
                         <item>
                                 <title>Followr V1: New Features and Insights</title>
                                 <description>&lt;p&gt;I &lt;a href=&quot;http://zachtratar.com/followr.html&quot;&gt;wrote about&lt;/a&gt; and launched Followr two weeks ago, a chrome extension designed to help people gain traction on twitter through automated means.&lt;/p&gt;
 
-&lt;p&gt;I was truly surprised by people’s reactions. I expected to be crushed by the community, but nearly everyone was kind and positive. Oh – there was one person who called me mentally delusional. &lt;em&gt;Thanks, stranger!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I was truly surprised by people’s reactions. I expected to be crushed by the community, but nearly everyone was kind and positive.  Oh – there was one person who called me mentally delusional. &lt;em&gt;Thanks, stranger!&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;I received so much great feedback that I decided to act quickly. Today, I’m releasing Followr v1.0.0, the 2nd public release. You can &lt;a href=&quot;http://ztratar.github.io/followr&quot;&gt;download it here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;new_features_in_v1&quot;&gt;New Features In V1&lt;/h2&gt;
+&lt;h2 id=&quot;new-features-in-v1&quot;&gt;New Features In V1&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;History &amp;amp; Conversion Tracking&lt;/strong&gt;&lt;/p&gt;
 
@@ -28,17 +28,15 @@
 
 &lt;p&gt;The previous interface was missing a lot of highly relevant information. The new tutorial guides and informs new users. The extension popout now shows you which account Followr is using. I rebuilt the entire interface front the ground up, so pictures will do more justice than words.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#39;full&#39; src=&#39;/img/posts/followrV1/setup-tab.png&#39; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#39;full&#39; src=&#39;/img/posts/followrV1/history-tab.png&#39; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#39;full&#39; src=&#39;/img/posts/followrV1/progress.png&#39; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;full&quot; src=&quot;/img/posts/followrV1/setup-tab.png&quot; /&gt;
+&lt;img class=&quot;full&quot; src=&quot;/img/posts/followrV1/history-tab.png&quot; /&gt;
+&lt;img class=&quot;full&quot; src=&quot;/img/posts/followrV1/progress.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Stealth / Anti-Detection Improvements&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Opening up Followr would previously append a ?followr=true variable to the window — lame. Followr now uses script injection to control Twitter’s native frontend controls. The time interval that dictates when Followr runs has also been randomized.&lt;/p&gt;
 
-&lt;h2 id=&quot;so_whats_next&quot;&gt;So, what’s next?&lt;/h2&gt;
+&lt;h2 id=&quot;so-whats-next&quot;&gt;So, what’s next?&lt;/h2&gt;
 
 &lt;p&gt;There is still much work to be done and Followr is open-source, so let me know if you want to help out!&lt;/p&gt;
 
@@ -50,29 +48,30 @@
 
 &lt;p&gt;I admittedly fell into callback hell. The code could use a good ol’ refactoring to become squeaky clean. I’m thinking about implementing the next version using Promises, which would be quite fun. The CSS is also getting quite gross — I’ll switch over to LESS &amp;amp; Grunt.&lt;/p&gt;
 
-&lt;h2 id=&quot;some_lovely_reviews&quot;&gt;Some lovely reviews&lt;/h2&gt;
+&lt;h2 id=&quot;some-lovely-reviews&quot;&gt;Some lovely reviews&lt;/h2&gt;
 
-&lt;p&gt;&lt;img class=&#39;full&#39; src=&#39;/img/posts/followrV1/reviews.jpg&#39; /&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img class=&quot;full&quot; src=&quot;/img/posts/followrV1/reviews.jpg&quot; /&gt;&lt;/p&gt;
+</description>
                                 <pubDate>Wed, 26 Mar 2014 00:00:00 -0700</pubDate>
-                                <link>http://localhost:4000//followrv1.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//followrv1.html</guid>
+                                <link>http://zachtratar.com//followrv1.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//followrv1.html</guid>
                         </item>
                 
                         <item>
                                 <title>Popcorn Time And Tech&#39;s Duty To Do The Right Thing</title>
                                 <description>&lt;p&gt;&lt;em&gt;When I first started writing this post, I didn’t know where it would end up. This post covers many topics — maybe too many — so I want to emphasize one thing right now: the last section means the most to me. If you’re only going to read for 15-20 seconds, please skip to the last section. Thanks, Zach.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;my_apathy&quot;&gt;My Apathy&lt;/h2&gt;
+&lt;h2 id=&quot;my-apathy&quot;&gt;My Apathy&lt;/h2&gt;
 
 &lt;p&gt;I vividly remember the first time I used Napster. I was 10.&lt;/p&gt;
 
-&lt;p&gt;My cousin and I were playing video games when his older sister began to play a new Blink-182 song on her computer. I ran over to check it out and saw a blue download bar moving at speeds I had never seen - turns out my Uncle had just bought a T1 internet connection.&lt;/p&gt;
+&lt;p&gt;My cousin and I were playing video games when his older sister began to play a new Blink-182 song on her computer. I ran over to check it out and saw a blue download bar moving at speeds I had never seen - turns out my Uncle had just bought a T1 internet connection.    &lt;/p&gt;
 
 &lt;p&gt;My cousin and I stayed up all night downloading music illegally. We didn’t know any better. We had only a faint idea of copyright law and this program, so readily accessible, surely didn’t &lt;em&gt;feel&lt;/em&gt; bad. Bad things are hard to do, &lt;em&gt;right?&lt;/em&gt; Plus, this was fun! Bad things can’t be fun, &lt;em&gt;right?&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Although I stopped downloading and torrenting files years ago, I was never truly disturbed by pirating. I didn’t like the idea of taking someones work for free, but my disdain wasn’t at a level where I felt like I wanted to say anything, let alone take action. When I watched Governments destroy the lives of The Pirate Bay creators, I vilified the Governments. If my friend loaded up a torrent to stream on a projector, I wouldn’t think twice… I’d just go in the kitchen and make some popcorn.&lt;/p&gt;
 
-&lt;h2 id=&quot;popcorn_time&quot;&gt;Popcorn Time&lt;/h2&gt;
+&lt;h2 id=&quot;popcorn-time&quot;&gt;Popcorn Time&lt;/h2&gt;
 
 &lt;p&gt;I was shown Popcorn Time a couple weeks ago and my mind was subsequently blown. Popcorn Time was beautiful — it was the first beautiful pirating application I had ever seen. I could search for nearly any movie and have it playing in a matter of seconds with two clicks. This was something my Mom could use.&lt;/p&gt;
 
@@ -86,13 +85,13 @@
 
 &lt;p&gt;Even with all of these things preventing piracy, over half of all Americans have admitted to partaking. Half — that’s a lot!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#39;http://images.dailytech.com/nimage/Piracy_Percentages_Wide.png&#39; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://images.dailytech.com/nimage/Piracy_Percentages_Wide.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Remove the unpleasing experience from piracy and what can happen? Popcorn Time will not be the last application open this door. It has proven that you can layer a great, seemingly clean experience on top of an illicit foundation. They’ve shown that doing so can result in a flock of people wanting more — after all, everyone needs to save money in these tough times.&lt;/p&gt;
 
 &lt;p&gt;I don’t know how many people would use something like Popcorn Time, but I think the number could be extraordinarily high — so high that it may not only do significant damage, but also shake the media industry into a partial collapse. I don’t want that to happen. The media industry creates beautiful pieces of artwork that help inspire and define generations. It enables dreams and floods people with shared imaginations in a sometimes otherwise dark world. It’s an important asset for this nation and the world.&lt;/p&gt;
 
-&lt;h2 id=&quot;the_media_industry&quot;&gt;The Media Industry&lt;/h2&gt;
+&lt;h2 id=&quot;the-media-industry&quot;&gt;The Media Industry&lt;/h2&gt;
 
 &lt;p&gt;The media industry knows they need to adapt to continue making money, but how should they adapt? It’s a difficult question to answer, so let’s get some perspective.&lt;/p&gt;
 
@@ -110,7 +109,7 @@
 
 &lt;p&gt;Legislation that hits a good middle ground is possible if and only if the right people are working on it. I think the leaders of the tech industry need to to go the extra mile, work with Hollywood, and spearhead their own version of fresh, internet-preserving copyright protection law.&lt;/p&gt;
 
-&lt;h2 id=&quot;doing_the_right_thing&quot;&gt;Doing The Right Thing&lt;/h2&gt;
+&lt;h2 id=&quot;doing-the-right-thing&quot;&gt;Doing The Right Thing&lt;/h2&gt;
 
 &lt;p&gt;I just ranted about the media industry — can these same concepts be generalized? Should they be? Let’s think philosophically.&lt;/p&gt;
 
@@ -120,27 +119,30 @@
 
 &lt;p&gt;We’re all human. Transition is extremely hard — it is emotionally draining upon individuals and society. For technology to make the most optimal impact, it must be smooth and welcomed, its benefits clear as day and its intentions unquestionably pure.&lt;/p&gt;
 
-&lt;p&gt;People should be uniting around Science and Technology, not against it. Technology must be viewed as something magical instead of malicious. It is so easy for technology, computing especially, to seem cold, self-interested, and reckless; making it friendly, warm, and benevolent will take effort.&lt;/p&gt;
+&lt;p&gt;People should be uniting around Science and Technology, not against it. Technology must be viewed as something magical instead of malicious. It is so easy for technology, computing especially, to seem cold, self-interested, and reckless; making it friendly, warm, and benevolent will take effort. &lt;/p&gt;
 
 &lt;p&gt;Technology has enabled piracy to flip the media industry upside down and that is just the beginning. Very soon, technology will start having more pronounced effects on labor and manufacturing through 3D printing and the internet of things. We won’t be talking about piracy and media then, we’ll be talking about millions of jobs and economic conditions never studied in recorded history. As a whole, our quest for innovation must be balanced with careful wisdom and — I’ll say it — an appreciation for the status quo.&lt;/p&gt;
 
-&lt;p&gt;We cannot enact change that affects billions of lives and then say “fend for yourself, figure out the new rules”. I believe we must hold out our hands, share a vision for what is newly possible, and, most importantly, show people what role they can play.&lt;/p&gt;
+&lt;p&gt;We cannot enact change that affects billions of lives and then say “fend for yourself, figure out the new rules”. I believe we must hold out our hands, share   a vision for what is newly possible, and, most importantly, show people what role they can play.&lt;/p&gt;
 
 &lt;p&gt;That is in our ability — &lt;em&gt;no ones else’s&lt;/em&gt;, and thus I believe it is our duty.&lt;/p&gt;
 
-&lt;p&gt;&lt;small&gt;&lt;em&gt;Thanks to my friends for feedback on this post: Andrew Chapello, Andrew Hsu, Peter Pelberg, and Mustafa Khan&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;small&gt;&lt;em&gt;Thanks to my friends for feedback on this post: Andrew Chapello, Andrew Hsu, Peter Pelberg, and Mustafa Khan&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
+</description>
                                 <pubDate>Wed, 19 Mar 2014 00:00:00 -0700</pubDate>
-                                <link>http://localhost:4000//popcorn.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//popcorn.html</guid>
+                                <link>http://zachtratar.com//popcorn.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//popcorn.html</guid>
                         </item>
                 
                         <item>
                                 <title>Followr, Twitter Bots, and Ethical Considerations</title>
-                                <description>&lt;p&gt;When you join Twitter you have no followers — it’s like being brought into an empty room and being told “have fun!” Even though you can stare at a wall for 2 minutes before leaving, the average person is going to leave a heck of a lot quicker. You can import your friends and contacts lists, but that’s a long shot – chances are those people aren’t using Twitter either. For people to follow you, you need to fill out a fancy bio, tweet some interesting things, and hope people find you by luck. Oh, but Twitter’s sign up process must help… right? Wrong. It tells you to follow influencers, the people who are least likely to listen to what you have to say.&lt;/p&gt;
+                                <description>&lt;p&gt;Twitter has a massive problem: new users have an extremely difficult time getting started. People who give it a chance and invest real time into the network usually fizzle out after a couple days, leaving without a clue as to what makes it great. Case in point: I now consider myself an active Twitter user, though it took 6 tries and 5 years to finally ‘get it’. Oh, and I’m in the frigin’ tech industry!&lt;/p&gt;
+
+&lt;p&gt;When you join Twitter you have no followers — it’s like being brought into an empty room and being told “have fun!” Even though you can stare at a wall for 2 minutes before leaving, the average person is going to leave a heck of a lot quicker. You can import your friends and contacts lists, but that’s a long shot – chances are those people aren’t using Twitter either. For people to follow you, you need to fill out a fancy bio, tweet some interesting things, and hope people find you by luck. Oh, but Twitter’s sign up process must help… right? Wrong. It tells you to follow influencers, the people who are least likely to listen to what you have to say.&lt;/p&gt;
 
 &lt;p&gt;All of these barriers hit you in the face before you derive any value from the product. I believe Twitter has a potential thousands of times greater than its current footprint, but it has to fix this problem. Until it does, I believe helping them out a bit to be a good thing.&lt;/p&gt;
 
-&lt;h2 id=&quot;opportunity_in_the_depths&quot;&gt;Opportunity In The Depths&lt;/h2&gt;
+&lt;h2 id=&quot;opportunity-in-the-depths&quot;&gt;Opportunity In The Depths&lt;/h2&gt;
 
 &lt;p&gt;The beauty of Twitter is its simple architecture. There is a lot you can do with it; even though the default functionality is lacking, we can make it better ourselves.&lt;/p&gt;
 
@@ -154,23 +156,21 @@
 
 &lt;p&gt;Twitter bots can take many types of actions, including following and then unfollowing users, auto-replying, and favoriting tweets. All of these actions are disingenuous, favoriting being the least. That’s the negative. The positive lies with the cold, hard fact that favoriting tweets gets you followers — the same possible followers you likely need as a new user to make Twitter useful. So what if you could outweigh the negative with the positive?&lt;/p&gt;
 
-&lt;h2 id=&quot;introducing_followr&quot;&gt;Introducing Followr&lt;/h2&gt;
+&lt;h2 id=&quot;introducing-followr&quot;&gt;Introducing Followr&lt;/h2&gt;
 
 &lt;p&gt;Today, I’m releasing a little project called &lt;a href=&quot;http://ztratar.github.io/followr&quot;&gt;Followr&lt;/a&gt; to the public. Followr is a Twitter bot, pure and simple, but it aims to be very different than the status quo in three ways:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Instead of being a menace to the Twitter ecosystem, &lt;strong&gt;Followr’s goal is to be the first truly tasteful bot&lt;/strong&gt; — the first bot designed to actually help holistically improve Twitter.&lt;/li&gt;
-
-&lt;li&gt;&lt;strong&gt;Followr is open-source&lt;/strong&gt;. I’ll be happy if others pitch in to make it even better.&lt;/li&gt;
-
-&lt;li&gt;Followr is a chrome extension. It uses the native Twitter website as a proxy to work its magic, so &lt;strong&gt;it can’t be shut down with ease&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Instead of being a menace to the Twitter ecosystem, &lt;strong&gt;Followr’s goal is to be the first truly tasteful bot&lt;/strong&gt; — the first bot designed to actually help holistically improve Twitter.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Followr is open-source&lt;/strong&gt;. I’ll be happy if others pitch in to make it even better.&lt;/li&gt;
+  &lt;li&gt;Followr is a chrome extension. It uses the native Twitter website as a proxy to work its magic, so &lt;strong&gt;it can’t be shut down with ease&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;The difference between Followr and traditional Twitter bots lies in the net value created. A tasteful bot does vastly more good than harm.&lt;/p&gt;
+&lt;p&gt;The difference between Followr and traditional Twitter bots lies in the net value created. A tasteful bot does vastly more good than harm. &lt;/p&gt;
 
 &lt;p&gt;I would be lying if I said Followr is a ‘pure’ tool. The truth is that results matter more: Followr makes Twitter a more friendly, usable network. It enables more people to discover you through shared interests. It can theoretically help give a voice to every individual whose at an unfair advantage because they came to the game late. I sincerely hope it can help you as it has helped the others I started it for.&lt;/p&gt;
 
-&lt;h2 id=&quot;how_does_it_work_how_will_it_work&quot;&gt;How does it work, how will it work?&lt;/h2&gt;
+&lt;h2 id=&quot;how-does-it-work-how-will-it-work&quot;&gt;How does it work, how will it work?&lt;/h2&gt;
 
 &lt;p&gt;The first version, released today, has minimal functionality. It takes a list of topics you like, searches for tweets about them, and favorites a couple of them. Whereas traditional bots favorite a massive amount of tweets and spam, Followr only favorites 12 or so tweets every 30 minutes your browser is open. For Twitter members with high follower counts this won’t do much, but for those new to the system it can make the experience. Followr also rewards you with more favorites when you interact with others through legitimate discussions and retweets.&lt;/p&gt;
 
@@ -192,22 +192,23 @@
 
 &lt;p&gt;Have an idea? We can talk about it on Github Issues or on Twitter! Shoot me a tweet &lt;a href=&quot;http://twitter.com/zachtratar&quot;&gt;@zachtratar&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;final_thoughts&quot;&gt;Final Thoughts&lt;/h2&gt;
+&lt;h2 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h2&gt;
 
 &lt;p&gt;Some will disagree with this approach and that’s ok. I know it’s a tad controversial, but I find it naive to deem good automation impossible. It can be done. Since Followr is a chrome extension, it will auto-update on people’s browsers as improvements are created. I’m excited to what the future holds.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://ztratar.github.io/followr&quot;&gt;You can download Followr here&lt;/a&gt;. If you like it, please review it! Don’t like it? I’m all ears.&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&quot;http://ztratar.github.io/followr&quot;&gt;You can download Followr here&lt;/a&gt;. If you like it, please review it! Don’t like it? I’m all ears.&lt;/p&gt;
+</description>
                                 <pubDate>Tue, 11 Mar 2014 00:00:00 -0700</pubDate>
-                                <link>http://localhost:4000//followr.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//followr.html</guid>
+                                <link>http://zachtratar.com//followr.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//followr.html</guid>
                         </item>
                 
                         <item>
                                 <title>My Reply To Senator Feinstein</title>
                                 <description>&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Dianne Feinstein, Senator for California and Head of the Intelligence committee, just sent out an email supporting the NSA surveillance programs. I put her email in the comments section and the PDF she attached can be found &lt;a href=&quot;/files/Feinstein-Chronicle.pdf&quot;&gt;here&lt;/a&gt;, if you want to read the full text. This is my reply.&lt;/p&gt;
-&lt;/blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;Dianne Feinstein, Senator for California and Head of the Intelligence committee, just sent out an email supporting the NSA surveillance programs. I put her email in the comments section and the PDF she attached can be found &lt;a href=&quot;/files/Feinstein-Chronicle.pdf&quot;&gt;here&lt;/a&gt;, if you want to read the full text. This is my reply.&lt;/p&gt;
+  &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Senator Feinstein,&lt;/p&gt;
@@ -230,15 +231,17 @@
 
 &lt;p&gt;What are these other means? I’d like different answers explored through our great legislative and governmental processes. Please make that happen.&lt;/p&gt;
 
-&lt;p&gt;Have a good day, Zach&lt;/p&gt;</description>
+&lt;p&gt;Have a good day,
+Zach&lt;/p&gt;
+</description>
                                 <pubDate>Fri, 07 Mar 2014 00:00:00 -0800</pubDate>
-                                <link>http://localhost:4000//feinstein.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//feinstein.html</guid>
+                                <link>http://zachtratar.com//feinstein.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//feinstein.html</guid>
                         </item>
                 
                         <item>
                                 <title>What I&#39;m Grateful For</title>
-                                <description>&lt;p&gt;A couple of my friends recently shared a &lt;a href=&quot;http://www.youtube.com/watch?v=oHv6vTKD6lg&amp;feature=c4-overview-vl&amp;list=PLzvRx_johoA8PC6S5k5S2SszRQOR8oSEa&quot;&gt;great video about gratitude&lt;/a&gt; and how it correlates with one’s own happiness.&lt;/p&gt;
+                                <description>&lt;p&gt;A couple of my friends recently shared a &lt;a href=&quot;http://www.youtube.com/watch?v=oHv6vTKD6lg&amp;amp;feature=c4-overview-vl&amp;amp;list=PLzvRx_johoA8PC6S5k5S2SszRQOR8oSEa&quot;&gt;great video about gratitude&lt;/a&gt; and how it correlates with one’s own happiness.&lt;/p&gt;
 
 &lt;p&gt;I was driving home last night when I started thinking about this video again. I thought: what am I grateful for? Quite ironically, right when this thought popped in my mind some jagoff cut me off and nearly hit a Prius to my right.&lt;/p&gt;
 
@@ -247,51 +250,46 @@
 &lt;p&gt;But in all seriousness, time to list off some great stuff:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;I am grateful for genuine people.&lt;/strong&gt; It’s too damned easy to get caught up in fake facades and societal expectations these days. People who challenge this social status quo and simply represent their true selves are the most beautiful of all.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;I am grateful to be in a world and nation rich in infrastructure.&lt;/strong&gt; The modern world is amazing. For those lucky enough to be born with access to the internet, modern transportation, complex resource distribution systems, etc, the world is quite literally our playground. We can learn whatever we want, do whatever we want, say whatever we want – build whatever we want. Modern infrastructure has given us the means to attain a level of individual liberty unattainable by our ancestors. Sure, it also comes with societal expectations and imperfect systems, but I think those are merely bumps on a long road; they can be overcome.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;I am grateful for the people, both modern and ancient, who built the infrastructure of the world.&lt;/strong&gt; This includes everyone – not just the CEOs of the olden days. I didn’t invent the car, but I get to drive one. I didn’t discover electricity, but I get to show you this set of words because millions of electrons move in unison. I didn’t have to fight for civil rights, but I get to have friends of multiple cultures and races. Every single thing we know and use on this planet was discovered or created by someone just like us. Each invention and piece of forward progress started as as small idea in someone’s mind and grew into something grand. Even though so many problems still exist, so many have been solved. Mad props, old timers!&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;I am grateful for everyone fighting to make tomorrow better than today.&lt;/strong&gt; The world presents us many opportunities and it’s not easy to determine how impactful our role truly is. Being self-critical in this environment and taking action to ensure your in the right place requires bravery, pure and simple.&lt;/p&gt;
-&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I am grateful for genuine people.&lt;/strong&gt; It’s too damned easy to get caught up in fake facades and societal expectations these days. People who challenge this social status quo and simply represent their true selves are the most beautiful of all.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I am grateful to be in a world and nation rich in infrastructure.&lt;/strong&gt; The modern world is amazing. For those lucky enough to be born with access to the internet, modern transportation, complex resource distribution systems, etc, the world is quite literally our playground. We can learn whatever we want, do whatever we want, say whatever we want – build whatever we want. Modern infrastructure has given us the means to attain a level of individual liberty unattainable by our ancestors. Sure, it also comes with societal expectations and imperfect systems, but I think those are merely bumps on a long road; they can be overcome.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I am grateful for the people, both modern and ancient, who built the infrastructure of the world.&lt;/strong&gt; This includes everyone – not just the CEOs of the olden days. I didn’t invent the car, but I get to drive one. I didn’t discover electricity, but I get to show you this set of words because millions of electrons move in unison. I didn’t have to fight for civil rights, but I get to have friends of multiple cultures and races. Every single thing we know and use on this planet was discovered or created by someone just like us. Each invention and piece of forward progress started as as small idea in someone’s mind and grew into something grand. Even though so many problems still exist, so many have been solved. Mad props, old timers!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I am grateful for everyone fighting to make tomorrow better than today.&lt;/strong&gt; The world presents us many opportunities and it’s not easy to determine how impactful our role truly is. Being self-critical in this environment and taking action to ensure your in the right place requires bravery, pure and simple.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;And onto some of the personal stuff:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;I am grateful to have such a loving family.&lt;/strong&gt; It’s always wonderful to talk to my mom, cousins, aunts and uncles. They’re great people and whenever I chat with any of them I feel like I’m home.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;I am grateful to have the best friends in the world.&lt;/strong&gt; You all are frigin’ rockstars and have helped me in so many ways.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;I am grateful to live in one of the most beautiful locations I’ve ever known.&lt;/strong&gt; The sunrise peering over the mountains in the bay makes all morning commutes irrationally energizing.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;I am grateful to have an awesome set of colleagues.&lt;/strong&gt; Having managed so many parts of a large recruiting process, I’m reminded all the time how unique and rare it is to have this group around me and fighting for the same mission.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;I am grateful to be working on something that is truly meaningful.&lt;/strong&gt; It’s all about bringing people together in ways they didn’t believe were possible… helping people find their true home. Home sweet home!&lt;/p&gt;
-&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I am grateful to have such a loving family.&lt;/strong&gt; It’s always wonderful to talk to my mom, cousins, aunts and uncles. They’re great people and whenever I chat with any of them I feel like I’m home.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I am grateful to have the best friends in the world.&lt;/strong&gt; You all are frigin’ rockstars and have helped me in so many ways.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I am grateful to live in one of the most beautiful locations I’ve ever known.&lt;/strong&gt; The sunrise peering over the mountains in the bay makes all morning commutes irrationally energizing.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I am grateful to have an awesome set of colleagues.&lt;/strong&gt; Having managed so many parts of a large recruiting process, I’m reminded all the time how unique and rare it is to have this group around me and fighting for the same mission.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I am grateful to be working on something that is truly meaningful.&lt;/strong&gt; It’s all about bringing people together in ways they didn’t believe were possible… helping people find their true home. Home sweet home!&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;em&gt;What are you grateful for? I’d like to know if you’re willing to share. Tweet it at me below.&lt;/em&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;em&gt;What are you grateful for? I’d like to know if you’re willing to
+share. Tweet it at me below.&lt;/em&gt;&lt;/p&gt;
+</description>
                                 <pubDate>Thu, 26 Sep 2013 00:00:00 -0700</pubDate>
-                                <link>http://localhost:4000//grateful.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//grateful.html</guid>
+                                <link>http://zachtratar.com//grateful.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//grateful.html</guid>
                         </item>
                 
                         <item>
@@ -318,7 +316,7 @@
 
 &lt;p&gt;Now that we know we’re being recorded and likely analyzed, let’s jump into the high level of what this all means.&lt;/p&gt;
 
-&lt;h2 id=&quot;the_fall_of_functioning_democracy&quot;&gt;The Fall of Functioning Democracy&lt;/h2&gt;
+&lt;h2 id=&quot;the-fall-of-functioning-democracy&quot;&gt;The Fall of Functioning Democracy&lt;/h2&gt;
 
 &lt;p&gt;History tends to repeat itself as complex sociological and governmental patterns emerge. Even as far &lt;a href=&quot;http://en.wikipedia.org/wiki/Plato&#39;s_five_regimes&quot;&gt;back as Plato&lt;/a&gt;, there have been theorized cycles for governmental systems.&lt;/p&gt;
 
@@ -327,7 +325,7 @@
 &lt;p&gt;With no strong influence or unified government to cover these holes, spreading power can create a slowing of decision-making, inefficiencies in process, and thus both instability and mistrust. Instability leads to a populace that craves security, and as security increases over time, it almost always falls into tyranny. The founding fathers knew this, which led them to say things like:&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;“Those who surrender freedom for security will not have, nor do they deserve, either one.” - Benjamin Franklin&lt;/p&gt;
+  &lt;p&gt;“Those who surrender freedom for security will not have, nor do they deserve, either one.” - Benjamin Franklin&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;This nation was founded upon the primary ideal of freedom. You as a citizen must never passively nor actively be hindered from thinking, acting, and speaking your mind. A functional democracy requires its populace to be both absolutely free and well-informed.&lt;/p&gt;
@@ -344,7 +342,7 @@
 
 &lt;p&gt;Now, I know you’re thinking “They’ll still never come after me”. But in that logic lies a tricky problem.&lt;/p&gt;
 
-&lt;h2 id=&quot;why_we_should_all_care&quot;&gt;Why We Should All Care&lt;/h2&gt;
+&lt;h2 id=&quot;why-we-should-all-care&quot;&gt;Why We Should All Care&lt;/h2&gt;
 
 &lt;p&gt;The cat is now out of the bag. The public now &lt;em&gt;knows&lt;/em&gt; that the US government is running PRISM-like surveillance programs. Before the leak, using data from programs like this to jail or suppress any individuals’ freedoms would entail high risk. The program could be exposed to the public and the intelligence agency would be under fire.&lt;/p&gt;
 
@@ -374,39 +372,40 @@
 
 &lt;p&gt;Are we sure we want to live in that world? Are we sure our children and grand-children will want to live in that world?&lt;/p&gt;
 
-&lt;p&gt;It’s completely possible that we are making that choice right now.&lt;/p&gt;</description>
+&lt;p&gt;It’s completely possible that we are making that choice right now.&lt;/p&gt;
+</description>
                                 <pubDate>Tue, 11 Jun 2013 00:00:00 -0700</pubDate>
-                                <link>http://localhost:4000//prism.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//prism.html</guid>
+                                <link>http://zachtratar.com//prism.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//prism.html</guid>
                         </item>
                 
                         <item>
                                 <title>Training like Tesla: An Experiment of the Mind</title>
                                 <description>&lt;p&gt;I’m going to undergo an experiment with which I am the test subject.&lt;/p&gt;
 
-&lt;p&gt;The idea manifested while I was reading ”&lt;a href=&quot;http://www.amazon.com/My-Inventions-Autobiography-introduction-ebook/dp/B004W48LAG&quot;&gt;My Inventions: The autobiography of Nikola Tesla&lt;/a&gt;”. The man is believed among scientific minds to have been savant-like and it certainly shows in his writing.&lt;/p&gt;
+&lt;p&gt;The idea manifested while I was reading “&lt;a href=&quot;http://www.amazon.com/My-Inventions-Autobiography-introduction-ebook/dp/B004W48LAG&quot;&gt;My Inventions: The autobiography of Nikola Tesla&lt;/a&gt;”. The man is believed among scientific minds to have been savant-like and it certainly shows in his writing.&lt;/p&gt;
 
 &lt;p&gt;It is easy to make assumptions as to how an engineer could write, but Nikola defies those assumptions. He defies the standards to which people apply him, and by all counts he did that in absolutely every field in his life. Almost no human to have ever lived has accomplished as much as Nikola.&lt;/p&gt;
 
 &lt;p&gt;As with any person who exhibits abilities seemingly beyond our grasp, we begin to wonder how they got there in the first place. What made them great? Did they eat their wheaties? Did they go through special training? Were they born with it? Entire debates have forged through history around nature versus nurture for the explicit purpose of understanding what makes one human being more productive to society than another.&lt;/p&gt;
 
-&lt;h2 id=&quot;the_power_of_imagination&quot;&gt;The power of imagination&lt;/h2&gt;
+&lt;h2 id=&quot;the-power-of-imagination&quot;&gt;The power of imagination&lt;/h2&gt;
 
-&lt;p&gt;And here, at least in the reference of Nikola, we have data. Well… we have what he wrote down, which we can only assume to be as honest as possible.&lt;/p&gt;
+&lt;p&gt;And here, at least in the reference of Nikola, we have data. Well… we have what he wrote down, which we can only assume to be as honest as possible. &lt;/p&gt;
 
 &lt;p&gt;What made Nikola great was his precise and grandiose imagination. He grew up with an intense visual imagination that tormented him when he was unable to control it. It would present itself forcibly unto his mind when he was trying to interact in the real world. He grew up without confidence in himself thinking that this was a shackle destined to cripple his life-long worth and validity. But he learned to control it. And for all the pain he suffered, the sheer beauty of the upside is hard to match. I could do no better to describe it than he:&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;“I soon discovered that my best comfort was attained if I simply went on in my vision further and further, getting new impressions all the time, and so I began to travel; of course, in my mind. Every night, (and sometimes during the day), when alone, I would start on my journeys – see new places, cities and countries; live there, meet people and make friendship and acquaintances&lt;/p&gt;
+  &lt;p&gt;“I soon discovered that my best comfort was attained if I simply went on in my vision further and further, getting new impressions all the time, and so I began to travel; of course, in my mind. Every night, (and sometimes during the day), when alone, I would start on my journeys – see new places, cities and countries; live there, meet people and make friendship and acquaintances…&lt;/p&gt;
 
-&lt;p&gt;This I did constantly until I was about seventeen, when my thoughts turned seriously to invention. Then I observed to my delight that I could visualize with the greatest facility. I need no models, drawings or experiments. I could picture them all as real in my mind… I do not rush into actual work. When I get an idea, I start at once building it up in my imagination. I change the construction, make improvements and operate the device in my mind. It is absolutely immaterial to me whether I run my turbine in thought or test it in my shop.”&lt;/p&gt;
+  &lt;p&gt;This I did constantly until I was about seventeen, when my thoughts turned seriously to invention. Then I observed to my delight that I could visualize with the greatest facility. I need no models, drawings or experiments. I could picture them all as real in my mind… I do not rush into actual work. When I get an idea, I start at once building it up in my imagination. I change the construction, make improvements and operate the device in my mind. It is absolutely immaterial to me whether I run my turbine in thought or test it in my shop.”&lt;/p&gt;
 
-&lt;p&gt;- Nikola Tesla&lt;/p&gt;
+  &lt;p&gt;- Nikola Tesla&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;If you’re an engineer or “builder” you’re probably feeling jealous right about now; or maybe you think he is crazy. Either way, this guy’s imagination was a private sandbox with zero limitations. It emulated reality so accurately that he could invent and discover in ways that others could not do in hundreds of lifetimes. The electricity powering your screen right now was surely, at least at point, transmitted as alternating current. Nikola did that. Let’s also not forget about the &lt;a href=&quot;http://www.pbs.org/tesla/ll/ll_whoradio.html&quot;&gt;Radio&lt;/a&gt; or &lt;a href=&quot;http://www.fi.edu/learn/case-files/tesla/motor.html&quot;&gt;Electric Motor&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;is_this_an_innate_talent_or_is_it_developed&quot;&gt;Is this an innate talent or is it developed?&lt;/h2&gt;
+&lt;h2 id=&quot;is-this-an-innate-talent-or-is-it-developed&quot;&gt;Is this an innate talent or is it developed?&lt;/h2&gt;
 
 &lt;p&gt;Everyday tasks are not usually intense enough to put stress on the imagination. They are relatively easy and entail things like planning out the next couple minutes of your day, writing short emails, or remembering where the checkbook is located.&lt;/p&gt;
 
@@ -414,78 +413,81 @@
 
 &lt;p&gt;We don’t usually question this natural wall. But change your perspective on imagination for a moment and think of it &lt;em&gt;purely&lt;/em&gt; as a skill you can develop. Just as you can rate your other abilities – maybe you’re a great coder or orator – rate your imagination. How &lt;em&gt;useful&lt;/em&gt; is it to you right now?&lt;/p&gt;
 
-&lt;p&gt;To me, it seems the utility provided by one’s imagination is in direct correlation with this wall’s location. The more in-depth you can think with absolute clarity before ramming into the barrier, the better use you will get out of your imagination.&lt;/p&gt;
+&lt;p&gt;To me, it seems the utility provided by one’s imagination is in direct correlation with this wall’s location. The more in-depth you can think with absolute clarity before ramming into the barrier, the better use you will get out of your imagination. &lt;/p&gt;
 
 &lt;p&gt;Thus, we want to learn to move our wall; we want to push it further and further, inch by inch, until its limiting effects are diminished and we gain a newfound freedom in our own imagination. Nikola’s wall was miles and miles away during his peak but he admits to not having the same abilities as a child, so it seems that this is an ability one can foster.&lt;/p&gt;
 
 &lt;p&gt;Perhaps Nikola’s mental travels, inventions, and constant use of his imagination trained him. Perhaps those experiences pushed his wall further and further until he was left with a giant sandbox. That’s the experiment I will attempt to undergo.&lt;/p&gt;
 
-&lt;h2 id=&quot;building_a_sandbox&quot;&gt;Building a sandbox&lt;/h2&gt;
+&lt;h2 id=&quot;building-a-sandbox&quot;&gt;Building a sandbox&lt;/h2&gt;
 
-&lt;p&gt;First off, I am not attempting to say that I am more fit to do this than anyone else. In fact, my goal is to “prove” the opposite: I want to see if this ability is attainable by anyone. I want to experience the upside: a truly lean process of ideation and iteration that removes the physical complexities (one that would make &lt;a href=&quot;http://en.wikipedia.org/wiki/Steve_Blank&quot;&gt;Steven Blank&lt;/a&gt; proud).&lt;/p&gt;
+&lt;p&gt;First off, I am not attempting to say that I am more fit to do this than anyone else. In fact, my goal is to “prove” the opposite: I want to see if this ability is attainable by anyone. I want to experience the upside: a truly lean process of ideation and iteration that removes the physical complexities (one that would make &lt;a href=&quot;http://en.wikipedia.org/wiki/Steve_Blank&quot;&gt;Steven Blank&lt;/a&gt; proud). &lt;/p&gt;
 
-&lt;p&gt;Luckily, I find it easy to rate, with precision, my ability to imagine &lt;em&gt;things&lt;/em&gt;; I think I know where my wall is located. As such, I’m going to do my best to track any progress I make.&lt;/p&gt;
+&lt;p&gt;Luckily, I find it easy to rate, with precision, my ability to imagine &lt;em&gt;things&lt;/em&gt;; I think I know where my wall is located. As such, I’m going to do my best to track any progress I make. &lt;/p&gt;
 
 &lt;p&gt;I’ll train the same way Nikola did: first imagining things I’ve already seen and places I’ve already been. My childhood home, neighborhood, travel destinations, products I use, objects, etc. I’m going to imagine the people I’ve met, the sounds I’ve heard, and even the emotions I’ve felt. Following that I’ll see if I can go further down the path of creating new experiences and inventions. Specifically, the idea is to create increasingly complex scenes and visualize increasingly complex problems until the wall is inches away. At that point, the test is whether or not the wall can be moved and if it will stay once moved.&lt;/p&gt;
 
 &lt;p&gt;Nikola traversed the worlds of physics and electromagnetism in his mind. He manifested his findings into real world developments. I hope the same can be done for the digital world.&lt;/p&gt;
 
 &lt;p&gt;The more data, the better the experiment: If anyone is interested in embarking on this journey/test with me, let me know (email, twitter, facebook – they all work). I’m beyond excited.&lt;/p&gt;
-&lt;hr /&gt;&lt;p class=&#39;small&#39;&gt;
-	&lt;img alt=&#39;Marc thinks I will go insane&#39; src=&#39;https://dl.dropboxusercontent.com/u/5631577/blog/Screen%20Shot%202013-04-12%20at%203.27.01%20PM.png&#39; /&gt;
+
+&lt;hr /&gt;
+
+&lt;p class=&quot;small&quot;&gt;
+	&lt;img src=&quot;https://dl.dropboxusercontent.com/u/5631577/blog/Screen%20Shot%202013-04-12%20at%203.27.01%20PM.png&quot; alt=&quot;Marc thinks I will go insane&quot; /&gt;
 	Thank you to those who helped review this post: Eric, Andrew, Vinay, Chris, Rajaishi, Raj, Dino, and Nik
 
 	... and Marc
-&lt;/p&gt;</description>
+&lt;/p&gt;
+</description>
                                 <pubDate>Fri, 12 Apr 2013 00:00:00 -0700</pubDate>
-                                <link>http://localhost:4000//tesla.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//tesla.html</guid>
+                                <link>http://zachtratar.com//tesla.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//tesla.html</guid>
                         </item>
                 
                         <item>
                                 <title>The New Facebook News Feed: A UX Breakdown</title>
                                 <description>&lt;p&gt;The internet is blowing up with sensationalized articles on the new &lt;a href=&quot;https://www.facebook.com/about/newsfeed&quot;&gt;Facebook News Feed&lt;/a&gt;. I’m not a fan of that, so instead let’s talk about design principles and user behavior.&lt;/p&gt;
 
-&lt;h2 id=&quot;the_stories_are_frigin_huge&quot;&gt;The “Stories” are frigin HUGE&lt;/h2&gt;
+&lt;h2 id=&quot;the-stories-are-frigin-huge&quot;&gt;The “Stories” are frigin HUGE&lt;/h2&gt;
 
-&lt;p&gt;This was the biggest surprise in my opinion.&lt;/p&gt;
+&lt;p&gt;This was the biggest surprise in my opinion. &lt;/p&gt;
 
 &lt;p&gt;There are a couple emotions you want to achieve in feeds. The first is zen – it’s calming to get lost and just keep scrolling. The second is usually balanced chaos. The more stuff you see, the more active the site feels. Facebook still has zen, but the chaos seems to have been thrown out in favor of further simplicity. It takes more scrolling to see less items, but nothing is fighting for your attention. Instead of thinking, you’re either looking at the top most “story” or you’re scrolling to the next one.&lt;/p&gt;
 
 &lt;p&gt;Mobile works the same way. As you move from phone to computer the experience won’t be nearly as jarring. If the feeds are identical on mobile and desktop, I wouldn’t be surprised if they release a feature later to sync your spot on the feed.&lt;/p&gt;
 
-&lt;h2 id=&quot;this_is_facebooks_biggest_change_yet_but_the_risk_is_being_overestimated&quot;&gt;This is Facebook’s biggest change yet, but the risk is being overestimated&lt;/h2&gt;
+&lt;h2 id=&quot;this-is-facebooks-biggest-change-yet-but-the-risk-is-being-overestimated&quot;&gt;This is Facebook’s biggest change yet, but the risk is being overestimated&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://techcrunch.com/2013/03/07/facebook-risks-it-all/&quot;&gt;Techcrunch’s article&lt;/a&gt; says this is their most risky change yet. After the &lt;a href=&quot;http://en.wikipedia.org/wiki/Facebook_Beacon&quot;&gt;Beacon&lt;/a&gt; incident years ago, Facebook has become a more data-driven company. They have a huge data research team pillaging their logs to track user behavior. Is this is a big change? You betcha… it’s the home page! On web applications with a news feed system, a heavy majority of all interaction is done on the home page. Is this a risky choice? Not really. They’re releasing is slowly and watching the data. Risk is mitigated as they iterate – and they will. Compared to the risk presented when Facebook opened up their &lt;a href=&quot;http://money.cnn.com/2007/05/24/technology/facebook.fortune/&quot;&gt;first developer APIs&lt;/a&gt;, this is nothing (and it’s only because of the data).&lt;/p&gt;
 
-&lt;h2 id=&quot;sorting_has_been_optimized_out&quot;&gt;Sorting has been optimized out&lt;/h2&gt;
+&lt;h2 id=&quot;sorting-has-been-optimized-out&quot;&gt;Sorting has been optimized out&lt;/h2&gt;
 
 &lt;p&gt;By default, the feed is being changed to a combination of “new” and “popular”. This is not done very often. Facebook can only do this effectively because their average user comes back to the site multiple times a day. This also means that the &lt;a href=&quot;http://edgerank.net/&quot;&gt;demonized edge-rank algorithm&lt;/a&gt; is probably taking more of a backseat or was altered substantially. Changing an algorithm from being entirely score based to purely chronologically dependent isn’t easy at scale. I can’t be 100% sure, but they probably managed to do this in one of two ways: 1. Manipulate the algorithm to give chronology a big boost or 2. Change the data structure to a cached stack while disallowing newly-calculated posts to overwrite incumbent data.&lt;/p&gt;
 
 &lt;p&gt;Users just want products that work. Over time, the algorithms to determine feed-worthy stories have become more and more accurate. I would find myself sorting by “most recent” very frequently just a year ago, but now I never click the button. If I’m like most users, then they finally found the sweet spot. That sweet spot enabled them to remove clutter from the interface and bridge the gap properly to mobile. Good job Facebook.&lt;/p&gt;
 
-&lt;h2 id=&quot;navigation_now_follows_real_design_rules&quot;&gt;Navigation now follows real design rules&lt;/h2&gt;
+&lt;h2 id=&quot;navigation-now-follows-real-design-rules&quot;&gt;Navigation now follows real design rules&lt;/h2&gt;
 
 &lt;p&gt;Almost all great web application have sidebars. They prove themselves as a great foundation for navigation and widget-style features, but can easily grow cumbersome. Less is usually more, but sometimes the metrics say otherwise. Design ideologies should never get in the way of what works for the end user.&lt;/p&gt;
 
-&lt;p&gt;This new sidebar works very well for a couple reasons.&lt;/p&gt;
+&lt;p&gt;This new sidebar works very well for a couple reasons. &lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;It’s not melded into the same background as the rest of the site anymore. The different background creates a contrast that makes the separation feel clean instead of cluttered.&lt;/li&gt;
-
-&lt;li&gt;Because it is a sidebar instead of a widget, the common design rule of minimizing the number of container elements is followed.&lt;/li&gt;
-
-&lt;li&gt;It’s responsive to the site width. I’d be curious to see what their analytics say about clickthroughs since certain studies have shown that icon-only navigation performs worse than those aided with text. That being said, the effect is dampened since Facebook is already a well-understood product by a majority of its user-base.&lt;/li&gt;
+  &lt;li&gt;It’s not melded into the same background as the rest of the site anymore. The different background creates a contrast that makes the separation feel clean instead of cluttered.&lt;/li&gt;
+  &lt;li&gt;Because it is a sidebar instead of a widget, the common design rule of minimizing the number of container elements is followed.&lt;/li&gt;
+  &lt;li&gt;It’s responsive to the site width. I’d be curious to see what their analytics say about clickthroughs since certain studies have shown that icon-only navigation performs worse than those aided with text. That being said, the effect is dampened since Facebook is already a well-understood product by a majority of its user-base.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&quot;so_what_does_this_all_mean&quot;&gt;So what does this all mean?&lt;/h2&gt;
+&lt;h2 id=&quot;so-what-does-this-all-mean&quot;&gt;So what does this all mean?&lt;/h2&gt;
 
 &lt;p&gt;It could mean many things. When shown larger posts, people naturally place a higher level of importance on it. Skipping a post without interacting with it feels like a riskier action, and thus, activity on posts further up the feed is likely going to increase while activity on posts further down will decrease. The like button and other assorted actions are no longer blue, but their click-targets have been increased in size. I would place a bet saying this combination results in more clicks.&lt;/p&gt;
 
-&lt;p&gt;With forced chronology and the hypothesis mentioned above, I think the end result for most users will be more action on posts right when they create them and less importance or notifications on historically older, but popular posts. It’s more about the “new” than the “popular” and thus you’ll want to keep posting more to garner more likes. Feed that thirst for acceptance amongst your peers! This all fits very neatly into &lt;a href=&quot;http://news.cnet.com/8301-1023_3-57536659-93/zuckerberg-in-10-years-folks-will-share-1000-times-what-they-do-now/&quot;&gt;Mark’s pseudo-Moore’s law&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;With forced chronology and the hypothesis mentioned above, I think the end result for most users will be more action on posts right when they create them and less importance or notifications on historically older, but popular posts. It’s more about the “new” than the “popular” and thus you’ll want to keep posting more to garner more likes. Feed that thirst for acceptance amongst your peers! This all fits very neatly into &lt;a href=&quot;http://news.cnet.com/8301-1023_3-57536659-93/zuckerberg-in-10-years-folks-will-share-1000-times-what-they-do-now/&quot;&gt;Mark’s pseudo-Moore’s law&lt;/a&gt;. &lt;/p&gt;
+</description>
                                 <pubDate>Thu, 07 Mar 2013 00:00:00 -0800</pubDate>
-                                <link>http://localhost:4000//facebook.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//facebook.html</guid>
+                                <link>http://zachtratar.com//facebook.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//facebook.html</guid>
                         </item>
                 
                         <item>
@@ -503,17 +505,16 @@
 &lt;p&gt;Instead of hammering Yahoo for such a “blind” and “clueless” decision, we should be asking questions to facilitate a better understanding.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Why did remote work not work as effectively for a large organization?&lt;/li&gt;
-
-&lt;li&gt;What aspects of Yahoo’s culture led to the decline in productivity through remote work?&lt;/li&gt;
-
-&lt;li&gt;What data do we assume the executive team was looking at? What should they have been looking at?&lt;/li&gt;
+  &lt;li&gt;Why did remote work not work as effectively for a large organization?&lt;/li&gt;
+  &lt;li&gt;What aspects of Yahoo’s culture led to the decline in productivity through remote work?&lt;/li&gt;
+  &lt;li&gt;What data do we assume the executive team was looking at? What should they have been looking at?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;This is not black and white. This is grey. As Nate Silver puts it: &lt;a href=&quot;http://www.amazon.com/dp/159420411X&quot;&gt;let’s be more like foxes and less like hedgehogs&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;This is not black and white. This is grey. As Nate Silver puts it: &lt;a href=&quot;http://www.amazon.com/dp/159420411X&quot;&gt;let’s be more like foxes and less like hedgehogs&lt;/a&gt;.&lt;/p&gt;
+</description>
                                 <pubDate>Mon, 25 Feb 2013 00:00:00 -0800</pubDate>
-                                <link>http://localhost:4000//lets-stop-generalizing.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//lets-stop-generalizing.html</guid>
+                                <link>http://zachtratar.com//lets-stop-generalizing.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//lets-stop-generalizing.html</guid>
                         </item>
                 
                         <item>
@@ -521,32 +522,32 @@
                                 <description>&lt;p&gt;I’ve never made new years resolutions before, so this is a completely new experience. A quote I recently read inspired me to make this list:&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;“Our own life is the instrument with which we experiment with the truth” - Thich Nhat Hang&lt;/p&gt;
+  &lt;p&gt;“Our own life is the instrument with which we experiment with the truth” - Thich Nhat Hang&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;read_write_and_learn_more&quot;&gt;Read, write, and learn more&lt;/h2&gt;
+&lt;h2 id=&quot;read-write-and-learn-more&quot;&gt;Read, write, and learn more&lt;/h2&gt;
 
-&lt;p&gt;A couple months ago I got a Kindle Paperwhite and rediscovered reading as a hobby. First I dove into &lt;a href=&quot;http://www.amazon.com/Cloud-Atlas-Novel-David-Mitchell/dp/0375507256&quot;&gt;Cloud Atlas&lt;/a&gt;, a truly unique novel whose plot spans multiple lifetimes. I had never “gotten lost” in a book before, so reading CA was such a unique experience that I picked up an urge to keep reading. So far, it’s been great! Next up on my reading list are &lt;a href=&quot;http://www.amazon.com/Signal-Noise-Many-Predictions-Fail/dp/159420411X/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1357072711&amp;sr=1-1&amp;keywords=signal+and+noise&quot;&gt;The Signal and the Noise&lt;/a&gt; and &lt;a href=&quot;http://www.amazon.com/Confessions-Public-Speaker-English/dp/1449301959/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1357072741&amp;sr=1-1&amp;keywords=confessions+of+a+public+speaker&quot;&gt;Confessions of a Public Speaker&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A couple months ago I got a Kindle Paperwhite and rediscovered reading as a hobby. First I dove into &lt;a href=&quot;http://www.amazon.com/Cloud-Atlas-Novel-David-Mitchell/dp/0375507256&quot;&gt;Cloud Atlas&lt;/a&gt;, a truly unique novel whose plot spans multiple lifetimes. I had never “gotten lost” in a book before, so reading CA was such a unique experience that I picked up an urge to keep reading. So far, it’s been great! Next up on my reading list are &lt;a href=&quot;http://www.amazon.com/Signal-Noise-Many-Predictions-Fail/dp/159420411X/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1357072711&amp;amp;sr=1-1&amp;amp;keywords=signal+and+noise&quot;&gt;The Signal and the Noise&lt;/a&gt; and &lt;a href=&quot;http://www.amazon.com/Confessions-Public-Speaker-English/dp/1449301959/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1357072741&amp;amp;sr=1-1&amp;amp;keywords=confessions+of+a+public+speaker&quot;&gt;Confessions of a Public Speaker&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I watched a couple documentaries – my favorites being &lt;a href=&quot;http://video.pbs.org/video/1312522241/&quot;&gt;Becoming Human&lt;/a&gt; and &lt;a href=&quot;http://topdocumentaryfilms.com/guns-germs-and-steel/&quot;&gt;Guns, Germs, and Steel&lt;/a&gt;. These two documentaries together tell a very wholistic story of humanity. Really fascinating stuff. I’m definitely going to write a blog post about those two next.&lt;/p&gt;
 
 &lt;p&gt;Over the course of reading and watching, I’ve also started taking notes on everything I learn. Hopefully this will turn into better developed thoughts and more writing! My goal for 2013 is to read 2 books, watch 8 documentaries, and write 2 blog posts every month.&lt;/p&gt;
 
-&lt;h2 id=&quot;become_a_morning_person&quot;&gt;Become a morning person&lt;/h2&gt;
+&lt;h2 id=&quot;become-a-morning-person&quot;&gt;Become a morning person&lt;/h2&gt;
 
 &lt;p&gt;I’m currently a night owl. It’s likely a habit I developed through Computer Engineering MPs or in High School from late night gaming sessions. Gotta love being a nerd. Lately though, I’ve noticed that whenever I can wake up earlier in the morning – usually by luck – I’m much more prepared to take on the day.&lt;/p&gt;
 
 &lt;p&gt;Startup cultures aren’t very strict with morning work schedules. Without outside factors forcing me to wake up earlier, I’m going to create one through this new years resolution! In addition to waking up earlier, I’m going to try and get 8 hours of sleep a night. That’s gonna be hard to pull off.&lt;/p&gt;
 
-&lt;h2 id=&quot;explore_new_activities&quot;&gt;Explore new activities&lt;/h2&gt;
+&lt;h2 id=&quot;explore-new-activities&quot;&gt;Explore new activities&lt;/h2&gt;
 
 &lt;p&gt;People commonly refer to maintaining a balance between mind, body, and spirit. My currently lifestyle is 100% mind and to hell with the rest. I know it’s cliche, but it’s time to start working out again! The goal is 2 times a week.&lt;/p&gt;
 
-&lt;p&gt;I’m not much of a spiritual person, but I think there is a silver-lining in many practices normally considered spiritual. After reading both &lt;a href=&quot;http://www.amazon.com/Sacred-Hoops-Spiritual-Lessons-Hardwood/dp/1401308813&quot;&gt;Sacred Hoops&lt;/a&gt; and &lt;a href=&quot;http://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1357072868&amp;sr=1-1&amp;keywords=steve+jobs&quot;&gt;Steve Jobs&lt;/a&gt;, I’ve become interested in Zen meditation. I don’t see it as a way to reach enlightenment or anything, but just as a way to organize thoughts and gain an inner sense of calmness. When I’m in that calm, brainstorming state (which right now only happens randomly), I get my best ideas. If I can start inducing that state on demand I think I can be more productive. Goal: play around with meditation. If I like it, 2-3 times a week sounds good.&lt;/p&gt;
+&lt;p&gt;I’m not much of a spiritual person, but I think there is a silver-lining in many practices normally considered spiritual. After reading both &lt;a href=&quot;http://www.amazon.com/Sacred-Hoops-Spiritual-Lessons-Hardwood/dp/1401308813&quot;&gt;Sacred Hoops&lt;/a&gt; and &lt;a href=&quot;http://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1357072868&amp;amp;sr=1-1&amp;amp;keywords=steve+jobs&quot;&gt;Steve Jobs&lt;/a&gt;, I’ve become interested in Zen meditation. I don’t see it as a way to reach enlightenment or anything, but just as a way to organize thoughts and gain an inner sense of calmness. When I’m in that calm, brainstorming state (which right now only happens randomly), I get my best ideas. If I can start inducing that state on demand I think I can be more productive. Goal: play around with meditation. If I like it, 2-3 times a week sounds good.&lt;/p&gt;
 
 &lt;p&gt;I really want to travel more and explore cultures that I have no connection with. An all-out road trip throughout an entire continent or country sounds exciting… probably China, Brazil, or Western Europe. Not sure which yet – anyone have recommendations?&lt;/p&gt;
 
-&lt;h2 id=&quot;material_lifestyle_improvements&quot;&gt;Material lifestyle improvements&lt;/h2&gt;
+&lt;h2 id=&quot;material-lifestyle-improvements&quot;&gt;Material lifestyle improvements&lt;/h2&gt;
 
 &lt;p&gt;People give a bad rap to goals that involve material goods, but screw it, I’m putting them in here.&lt;/p&gt;
 
@@ -554,10 +555,12 @@
 
 &lt;p&gt;Once that’s set up, I want to rig the apartment with tech. &lt;a href=&quot;http://arduino.cc/blog/category/hacks/home-hacks/&quot;&gt;Automate tasks with arduinos&lt;/a&gt;… maybe a Rube Goldberg machine to make breakfast? Haha.&lt;/p&gt;
 
-&lt;p&gt;Alright… now I officially have a list of things to which I can hold myself accountable. Blog post #1 &lt;em&gt;done&lt;/em&gt;!&lt;/p&gt;</description>
+&lt;p&gt;Alright… now I officially have a list of things to which I can hold myself accountable. Blog post #1 &lt;em&gt;done&lt;/em&gt;!&lt;/p&gt;
+
+</description>
                                 <pubDate>Tue, 01 Jan 2013 00:00:00 -0800</pubDate>
-                                <link>http://localhost:4000//new-years.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//new-years.html</guid>
+                                <link>http://zachtratar.com//new-years.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//new-years.html</guid>
                         </item>
                 
         </channel>

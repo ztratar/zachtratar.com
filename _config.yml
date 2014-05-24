@@ -4,10 +4,9 @@ url: http://zachtratar.com
 
 safe:        false
 auto:        false
-server:      false
-server_port: 4000
-baseurl:    /jekyll_demo
-url: http://localhost:4000
+port: 4000
+baseurl:    /
+url: http://zachtratar.com
 
 source:      .
 destination: ./_site
@@ -15,16 +14,9 @@ plugins:     ./_plugins
 
 future:      true
 lsi:         false
-pygments:    false
-markdown:    maruku
+highlighter: false
+markdown:    kramdown
 permalink:   /:title.html
-    
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
 
 rdiscount:
   extensions: []
@@ -35,7 +27,7 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   use_coderay: false
-  
+
   coderay:
     coderay_wrap: div
     coderay_line_numbers: inline
