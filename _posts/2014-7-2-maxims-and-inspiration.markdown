@@ -43,6 +43,6 @@ Since it helped me, I thought I'd share with everyone who might be interested an
 + It takes repetition. If not every day, every other day seems to be nearly as effective (but there's definitely a difference).
 + You'll eventually have a large list of maxims if you keep at it. As you keep creating, also focus on condensing any overlapping points. It needs to remains clear and concise... which brings me to the next point.
 + Creating your own maxims helps you understand a little bit more about yourself. Answering "Who am I?" becomes quite a bit easier, and the result more vivid.
-+ Targeting your current emotional state when reflecting is really effective. Just lose a battle? Focus on the war. Read a though about understanding bigger pictures, as we've all been there.
++ Targeting your current emotional state when reflecting is really effective. Just lose a battle? Focus on the war.
 
 As a proponent of Science, I also want to note that none of this was scientific in the slightest. Shoot me a tweet if you're thinking about trying this out; I'd love to hear about your discoveries!
