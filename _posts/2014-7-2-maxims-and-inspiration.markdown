@@ -30,7 +30,7 @@ Marcus Aurelius, Emperor of Rome, is considered to be one of the wisest men to h
 Modern Society and Me
 ---------------------
 
-It seems to me that modern society prioritizes sources of inspiration in a completely backwards manner: ease-of-discovery dominates efficacy. People hang inspirational posters, collect items on Pinterest, and even go searching for to oh-so-loved "like" on social networks. We look for small glimmers of social proof and meaning through luck — we think "perhaps the outside world holds the same things to be true as my inner self!"
+It seems to me that modern society prioritizes sources of inspiration in a completely backwards manner: ease-of-discovery dominates efficacy. People hang inspirational posters, collect items on Pinterest, and even go searching for the oh-so-loved "like" on social networks. We look for small glimmers of social proof and meaning through luck — we think "perhaps the outside world holds the same things to be true as my inner self!"
 
 How much time does that leave for us to focus and reflect upon our own thoughts? Not enough, in my opinion, and oh what a shame! We understand ourselves better than anyone else, which means we *resonate with our own, personal discoveries the most!* What would it mean to you if you had an essentially unlimited, effective source of inspiration? We can create sources of daily inspiration that are targeted towards our most foundational of needs, optimized for our current state of life, and — most importantly — *guide us specifically towards who we want to be*.
 
