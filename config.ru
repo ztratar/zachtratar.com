@@ -10,7 +10,7 @@ use Rack::TryStatic,
 
 run lambda { |env|
   [
-    200, 
+    200,
     {
       'Content-Type'  => 'text/html', 
       'Cache-Control' => 'public, max-age=86400' 
