@@ -1,0 +1,76 @@
+{% include header.html %}
+
+<div class="post">
+	<header id="post-header">
+		<div class="container">
+			<a href="/" class="pull-left">
+				<i class="icon-chevron-left"></i>
+			</a>
+		</div>
+	</header>
+
+	<div class="post-title-container">
+		<div class="post-title-wrap container {% if page.img %}has-img{% endif %}">
+			<div class="post-info container">
+				<h1 class="post-title">
+					{{ page.title }}
+				</h1>
+				<span><a href="/"><img class="face" src="img/face.png">Zach Tratar</a> on {{ page.date | date_to_string }}</span>
+			</div>
+		</div>
+		{% if page.img %}
+		<div class="bg-img" style="background-image: url('{{ page.img }}')"></div>
+		{% endif %}
+	</div>
+
+	<!-- AddThis Button BEGIN -->
+	<div id="addthis_tb" class="addthis_side addthis_toolbox addthis_32x32_style" style="left:50px;top:50px;">
+		<a class="addthis_button_preferred_1"></a>
+		<a class="addthis_button_preferred_2"></a>
+		<a class="addthis_button_preferred_3"></a>
+		<a class="addthis_button_preferred_4"></a>
+		<a class="addthis_button_compact"></a>
+	</div>
+	<!-- AddThis Button END -->
+
+	<div class="container post-article">
+		{{ content }}
+	</div>
+
+	<div class="container post-article post-sharing">
+		<p>
+			<a href="https://twitter.com/share"
+				class="twitter-share-button" data-text="{{ page.title }} by @zachtratar" data-url="http://zachtratar.com{{ page.url }}" data-size="large" data-related="zachtratar">Tweet</a>
+		</p>
+	</div>
+
+	<div class="container post-comments">
+		<div class="fb-comments-container" data-page-url="http://zachtratar.com{{ page.url }}">
+			<div class="fb-comments" data-href="http://zachtratar.com{{ page.url }}" data-width="700" data-num-posts="10"></div>
+		</div>
+	</div>
+
+	<div class="post-footer">
+		<div class="container">
+			<h2>More writing</h2>
+			<ul class="post-stream">
+				{% for post in site.posts %}
+				{% if forloop.index <= 4 %}
+				<li>
+					<a href="{{ post.url }}">
+						<h3>{{ post.title }}</h3>
+						<span>{{ post.date | date_to_string }}</span>
+					</a>
+				</li>
+				{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
+
+{% include footer.html %}
+{% include scripts.html %}
+
+</body>
+</html>

@@ -9,22 +9,51 @@ title: Zach Tratar
 		<div class="header-wrap">
 			<img class="face" src="img/face.png">
 			<h1>Zach Tratar</h1>
-			<p class="description">Designer of that which I believe in, engineer of systems to unite the world. Founder at <a href="https://jobstart.co">Jobstart</a>.</p>
-			<div>
-				<a href="/about.html" class="btn btn-default about-me">About Me</a>
-			</div>
-			<div class="share-buttons">
-				<div class="share-twitter-wrap">
-					<a href="https://twitter.com/zachtratar" class="twitter-follow-button" data-show-count="true" data-width="220px">Follow @zachtratar</a>
-				</div>
-				<div class="share-facebook-wrap">
-					<div class="fb-follow" data-href="http://www.facebook.com/ztratar" data-colorscheme="light" data-layout="button_count"></div>
-				</div>
-			</div>
+      <p class="description">
+        Experienced product & team builder.<br/>
+        Software engineer. Designer.<br/>
+        Founder, CEO at <a href="https://jobstart.com">Jobstart</a>.<br/><br/>
+        I'm pretty excited for the future.
+      </p>
+			<ul class="about-links">
+        <li>
+          <a href="/about.html" class="btn btn-default about-me">About Me</a>
+        </li>
+        <li>
+          <a href="/resume.html" class="btn btn-default about-me">LinkedIn</a>
+        </li>
+        <li>
+          <a href="/resume.html" class="btn btn-default about-me">Twiter</a>
+        </li>
+        <li>
+          <a href="/resume.html" class="btn btn-default about-me">Resume</a>
+        </li>
+			</ul>
 		</div>
 	</header>
 
 	<div class="home-container">
+    <h2>Projects & work</h2>
+    <ul class="projects-stream">
+      {% assign projects = site.projects | sort: 'date' %}
+			{% for project in projects reversed %}
+			{% if forloop.index < 5 %}
+			<li>
+      {% else %}
+			<li class="project-default-hidden">
+			{% endif %}
+				<a href="{{ project.url }}">
+					<h3>{{ project.title }}</h3>
+          <p>{{ project.description }}</p>
+				</a>
+			</li>
+			{% endfor %}
+    </ul>
+    <a href="#" class="show-more-projects">
+      <i class="icon-chevron-down"></i>
+      Show all projects
+    </a>
+    <h2>Blog</h2>
 		<ul class="post-stream">
 			{% for post in site.posts %}
 			{% if forloop.index == 4 %}
