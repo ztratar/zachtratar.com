@@ -10,13 +10,13 @@ $(function() {
 	$addThis = $('.addthis_toolbox');
 	if ($addThis) {
 		$window.off('scroll.addThis').on('scroll.addThis', _.throttle(function() {
-			var scroll = $window.scrollTop();			
+			var scroll = $window.scrollTop();
 			if ((windowHeight > 630 && scroll > 530)
 					|| (windowHeight <= 630 && windowHeight > 560 && scroll > 460)
 					|| (windowHeight <= 560 && scroll > 370)) {
 				$addThis.addClass('fixed');	
 			} else {
-				$addThis.removeClass('fixed');	
+				$addThis.removeClass('fixed');
 			}	
 		}, 16));
 	}
@@ -37,7 +37,7 @@ $(function() {
 			widgetState = 'small';
 		} else {
 			widgetState = 450;
-			widgetState = 'large';	
+			widgetState = 'large';
 		}
 
 		if (forceNewState || widgetState !== origWidgetState) {

@@ -1,4 +1,4 @@
-.post {
+.project {
 	background: white;
 
 	.container {
@@ -7,7 +7,7 @@
 		padding: 0 20px;
 	}
 
-	#post-header {
+	#header {
 		padding: 18px 0;
 		border: none;
 
@@ -29,7 +29,7 @@
 		}
 	}
 
-	.post-title-container {
+	.project-title-container {
 		margin: 0 0 60px 0;
 		background: #fcfcfc;
 		position: relative;
@@ -45,7 +45,7 @@
 				margin: 0 0 -30px 0;
 			}
 		}
-	
+
 		&:after {
 			content: '';
 			position: absolute;
@@ -81,33 +81,25 @@
 			}
 		}
 
-		.post-title-wrap {
+		.project-title-wrap {
 			display: table;
 			position: relative;
 			z-index: 20;
-			height: 440px;
+      height: 234px;
 			padding: 0;
 
 			.transition(all 0.2s ease-in-out);
 
-			@media (max-height: 630px) {
-				height: 370px;
-			}
-
-			@media (max-height: 560px) {
-				height: 310px;
-			}
-
 			&.about-me {
 				height: 100px !important;
 
-				.post-info h1 {
+				.project-info h1 {
 					margin-bottom: 10px;
 				}
 			}
 
 			&.has-img {
-				.post-info {
+				.project-info {
 					text-shadow: 0 0 8px rgba(0,0,0,0.5);
 
 					h1 {
@@ -127,7 +119,7 @@
 				}
 			}
 
-			.post-info {
+			.project-info {
 				display: table-cell;
 				vertical-align: middle;
 
@@ -135,6 +127,7 @@
 					font-size: 36px;
 					margin-bottom: 20px;
 				}
+
 				span {
 					font-size: 18px;
 					color: @color4;
@@ -180,10 +173,11 @@
 		}
 	}
 
-	.post-article {
+	.project-article {
 		font-size: 22px;
 		font-family: 'Freight-Book', 'Times';
 		line-height: 1.5;
+    margin-bottom: 64px;
 
 		h1, h2, h3 {
 			margin: 60px 0 30px;
@@ -235,7 +229,7 @@
 		}
 	}
 
-	.post-footer {
+	.project-footer {
 		background: @very-light-blue;
 		padding: 70px 0 30px;
 
@@ -252,21 +246,6 @@
 			@media (max-width: 960px) {
 				margin-bottom: 30px;
 			}
-		}
-	}
-
-	.fb-comments {
-		display: block;
-		padding: 0 0 40px 0;
-
-		& > span {
-			display: block;
-			min-height: 220px;
-		}
-
-		iframe {
-			position: relative !important;
-			min-height: 220px;
 		}
 	}
 }

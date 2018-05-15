@@ -1,6 +1,6 @@
 ---
 title: 'GraphQL Node/React Boilerplate'
-description: 'GraphQL is fun, as is building things fast'
+description: 'GraphQL is fun, as is rapidly building things'
 layout: 'project'
 date: '2018-1-1'
 ---
@@ -10,6 +10,13 @@ GraphQL Node/React Boilerplate, (GNRP for short) is a fast way to start building
 You can find the [open source code on github](https://github.com/ztratar/graphql-node-react-boilerplate). It is available for non-commercial use.
 
 Warning: This repo is still using an old version of Apollo (apollo-client). Apollo has gone through a number of improvements & breaking changes. I intend to upgrade this repo to a newer version, and will do so when I have more time.
+
+## Installation
+
+> 1. Fork the repository
+> 2. yarn install
+> 3. make containers-up
+> 4. make watch
 
 ## Features
 
