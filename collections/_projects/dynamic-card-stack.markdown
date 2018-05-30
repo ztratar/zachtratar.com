@@ -9,6 +9,8 @@ When helping someone with a task or explaining a concept, we want to both provid
 
 This dynamic process can be now digitized & automated: simply input JSON and get a custom, card-based walkthrough for your mobile users!
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZjcGBdJnc7M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Features
 
 - Fully customizable, dynamic card stack from JSON

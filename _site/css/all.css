@@ -7699,6 +7699,12 @@ h3 {
   margin: 64px 0 -18px 0;
   text-transform: uppercase;
 }
+@media (max-width: 960px) {
+  .home-container h2 {
+    margin-bottom: 24px;
+    text-align: center;
+  }
+}
 @media (max-width: 1140px) {
   .home-container {
     width: 600px;
@@ -7890,6 +7896,12 @@ a.show-more-projects {
   margin: -28px 0 50px 28px;
   display: block;
   font-size: 16px;
+}
+@media (max-width: 960px) {
+  a.show-more-projects {
+    margin: 24px auto 50px;
+    text-align: center;
+  }
 }
 a.show-more-projects i {
   font-size: 15px;
@@ -8535,6 +8547,21 @@ ul.post-images li a:hover {
 .project .project-article p img.full {
   float: none;
   margin: 0;
+}
+.project .project-article iframe {
+  width: 100%;
+  margin-bottom: 32px;
+}
+.project .project-article pre {
+  background: #21242a;
+  color: white;
+  border: none;
+}
+.project .project-article pre.lineno {
+  display: none;
+}
+.project .project-article pre.highlight {
+  padding-bottom: 0;
 }
 .project .project-article blockquote {
   border: none;

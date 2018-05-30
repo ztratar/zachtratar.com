@@ -58,5 +58,6 @@ $(function() {
   $('.show-more-projects').on('click', function () {
     $('.project-default-hidden').show();
     $(this).hide();
+    return false;
   });
 });

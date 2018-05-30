@@ -9,14 +9,18 @@ GraphQL Node/React Boilerplate, (GNRP for short) is a fast way to start building
 
 You can find the [open source code on github](https://github.com/ztratar/graphql-node-react-boilerplate). It is available for non-commercial use.
 
+<iframe width="630" height="394" src="https://www.useloom.com/embed/de96f3d5f8434808a94f8d213de84289" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 Warning: This repo is still using an old version of Apollo (apollo-client). Apollo has gone through a number of improvements & breaking changes. I intend to upgrade this repo to a newer version, and will do so when I have more time.
 
 ## Installation
 
-> 1. Fork the repository
-> 2. yarn install
-> 3. make containers-up
-> 4. make watch
+```
+1. Fork the repository
+2. yarn install
+3. make containers-up
+4. make watch
+```
 
 ## Features
 
@@ -62,12 +66,12 @@ This boilerplate works, but best practices as defined by open-source communities
 
 ## Integrations & Connectors
 
-In order to accomplish 
+This boilerplate has some functionality built into the connectors to
+integrate with the following services:
 
 - AWS
 - Clearbit
 - Datadog
-- Facebook
 - Google Maps (Places)
 - Sendgrid
 - Segment
