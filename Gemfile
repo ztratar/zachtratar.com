@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-#gem 'rack'
-#gem 'rack-contrib'
+gem 'rack'
 
 # LOCAL GEMS
 

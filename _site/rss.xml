@@ -3,8 +3,8 @@
         <channel>
                 <title>Zach Tratar</title>
                 <description>Ramblings on startups, design, engineering, and political philosophy.</description>
-                <link>http://localhost:4000</link>
-                <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+                <link>http://zachtratar.com</link>
+                <atom:link href="http://zachtratar.com/feed.xml" rel="self" type="application/rss+xml" />
                 
                         <item>
                                 <title>Maxims &amp;amp; Inspiration</title>
@@ -58,8 +58,8 @@
 &lt;p&gt;As a proponent of Science, I also want to note that none of this was scientific in the slightest. Shoot me a tweet if you’re thinking about trying this out; I’d love to hear about your discoveries!&lt;/p&gt;
 </description>
                                 <pubDate>Wed, 02 Jul 2014 00:00:00 -0700</pubDate>
-                                <link>http://localhost:4000//maxims-and-inspiration.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//maxims-and-inspiration.html</guid>
+                                <link>http://zachtratar.com//maxims-and-inspiration.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//maxims-and-inspiration.html</guid>
                         </item>
                 
                         <item>
@@ -109,8 +109,8 @@
 &lt;p&gt;&lt;img class=&quot;full&quot; src=&quot;/img/posts/followrV1/reviews.jpg&quot; /&gt;&lt;/p&gt;
 </description>
                                 <pubDate>Wed, 26 Mar 2014 00:00:00 -0700</pubDate>
-                                <link>http://localhost:4000//followrv1.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//followrv1.html</guid>
+                                <link>http://zachtratar.com//followrv1.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//followrv1.html</guid>
                         </item>
                 
                         <item>
@@ -186,8 +186,8 @@
 &lt;p&gt;&lt;small&gt;&lt;em&gt;Thanks to my friends for feedback on this post: Andrew Chapello, Andrew Hsu, Peter Pelberg, and Mustafa Khan&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
 </description>
                                 <pubDate>Wed, 19 Mar 2014 00:00:00 -0700</pubDate>
-                                <link>http://localhost:4000//popcorn.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//popcorn.html</guid>
+                                <link>http://zachtratar.com//popcorn.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//popcorn.html</guid>
                         </item>
                 
                         <item>
@@ -255,8 +255,8 @@
 &lt;p&gt;&lt;a href=&quot;http://ztratar.github.io/followr&quot;&gt;You can download Followr here&lt;/a&gt;. If you like it, please review it! Don’t like it? I’m all ears.&lt;/p&gt;
 </description>
                                 <pubDate>Tue, 11 Mar 2014 00:00:00 -0700</pubDate>
-                                <link>http://localhost:4000//followr.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//followr.html</guid>
+                                <link>http://zachtratar.com//followr.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//followr.html</guid>
                         </item>
                 
                         <item>
@@ -291,8 +291,8 @@
 Zach&lt;/p&gt;
 </description>
                                 <pubDate>Fri, 07 Mar 2014 00:00:00 -0800</pubDate>
-                                <link>http://localhost:4000//feinstein.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//feinstein.html</guid>
+                                <link>http://zachtratar.com//feinstein.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//feinstein.html</guid>
                         </item>
                 
                         <item>
@@ -344,8 +344,8 @@ Zach&lt;/p&gt;
 share. Tweet it at me below.&lt;/em&gt;&lt;/p&gt;
 </description>
                                 <pubDate>Thu, 26 Sep 2013 00:00:00 -0700</pubDate>
-                                <link>http://localhost:4000//grateful.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//grateful.html</guid>
+                                <link>http://zachtratar.com//grateful.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//grateful.html</guid>
                         </item>
                 
                         <item>
@@ -431,8 +431,8 @@ share. Tweet it at me below.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;It’s completely possible that we are making that choice right now.&lt;/p&gt;
 </description>
                                 <pubDate>Tue, 11 Jun 2013 00:00:00 -0700</pubDate>
-                                <link>http://localhost:4000//prism.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//prism.html</guid>
+                                <link>http://zachtratar.com//prism.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//prism.html</guid>
                         </item>
                 
                         <item>
@@ -497,8 +497,8 @@ share. Tweet it at me below.&lt;/em&gt;&lt;/p&gt;
 &lt;/p&gt;
 </description>
                                 <pubDate>Fri, 12 Apr 2013 00:00:00 -0700</pubDate>
-                                <link>http://localhost:4000//tesla.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//tesla.html</guid>
+                                <link>http://zachtratar.com//tesla.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//tesla.html</guid>
                         </item>
                 
                         <item>
@@ -542,8 +542,8 @@ share. Tweet it at me below.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;With forced chronology and the hypothesis mentioned above, I think the end result for most users will be more action on posts right when they create them and less importance or notifications on historically older, but popular posts. It’s more about the “new” than the “popular” and thus you’ll want to keep posting more to garner more likes. Feed that thirst for acceptance amongst your peers! This all fits very neatly into &lt;a href=&quot;http://news.cnet.com/8301-1023_3-57536659-93/zuckerberg-in-10-years-folks-will-share-1000-times-what-they-do-now/&quot;&gt;Mark’s pseudo-Moore’s law&lt;/a&gt;.&lt;/p&gt;
 </description>
                                 <pubDate>Thu, 07 Mar 2013 00:00:00 -0800</pubDate>
-                                <link>http://localhost:4000//facebook.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//facebook.html</guid>
+                                <link>http://zachtratar.com//facebook.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//facebook.html</guid>
                         </item>
                 
                         <item>
@@ -569,8 +569,8 @@ share. Tweet it at me below.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This is not black and white. This is grey. As Nate Silver puts it: &lt;a href=&quot;http://www.amazon.com/dp/159420411X&quot;&gt;let’s be more like foxes and less like hedgehogs&lt;/a&gt;.&lt;/p&gt;
 </description>
                                 <pubDate>Mon, 25 Feb 2013 00:00:00 -0800</pubDate>
-                                <link>http://localhost:4000//lets-stop-generalizing.html</link>
-                                <guid isPermaLink="true">http://localhost:4000//lets-stop-generalizing.html</guid>
+                                <link>http://zachtratar.com//lets-stop-generalizing.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//lets-stop-generalizing.html</guid>
                         </item>
                 
         </channel>
