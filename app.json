@@ -1,0 +1,6 @@
+{
+  "name": "Zach Tratar Personal Site",
+  "description": "My personal website",
+  "image": "heroku/ruby",
+  "keywords": ["ruby", "rails" ]
+}
