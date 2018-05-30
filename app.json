@@ -2,5 +2,14 @@
   "name": "Zach Tratar Personal Site",
   "description": "My personal website",
   "image": "heroku/ruby",
+  "stack": "heroku-16",
+  "buildpacks": [
+    {
+      "url": "heroku/jvm"
+    },
+    {
+      "url": "heroku/ruby"
+    }
+  ],
   "keywords": ["ruby", "rails" ]
 }
