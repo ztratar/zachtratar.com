@@ -1,6 +1,7 @@
 use Rack::Static,
   :urls => %w[/],
-  :root => "_site"
+  :root => "_site",
+  :index => "index.html"
 
 run lambda { |env|
   [

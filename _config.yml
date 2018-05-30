@@ -18,6 +18,7 @@ collections:
     output: true
   projects:
     output: true
+    permalink: /projects/:title.html
 
 future:      true
 lsi:         false
