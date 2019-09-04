@@ -7,6 +7,57 @@
                 <atom:link href="http://zachtratar.com/feed.xml" rel="self" type="application/rss+xml" />
                 
                         <item>
+                                <title>Balancing Organizations &amp; Oneself</title>
+                                <description>&lt;p&gt;When I was at a tech event in San Francisco recently, a CEO was asked how they thought about balancing new initiatives with the core business, and their answer was simple but broadly applicable to life.&lt;/p&gt;
+
+&lt;p&gt;It struck me as particularly the type of advice one can only learn from experience.&lt;/p&gt;
+
+&lt;h2 id=&quot;balancing-an-organization&quot;&gt;Balancing an organization&lt;/h2&gt;
+
+&lt;p&gt;All teams across an organization need resources. Most teams don’t have enough people for the goals they set out to achieve, and without these resources, some projects will fail. If your success has stemmed from a unique strategy that continues to win, how can you justify peeling useful resources away from it, and dooming it to a larger probability of failure in the name of new, unvalidated initiatives?&lt;/p&gt;
+
+&lt;p&gt;You can imagine there are a bunch of “good” answers: analyzing opportunity-cost, finding new markets with higher growth rates, cultivating higher margin revenue streams, etc.&lt;/p&gt;
+
+&lt;p&gt;But the reality was more simple than analytical.&lt;/p&gt;
+
+&lt;p&gt;Sometimes, the organization is doing too many things. When this is true, the product will often stagnate, sales people will report more losing deals, and teams will slow down. You will start to lose too many battles. This is obvious when it is starting to happen, and most in the organization — especially leadership — will have the strong, innate urge to focus resources. People don’t like to lose.&lt;/p&gt;
+
+&lt;p&gt;On the flip side, sometimes the organization isn’t doing enough things, and the larger, cash-cow teams will grow and grow until you see folks working on things that clearly aren’t critical — they will become the metaphorical “cog in the machine,” spinning because they’re supposed to, but going nowhere. In this scenario, especially in the technology industry, innovators in the company — especially leadership — will have the strong, innate urge to launch more impactful projects.&lt;/p&gt;
+
+&lt;p&gt;There is no necessary deeper analysis. Instead, the organization — while it’s growing — is naturally bouncing back and forth between two &lt;em&gt;feelings&lt;/em&gt;. And these feelings tend to be obvious, as long as people are honest with themselves and their teammates. Thus, striking a balance is about being aware of your feelings and the feelings of those around you. [0]&lt;/p&gt;
+
+&lt;p&gt;And if no one feels strongly either way, then you’re probably sufficiently balanced.&lt;/p&gt;
+
+&lt;h2 id=&quot;balancing-yourself&quot;&gt;Balancing yourself&lt;/h2&gt;
+
+&lt;p&gt;Now that I’ve been thinking about this idea for a while, I think this approach is applicable to self-management as well.&lt;/p&gt;
+
+&lt;p&gt;As we stumble around our life journeys, we often fail over and over again. Eventually, once we find something we’re kinda good at, we cling to it and it becomes a part of our routine &amp;amp; identity. Although continuous practice is a key to success, people often go overboard: they stick to what they find comfortable and close themselves off from new, potentially risky experiences. Discovering new skills, friendships, and responsibilities requires us to sacrifice our successful routines and identities in the face of likely discomfort.&lt;/p&gt;
+
+&lt;p&gt;So how can we think about balancing our existing “successful” routines with new experiences?&lt;/p&gt;
+
+&lt;p&gt;A common analytical approach in life coaching is to leverage the &lt;a href=&quot;https://wheeloflife.noomii.com/&quot;&gt;“Wheel of Life”&lt;/a&gt;. With it, you rank your life in several various categories, and then create action plans to try new things in the areas you are weak. This works to an extent, but the method has many gaps [1]. Answering the question “should I try more things?” might be easier with an emotional approach.&lt;/p&gt;
+
+&lt;p&gt;When people are trying too many things, they bounce around frantically, lose focus, and rarely make progress on bigger tasks/goals. So ask yourself: How do you feel about your progress as of late, and is that progress meaningful to your desired identity?&lt;/p&gt;
+
+&lt;p&gt;Conversely, when people don’t try enough new things, their chances of finding their innate passions, talents, and interests plummet. So ask yourself: How passionate do you feel, and how much have you discovered about yourself lately?&lt;/p&gt;
+
+&lt;p&gt;There is no necessary deeper analysis; you just have to be aware of your feelings. If you aren’t passionate (with or without progress), expose yourself to new experiences. If you are passionate, but feel as though you’re not making good progress, try fewer things and focus on that which is most important.&lt;/p&gt;
+
+&lt;p&gt;If you’re both passionate and making progress, congratulations, you’ve probably found your balance!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Footnotes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[0] This has cultural implications. It’s a lot easier to balance an honest organization than one where people either ignore problems, or perceive everything as urgent.&lt;/p&gt;
+
+&lt;p&gt;[1] The Wheel of Life doesn’t account for identity, talents, or interests. The metrics only exist to force you to judge yourself relativistically.&lt;/p&gt;
+</description>
+                                <pubDate>Wed, 04 Sep 2019 00:00:00 -0700</pubDate>
+                                <link>http://zachtratar.com//balancing-organizations-and-oneself.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//balancing-organizations-and-oneself.html</guid>
+                        </item>
+                
+                        <item>
                                 <title>Training Motivation with a Slow Computer</title>
                                 <description>&lt;p&gt;A couple years ago, I was reflecting on my life and realized something weird: for the first time in my life, I was unusually… &lt;em&gt;organized&lt;/em&gt;. And not just with my physical world, but with my thoughts, plans &amp;amp; actions.&lt;/p&gt;
 
@@ -571,51 +622,6 @@ share. Tweet it at me below.&lt;/em&gt;&lt;/p&gt;
                                 <pubDate>Fri, 12 Apr 2013 00:00:00 -0700</pubDate>
                                 <link>http://zachtratar.com//tesla.html</link>
                                 <guid isPermaLink="true">http://zachtratar.com//tesla.html</guid>
-                        </item>
-                
-                        <item>
-                                <title>The New Facebook News Feed: A UX Breakdown</title>
-                                <description>&lt;p&gt;The internet is blowing up with sensationalized articles on the new &lt;a href=&quot;https://www.facebook.com/about/newsfeed&quot;&gt;Facebook News Feed&lt;/a&gt;. I’m not a fan of that, so instead let’s talk about design principles and user behavior.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-stories-are-frigin-huge&quot;&gt;The “Stories” are frigin HUGE&lt;/h2&gt;
-
-&lt;p&gt;This was the biggest surprise in my opinion.&lt;/p&gt;
-
-&lt;p&gt;There are a couple emotions you want to achieve in feeds. The first is zen – it’s calming to get lost and just keep scrolling. The second is usually balanced chaos. The more stuff you see, the more active the site feels. Facebook still has zen, but the chaos seems to have been thrown out in favor of further simplicity. It takes more scrolling to see less items, but nothing is fighting for your attention. Instead of thinking, you’re either looking at the top most “story” or you’re scrolling to the next one.&lt;/p&gt;
-
-&lt;p&gt;Mobile works the same way. As you move from phone to computer the experience won’t be nearly as jarring. If the feeds are identical on mobile and desktop, I wouldn’t be surprised if they release a feature later to sync your spot on the feed.&lt;/p&gt;
-
-&lt;h2 id=&quot;this-is-facebooks-biggest-change-yet-but-the-risk-is-being-overestimated&quot;&gt;This is Facebook’s biggest change yet, but the risk is being overestimated&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://techcrunch.com/2013/03/07/facebook-risks-it-all/&quot;&gt;Techcrunch’s article&lt;/a&gt; says this is their most risky change yet. After the &lt;a href=&quot;http://en.wikipedia.org/wiki/Facebook_Beacon&quot;&gt;Beacon&lt;/a&gt; incident years ago, Facebook has become a more data-driven company. They have a huge data research team pillaging their logs to track user behavior. Is this is a big change? You betcha… it’s the home page! On web applications with a news feed system, a heavy majority of all interaction is done on the home page. Is this a risky choice? Not really. They’re releasing is slowly and watching the data. Risk is mitigated as they iterate – and they will. Compared to the risk presented when Facebook opened up their &lt;a href=&quot;http://money.cnn.com/2007/05/24/technology/facebook.fortune/&quot;&gt;first developer APIs&lt;/a&gt;, this is nothing (and it’s only because of the data).&lt;/p&gt;
-
-&lt;h2 id=&quot;sorting-has-been-optimized-out&quot;&gt;Sorting has been optimized out&lt;/h2&gt;
-
-&lt;p&gt;By default, the feed is being changed to a combination of “new” and “popular”. This is not done very often. Facebook can only do this effectively because their average user comes back to the site multiple times a day. This also means that the &lt;a href=&quot;http://edgerank.net/&quot;&gt;demonized edge-rank algorithm&lt;/a&gt; is probably taking more of a backseat or was altered substantially. Changing an algorithm from being entirely score based to purely chronologically dependent isn’t easy at scale. I can’t be 100% sure, but they probably managed to do this in one of two ways: 1. Manipulate the algorithm to give chronology a big boost or 2. Change the data structure to a cached stack while disallowing newly-calculated posts to overwrite incumbent data.&lt;/p&gt;
-
-&lt;p&gt;Users just want products that work. Over time, the algorithms to determine feed-worthy stories have become more and more accurate. I would find myself sorting by “most recent” very frequently just a year ago, but now I never click the button. If I’m like most users, then they finally found the sweet spot. That sweet spot enabled them to remove clutter from the interface and bridge the gap properly to mobile. Good job Facebook.&lt;/p&gt;
-
-&lt;h2 id=&quot;navigation-now-follows-real-design-rules&quot;&gt;Navigation now follows real design rules&lt;/h2&gt;
-
-&lt;p&gt;Almost all great web application have sidebars. They prove themselves as a great foundation for navigation and widget-style features, but can easily grow cumbersome. Less is usually more, but sometimes the metrics say otherwise. Design ideologies should never get in the way of what works for the end user.&lt;/p&gt;
-
-&lt;p&gt;This new sidebar works very well for a couple reasons.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;It’s not melded into the same background as the rest of the site anymore. The different background creates a contrast that makes the separation feel clean instead of cluttered.&lt;/li&gt;
-  &lt;li&gt;Because it is a sidebar instead of a widget, the common design rule of minimizing the number of container elements is followed.&lt;/li&gt;
-  &lt;li&gt;It’s responsive to the site width. I’d be curious to see what their analytics say about clickthroughs since certain studies have shown that icon-only navigation performs worse than those aided with text. That being said, the effect is dampened since Facebook is already a well-understood product by a majority of its user-base.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;so-what-does-this-all-mean&quot;&gt;So what does this all mean?&lt;/h2&gt;
-
-&lt;p&gt;It could mean many things. When shown larger posts, people naturally place a higher level of importance on it. Skipping a post without interacting with it feels like a riskier action, and thus, activity on posts further up the feed is likely going to increase while activity on posts further down will decrease. The like button and other assorted actions are no longer blue, but their click-targets have been increased in size. I would place a bet saying this combination results in more clicks.&lt;/p&gt;
-
-&lt;p&gt;With forced chronology and the hypothesis mentioned above, I think the end result for most users will be more action on posts right when they create them and less importance or notifications on historically older, but popular posts. It’s more about the “new” than the “popular” and thus you’ll want to keep posting more to garner more likes. Feed that thirst for acceptance amongst your peers! This all fits very neatly into &lt;a href=&quot;http://news.cnet.com/8301-1023_3-57536659-93/zuckerberg-in-10-years-folks-will-share-1000-times-what-they-do-now/&quot;&gt;Mark’s pseudo-Moore’s law&lt;/a&gt;.&lt;/p&gt;
-</description>
-                                <pubDate>Thu, 07 Mar 2013 00:00:00 -0800</pubDate>
-                                <link>http://zachtratar.com//facebook.html</link>
-                                <guid isPermaLink="true">http://zachtratar.com//facebook.html</guid>
                         </item>
                 
         </channel>
