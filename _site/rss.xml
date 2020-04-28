@@ -7,6 +7,92 @@
                 <atom:link href="http://zachtratar.com/feed.xml" rel="self" type="application/rss+xml" />
                 
                         <item>
+                                <title>Introducing BillionaireBoard</title>
+                                <description>&lt;p&gt;Do you ever think about what you’d do with a billion dollars?&lt;/p&gt;
+
+&lt;p&gt;I’m not talking about what you’d choose to buy. Instead, which of the world’s problems would you try to solve? You could start entire companies, hire people, conduct mass-scale research, and maybe — just maybe — even influence Governments 🤯.&lt;/p&gt;
+
+&lt;p&gt;Pretty fun to think about, right?&lt;/p&gt;
+
+&lt;p&gt;Bill Gates over the last couple decades has focused on the eradication of malaria, low cost toilets, safe nuclear power, and more. After seeing some of the media around these innovations a while back, I became curious: what are all the other billionaires up to?&lt;/p&gt;
+
+&lt;p&gt;Hours and hours of boring research commenced — tax forms, foundation websites, news articles, and even lawsuits. Although major donations were happening every week, building my personal research spreadsheet became an absolute nightmare… and I was still on my 2nd billionaire!&lt;/p&gt;
+
+&lt;p&gt;There are ~2,200 billionaires in the world, by the way.&lt;/p&gt;
+
+&lt;p&gt;My plan for research had totally failed, but my questions still felt important:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Who is donating &amp;amp; impact investing into what? How much?&lt;/li&gt;
+  &lt;li&gt;Are they giving a lot? What about compared to their lifetime giving, or their net worth?&lt;/li&gt;
+  &lt;li&gt;What are these projects, exactly? Are they going well, and is the money being spent well?&lt;/li&gt;
+  &lt;li&gt;Are further donations &amp;amp; investments happening in this area?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;when-we-dont-know&quot;&gt;When we don’t know&lt;/h2&gt;
+
+&lt;p&gt;As I was thinking about these questions, some tweets rolled into my feed — Mark Zuckerberg had just donated a couple hundred million dollars to medical research. What did people do? They mostly took the opportunity to yell at him. There were no questions about the donations, no logical rebuttal of the donations effectiveness, and certainly no thanks. Just outrage.&lt;/p&gt;
+
+&lt;p&gt;While many people understandably default to anger in our age of mass inequality, it’s also true that Mark has a lifetime goal to “cure all diseases” and has pledged to donate 99% of his wealth to take on the challenge.&lt;/p&gt;
+
+&lt;p&gt;When should we be celebrating vs judging?&lt;/p&gt;
+
+&lt;p&gt;Oddly enough, Billionaires and their foundations also operate with limited information. They contract with research institutes, think tanks, and other institutions to help them answer their fundamental question: “How do I spend this money effectively?”&lt;/p&gt;
+
+&lt;p&gt;Perhaps the public can help foundations identify opportunities! In 2016, Jeff Bezos famously posted a “request for ideas” on twitter. After thousands of ideas were submitted, Jeff mentioned the process “changed his thinking” on philanthropy. Crowdsourcing ideas has also proved useful in numerous innovation challenges, including the competition Bill Gates hosted in search of a cheap toilet design!&lt;/p&gt;
+
+&lt;p&gt;When should we be celebrating vs judging, and can we somehow help? I figured it was time to build something and find out.&lt;/p&gt;
+
+&lt;h2 id=&quot;launching-billionaireboard-with-covid-19&quot;&gt;Launching BillionaireBoard with COVID-19&lt;/h2&gt;
+
+&lt;p&gt;With the help of 15 researchers, &lt;a href=&quot;https://billionaireboard.com&quot;&gt;BillionaireBoard&lt;/a&gt; launches today as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The first open data-set on billionaires’ donations &amp;amp; impact investments.&lt;/li&gt;
+  &lt;li&gt;A monthly leaderboard to see who has been contributing the most recently.&lt;/li&gt;
+  &lt;li&gt;An interactive movement where we, the public, can attempt to improve philanthropy.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://billionaireboard.com&quot;&gt;&lt;img class=&quot;full&quot; src=&quot;/img/posts/billionaireboard.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And it all starts with a focus on &lt;a href=&quot;https://billionaireboard.com/causes/covid-19&quot;&gt;COVID-19&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As the first pieces of the site were coming together, the coronavirus began to spread across the global and everything got quite a lot more real. While Governments proved too slow to solve the problem ahead-of-time, the first reports of Billionaires buying masks for hospitals came out. Then, as federal relief responses were stuck in Congress, some Billionaires began funding ventilator manufacturing and vaccine development. Lastly, as of today, it’s incredible to say that the world’s Billionaires have funded more COVID-19 scientific research than the CDC and NIH combined.&lt;/p&gt;
+
+&lt;p&gt;This is not to say that Billionaires are “the solution” — just that they are already a major part of it, and clearly want to help. I believe that’s worth embracing and amplifying.&lt;/p&gt;
+
+&lt;p&gt;Thus far, BillionaireBoard researchers have tracked that &lt;x&gt; billionaires have given at least &lt;y&gt; around the world to mitigate the pandemic, provide PPE to front-line health workers, and work on disease research. We’re still in the early days and expect more giving as the pandemic evolves.&lt;/y&gt;&lt;/x&gt;&lt;/p&gt;
+
+&lt;p&gt;Take a look at &lt;a href=&quot;https://billionaireboard.com&quot;&gt;https://billionaireboard.com&lt;/a&gt; and join today! You can click on each billionaire, learn about their focus areas, and encourage them to provide more funding. Each month the theme of the website will change so we, together, can encourage more types of philanthropy and investment.&lt;/p&gt;
+
+&lt;h2 id=&quot;an-experiment&quot;&gt;An experiment&lt;/h2&gt;
+
+&lt;p&gt;I’ll say it now: my background isn’t in philanthropy, and I know achieving results is far more complex than putting a bit of data on a website.&lt;/p&gt;
+
+&lt;p&gt;BillionaireBoard is an experiment.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Can we gather all of the data for all 2,200 billionaires?&lt;/li&gt;
+  &lt;li&gt;Can we actually accelerate philanthropy through transparency &amp;amp; helping identify new projects?&lt;/li&gt;
+  &lt;li&gt;Can we engage with billionaire’s in a useful way?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I hope so. All we know so far is that Billionaires can make a difference with their wealth. They can help save lives, create innovation, and muster resources. They can convince local Governments to prevent outbreaks and jumpstart scientific advancement. Their immense power comes with great responsibility, and I hope we can all play a part in helping them along.&lt;/p&gt;
+
+&lt;h2 id=&quot;want-to-help&quot;&gt;Want to help?&lt;/h2&gt;
+
+&lt;p&gt;We need help gathering more data! Today, BillionaireBoard partially covers ~30 billionaires, so there’s a lot of remaining ground to cover. Anyone can be a researcher by &lt;a href=&quot;https://www.facebook.com/groups/billionaireboard&quot;&gt;joining our Facebook Group&lt;/a&gt; and contributing sourced data via “propose edit” buttons on Billionaire’s profiles. All data is verified for accuracy before being posted onto the live website.&lt;/p&gt;
+
+&lt;p&gt;If you’re a software developer, we have an API for submitting data! Let’s talk — my email is below.&lt;/p&gt;
+
+&lt;p&gt;Lastly, if you work for a billionaire or at a foundation, we’d be happy to give you access to ensure the accuracy of your data. You can email me at ztratar at gmail dot com.&lt;/p&gt;
+</description>
+                                <pubDate>Tue, 28 Apr 2020 00:00:00 -0700</pubDate>
+                                <link>http://zachtratar.com//introducing-billionaire-board.html</link>
+                                <guid isPermaLink="true">http://zachtratar.com//introducing-billionaire-board.html</guid>
+                        </item>
+                
+                        <item>
                                 <title>Balancing Organizations &amp; Oneself</title>
                                 <description>&lt;p&gt;When I was at a tech event in San Francisco recently, a CEO was asked how they thought about balancing new initiatives with the core business, and their answer was simple but broadly applicable to life.&lt;/p&gt;
 
@@ -556,72 +642,6 @@ share. Tweet it at me below.&lt;/em&gt;&lt;/p&gt;
                                 <pubDate>Tue, 11 Jun 2013 00:00:00 -0700</pubDate>
                                 <link>http://zachtratar.com//prism.html</link>
                                 <guid isPermaLink="true">http://zachtratar.com//prism.html</guid>
-                        </item>
-                
-                        <item>
-                                <title>Training like Tesla: An Experiment of the Mind</title>
-                                <description>&lt;p&gt;I’m going to undergo an experiment with which I am the test subject.&lt;/p&gt;
-
-&lt;p&gt;The idea manifested while I was reading “&lt;a href=&quot;http://www.amazon.com/My-Inventions-Autobiography-introduction-ebook/dp/B004W48LAG&quot;&gt;My Inventions: The autobiography of Nikola Tesla&lt;/a&gt;”. The man is believed among scientific minds to have been savant-like and it certainly shows in his writing.&lt;/p&gt;
-
-&lt;p&gt;It is easy to make assumptions as to how an engineer could write, but Nikola defies those assumptions. He defies the standards to which people apply him, and by all counts he did that in absolutely every field in his life. Almost no human to have ever lived has accomplished as much as Nikola.&lt;/p&gt;
-
-&lt;p&gt;As with any person who exhibits abilities seemingly beyond our grasp, we begin to wonder how they got there in the first place. What made them great? Did they eat their wheaties? Did they go through special training? Were they born with it? Entire debates have forged through history around nature versus nurture for the explicit purpose of understanding what makes one human being more productive to society than another.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-power-of-imagination&quot;&gt;The power of imagination&lt;/h2&gt;
-
-&lt;p&gt;And here, at least in the reference of Nikola, we have data. Well… we have what he wrote down, which we can only assume to be as honest as possible.&lt;/p&gt;
-
-&lt;p&gt;What made Nikola great was his precise and grandiose imagination. He grew up with an intense visual imagination that tormented him when he was unable to control it. It would present itself forcibly unto his mind when he was trying to interact in the real world. He grew up without confidence in himself thinking that this was a shackle destined to cripple his life-long worth and validity. But he learned to control it. And for all the pain he suffered, the sheer beauty of the upside is hard to match. I could do no better to describe it than he:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I soon discovered that my best comfort was attained if I simply went on in my vision further and further, getting new impressions all the time, and so I began to travel; of course, in my mind. Every night, (and sometimes during the day), when alone, I would start on my journeys – see new places, cities and countries; live there, meet people and make friendship and acquaintances…&lt;/p&gt;
-
-  &lt;p&gt;This I did constantly until I was about seventeen, when my thoughts turned seriously to invention. Then I observed to my delight that I could visualize with the greatest facility. I need no models, drawings or experiments. I could picture them all as real in my mind… I do not rush into actual work. When I get an idea, I start at once building it up in my imagination. I change the construction, make improvements and operate the device in my mind. It is absolutely immaterial to me whether I run my turbine in thought or test it in my shop.”&lt;/p&gt;
-
-  &lt;p&gt;- Nikola Tesla&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If you’re an engineer or “builder” you’re probably feeling jealous right about now; or maybe you think he is crazy. Either way, this guy’s imagination was a private sandbox with zero limitations. It emulated reality so accurately that he could invent and discover in ways that others could not do in hundreds of lifetimes. The electricity powering your screen right now was surely, at least at point, transmitted as alternating current. Nikola did that. Let’s also not forget about the &lt;a href=&quot;http://www.pbs.org/tesla/ll/ll_whoradio.html&quot;&gt;Radio&lt;/a&gt; or &lt;a href=&quot;http://www.fi.edu/learn/case-files/tesla/motor.html&quot;&gt;Electric Motor&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;is-this-an-innate-talent-or-is-it-developed&quot;&gt;Is this an innate talent or is it developed?&lt;/h2&gt;
-
-&lt;p&gt;Everyday tasks are not usually intense enough to put stress on the imagination. They are relatively easy and entail things like planning out the next couple minutes of your day, writing short emails, or remembering where the checkbook is located.&lt;/p&gt;
-
-&lt;p&gt;But every so often we all face complicated problems. They start out simple enough and as higher-level goals, but at some point, as you mentally break them down, you hit a large wall. The clarity with which you can visualize, plan, and think is drastically reduced and you bring the process into the physical world through writing or drawing. UX Designers wireframe, engineers whiteboard or jump into code, interior designers start grabbing fabric samples, etc.&lt;/p&gt;
-
-&lt;p&gt;We don’t usually question this natural wall. But change your perspective on imagination for a moment and think of it &lt;em&gt;purely&lt;/em&gt; as a skill you can develop. Just as you can rate your other abilities – maybe you’re a great coder or orator – rate your imagination. How &lt;em&gt;useful&lt;/em&gt; is it to you right now?&lt;/p&gt;
-
-&lt;p&gt;To me, it seems the utility provided by one’s imagination is in direct correlation with this wall’s location. The more in-depth you can think with absolute clarity before ramming into the barrier, the better use you will get out of your imagination.&lt;/p&gt;
-
-&lt;p&gt;Thus, we want to learn to move our wall; we want to push it further and further, inch by inch, until its limiting effects are diminished and we gain a newfound freedom in our own imagination. Nikola’s wall was miles and miles away during his peak but he admits to not having the same abilities as a child, so it seems that this is an ability one can foster.&lt;/p&gt;
-
-&lt;p&gt;Perhaps Nikola’s mental travels, inventions, and constant use of his imagination trained him. Perhaps those experiences pushed his wall further and further until he was left with a giant sandbox. That’s the experiment I will attempt to undergo.&lt;/p&gt;
-
-&lt;h2 id=&quot;building-a-sandbox&quot;&gt;Building a sandbox&lt;/h2&gt;
-
-&lt;p&gt;First off, I am not attempting to say that I am more fit to do this than anyone else. In fact, my goal is to “prove” the opposite: I want to see if this ability is attainable by anyone. I want to experience the upside: a truly lean process of ideation and iteration that removes the physical complexities (one that would make &lt;a href=&quot;http://en.wikipedia.org/wiki/Steve_Blank&quot;&gt;Steven Blank&lt;/a&gt; proud).&lt;/p&gt;
-
-&lt;p&gt;Luckily, I find it easy to rate, with precision, my ability to imagine &lt;em&gt;things&lt;/em&gt;; I think I know where my wall is located. As such, I’m going to do my best to track any progress I make.&lt;/p&gt;
-
-&lt;p&gt;I’ll train the same way Nikola did: first imagining things I’ve already seen and places I’ve already been. My childhood home, neighborhood, travel destinations, products I use, objects, etc. I’m going to imagine the people I’ve met, the sounds I’ve heard, and even the emotions I’ve felt. Following that I’ll see if I can go further down the path of creating new experiences and inventions. Specifically, the idea is to create increasingly complex scenes and visualize increasingly complex problems until the wall is inches away. At that point, the test is whether or not the wall can be moved and if it will stay once moved.&lt;/p&gt;
-
-&lt;p&gt;Nikola traversed the worlds of physics and electromagnetism in his mind. He manifested his findings into real world developments. I hope the same can be done for the digital world.&lt;/p&gt;
-
-&lt;p&gt;The more data, the better the experiment: If anyone is interested in embarking on this journey/test with me, let me know (email, twitter, facebook – they all work). I’m beyond excited.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p class=&quot;small&quot;&gt;
-	&lt;img src=&quot;https://dl.dropboxusercontent.com/u/5631577/blog/Screen%20Shot%202013-04-12%20at%203.27.01%20PM.png&quot; alt=&quot;Marc thinks I will go insane&quot; /&gt;
-	Thank you to those who helped review this post: Eric, Andrew, Vinay, Chris, Rajaishi, Raj, Dino, and Nik
-
-	... and Marc
-&lt;/p&gt;
-</description>
-                                <pubDate>Fri, 12 Apr 2013 00:00:00 -0700</pubDate>
-                                <link>http://zachtratar.com//tesla.html</link>
-                                <guid isPermaLink="true">http://zachtratar.com//tesla.html</guid>
                         </item>
                 
         </channel>
