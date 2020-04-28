@@ -21,27 +21,24 @@ My plan for research had totally failed, but my questions still felt important:
 - Who is donating & impact investing into what? How much?
 - Are they giving a lot? What about compared to their lifetime giving, or their net worth?
 - What are these projects, exactly? Are they going well, and is the money being spent well?
-- Are further donations & investments happening in this area?
 
-## When we don't know
+## How can the public help?
 
-As I was thinking about these questions, some tweets rolled into my feed — Mark Zuckerberg had just donated a couple hundred million dollars to medical research. What did people do? They mostly took the opportunity to yell at him. There were no questions about the donations, no logical rebuttal of the donations effectiveness, and certainly no thanks. Just outrage.
+As I was thinking about these questions, some tweets rolled into my feed — Mark Zuckerberg had just donated a couple hundred million dollars to medical research. What did people do? They mostly took the opportunity to yell at him.
 
-While many people understandably default to anger in our age of mass inequality, it's also true that Mark has a lifetime goal to "cure all diseases" and has pledged to donate 99% of his wealth to take on the challenge.
+While many people understandably default to anger in our age of mass inequality, it's also true that Mark has a lifetime goal to "cure all diseases" and [has pledged to donate 99% of his wealth](https://billionaireboard.com/billionaires/mark-zuckerberg) to take on the challenge.
 
-When should we be celebrating vs judging?
+Billionaires don't always have all the answers themselves. They contract with research institutes, think tanks, and other institutions to help them answer their fundamental question: “How do I spend this money effectively?”
 
-Oddly enough, Billionaires and their foundations also operate with limited information. They contract with research institutes, think tanks, and other institutions to help them answer their fundamental question: “How do I spend this money effectively?”
+In 2016, Jeff Bezos famously [posted a “request for ideas”](https://twitter.com/jeffbezos/status/875418348598603776?lang=en) on twitter. Thousands of ideas were submitted and afterwards Jeff dramatically increased his rate of giving. Through an open competition, the public also helped Bill Gates [discover a $350 toilet design](https://www.businessinsider.com/bill-gates-foundation-helps-invent-tiger-toilets-powered-by-worms-2019-1) for developing countries.
 
-Perhaps the public can help foundations identify opportunities! In 2016, Jeff Bezos famously posted a “request for ideas” on twitter. After thousands of ideas were submitted, Jeff mentioned the process “changed his thinking" on philanthropy. Crowdsourcing ideas has also proved useful in numerous innovation challenges, including the competition Bill Gates hosted in search of a cheap toilet design!
-
-When should we be celebrating vs judging, and can we somehow help? I figured it was time to build something and find out.
+Perhaps the public can help foundations identify more opportunities?
 
 ## Launching BillionaireBoard with COVID-19
 
 With the help of 15 researchers, [BillionaireBoard](https://billionaireboard.com) launches today as:
 
-- The first open data-set on billionaires' donations & impact investments.
+- The first open dataset on billionaires' donations & impact investments.
 - A monthly leaderboard to see who has been contributing the most recently.
 - An interactive movement where we, the public, can attempt to improve philanthropy.
 
@@ -49,7 +46,7 @@ With the help of 15 researchers, [BillionaireBoard](https://billionaireboard.com
 
 And it all starts with a focus on [COVID-19](https://billionaireboard.com/causes/covid-19).
 
-As the first pieces of the site were coming together, the coronavirus began to spread across the global and everything got quite a lot more real. While Governments proved too slow to solve the problem ahead-of-time, the first reports of Billionaires buying masks for hospitals came out. Then, as federal relief responses were stuck in Congress, some Billionaires began funding ventilator manufacturing and vaccine development. Lastly, as of today, it's incredible to say that the world's Billionaires have funded more COVID-19 scientific research than the CDC and NIH combined.
+As the first pieces of the site were coming together, the coronavirus began to spread across the globe. While Governments proved too slow to solve the problem ahead of time, the first reports of Billionaires buying masks for hospitals came out. Then, as federal relief responses were stuck in Congress, some Billionaires began funding ventilator manufacturing and vaccine development. Lastly, as of today, it's incredible to say that the world's Billionaires have funded as much COVID-19 scientific research [as the federal grant system](https://www.nbcbayarea.com/news/coronavirus/where-is-your-money-going-investigative-unit-tracks-federal-covid-19-spending/2274950/).
 
 This is not to say that Billionaires are “the solution” — just that they are already a major part of it, and clearly want to help. I believe that’s worth embracing and amplifying.
 
@@ -69,10 +66,10 @@ BillionaireBoard is an experiment.
 
 I hope so. All we know so far is that Billionaires can make a difference with their wealth. They can help save lives, create innovation, and muster resources. They can convince local Governments to prevent outbreaks and jumpstart scientific advancement. Their immense power comes with great responsibility, and I hope we can all help them use it well.
 
-## Want to help?
+## Join BillionaireBoard
 
-We need help gathering more data! Today, BillionaireBoard partially covers ~30 billionaires, so there's a lot of remaining ground to cover. Anyone can be a researcher by [joining our Facebook Group](https://www.facebook.com/groups/billionaireboard) and contributing sourced data via "propose edit" buttons on Billionaire’s profiles. All data is verified for accuracy before being posted onto the live website.
+We need help with more important research! Today, BillionaireBoard partially covers ~30 billionaires, so there's a lot of remaining ground to cover. Anyone can be a researcher by [joining our Facebook Group](https://www.facebook.com/groups/billionaireboard) and contributing sourced data via "propose edit" buttons on Billionaire’s profiles. All data is verified for accuracy before being posted onto the live website.
 
-If you're a software developer, we have an API for submitting data! Let's talk — my email is below.
+If you're a software developer, we have an API for submitting data, and if you work for a billionaire or at a foundation, we'd be happy to give you access to ensure the accuracy of your data.
 
-Lastly, if you work for a billionaire or at a foundation, we'd be happy to give you access to ensure the accuracy of your data. You can email me at ztratar at gmail dot com.
+Send me a [tweet or personal message](https://twitter.com/zachtratar) to get in touch.
