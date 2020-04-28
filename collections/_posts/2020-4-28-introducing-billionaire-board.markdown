@@ -53,7 +53,7 @@ As the first pieces of the site were coming together, the coronavirus began to s
 
 This is not to say that Billionaires are “the solution” — just that they are already a major part of it, and clearly want to help. I believe that’s worth embracing and amplifying.
 
-Thus far, BillionaireBoard researchers have tracked that <x> billionaires have given at least <y> around the world to mitigate the pandemic, provide PPE to front-line health workers, and work on disease research. We’re still in the early days and expect more giving as the pandemic evolves.
+Thus far, BillionaireBoard researchers have tracked that 17 billionaires have given or pledged about ~$1.88 billion dollars around the world to mitigate the pandemic, provide PPE to front-line health workers, and work on disease research. We’re still in the early days and expect more giving as the pandemic evolves.
 
 Take a look at [https://billionaireboard.com](https://billionaireboard.com) and join today! You can click on each billionaire, learn about their focus areas, and encourage them to provide more funding. Each month the theme of the website will change so we, together, can encourage more types of philanthropy and investment.
 
@@ -65,9 +65,9 @@ BillionaireBoard is an experiment.
 
 - Can we gather all of the data for all 2,200 billionaires?
 - Can we actually accelerate philanthropy through transparency & helping identify new projects?
-- Can we engage with billionaire's in a useful way?
+- Can we engage with billionaires and their foundations in a useful way?
 
-I hope so. All we know so far is that Billionaires can make a difference with their wealth. They can help save lives, create innovation, and muster resources. They can convince local Governments to prevent outbreaks and jumpstart scientific advancement. Their immense power comes with great responsibility, and I hope we can all play a part in helping them along.
+I hope so. All we know so far is that Billionaires can make a difference with their wealth. They can help save lives, create innovation, and muster resources. They can convince local Governments to prevent outbreaks and jumpstart scientific advancement. Their immense power comes with great responsibility, and I hope we can all help them use it well.
 
 ## Want to help?
 
