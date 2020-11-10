@@ -1,7 +1,7 @@
 ---
 title: "Voter Fraud? GOP Claim Quick Debunk"
 layout: "post"
-img: "/img/posts/2020-11-10-voter-fraud.jpeg"
+img: "/img/posts/2020-11-10-voter-fraud/flag.jpeg"
 ---
 
 Back in 2009 I founded by first startup, a political polling via text message company, while a freshman in college.
@@ -12,7 +12,7 @@ Fast forward to today and he's literally Donald Trump's go-to pollster. I'm one 
 
 But now it has become sinister.
 
-Nowadays we have the entire GOP political apparatus claiming there was widespread voter fraud, shaking the faith Americans have in democracy itself. After Trump's loss in the election and his subsequent claims of fraud, Republican's believe in the election has dropped to under 15%.
+Nowadays we have the entire GOP political apparatus claiming there was widespread voter fraud, shaking the faith Americans have in democracy itself. After Trump's loss in the election and his subsequent claims of fraud, Republican's belief in US elections has dropped to under 15%.
 
 Why is that? They're all over Facebook. They're eating up the trash that John McLaughlin and his GOP cronies serve up on a daily basis. When I log in to Facebook, guess what I see?
 
