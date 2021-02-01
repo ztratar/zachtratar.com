@@ -8294,6 +8294,9 @@ ul.post-images li a:hover {
   font-family: "Freight-Book", "Times";
   line-height: 1.5;
 }
+.post .post-article .twitter-tweet {
+  margin-bottom: 28px !important;
+}
 .post .post-article h1,
 .post .post-article h2,
 .post .post-article h3 {

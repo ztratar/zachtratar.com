@@ -56,6 +56,8 @@ Ask yourself two questions:
 
 The more complex a topic — like hedge fund market dynamics — the more context is necessary to create a full understanding. Since civilization is advanced, the problems of the world are all quite complex, and people need to spend the extra care to gather context. With some topics, such as "building a growing economy", the complexity is so staggeringly high that no single human can ever understand the entire problem. Literally _no one knows the full truth._
 
+<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">History of epistemology:<br>300 BC: you can&#39;t know anything.<br>600: some stuff you can.<br>1600: no, not even that.<br>1800: what about this?<br>2000: no.</p>&mdash; Existential Comics (@existentialcoms) <a href="https://twitter.com/existentialcoms/status/857396828110675968?ref_src=twsrc%5Etfw">April 27, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 Even if you understand complexity and have "done your research", when are you done? There are always "unknown unknowns" — context and perspectives out there that you didn't even know you had to research in the first place. How unfair!
 
 Thus, "the full truth" is never fully attainable by anyone. Nevertheless, at some point we accept the reality we perceive, make judgements, and take action anyways. There's no other option — we must try to seek our personal truth over time. As is said "the Truth will set you free," so we must learn to wade through the complexity and our manage our personal biases.
@@ -108,6 +110,8 @@ Some symptoms of groupthink:
 - **Pressure on Dissenters**: If someone does dissent from the common judgement, others are incentivized to call them out and critique them.
 
 In small groups these symptoms help us work together with less drama — we have evolved them for a reason!
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">Every once in a while, I have my own feelings. Mostly I‘m having someone else’s.<br><br>“You’re over-feeling this.” needs to be a thing we can say as easily as we suggest “overthinking” it. Yet, we talk about “Groupthink” when “Groupfeel” is the new wave transforming our public sphere.</p>&mdash; Eric Weinstein (@EricRWeinstein) <a href="https://twitter.com/EricRWeinstein/status/1089228779157782528?ref_src=twsrc%5Etfw">January 26, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Unfortunately, as communities grow beyond our evolved norm ([Dunbar's Number](https://en.wikipedia.org/wiki/Dunbar%27s_number)), all of the symptoms become amplified and more dangerous. Why? The larger the community, the less people you know personally. Whereas telling an [intimate friend](https://courses.lumenlearning.com/boundless-sociology/chapter/group-dynamics/) a hard truth might result in a stronger friendship, telling an acquaintance a hard truth usually results in abandonment. Jan Breitsohl, a lecturer out of the University of Glasglow, [studied communities online in 2015](https://www.ingentaconnect.com/content/westburn/jcb/2015/00000014/00000002/art00002) and found Groupthink grows stronger at scale.
 
@@ -194,6 +198,8 @@ More recently, Jeff Giesea — an alt-right organizer — penned an article "[It
 warfare is only going to get more intense... free societies must be concerned about the corrosive effect these battles may have on our sense of trust in each other and our institutions". Well, Jeff, thanks for calling out yourself!
 
 Own the narrative, via memes, and own the world. History has shown this is true, and so it is true today. Let's cover some rules of Narrative War so we can better understand our present situation.
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">Who controls the memes,<br>controls the Universe</p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1276418907968925696?ref_src=twsrc%5Etfw">June 26, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Rule #1: Start by co-opting an existing movement
 
@@ -311,6 +317,8 @@ Worse, on internet platforms skeptics can be purged in one-click — you don't e
 Every word, every click, and every second that passes as you look at a picture online is tracked, recorded and logged. This data from _billions_ of people is then fed into computers which categorize you across thousands of different variables.
 
 If, for example, a politician wants to find people who might be afraid of immigration, they can target those who live in cities with changing demographics. Advertising networks, especially Facebook Ads, give politicians and organizations these super powers for pennies.
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">All hyper active politicians on Twitter are de facto ‘governing’ by algorithm. <br><br>This isn’t a values judgement — I don’t have a blanket view on whether it is good or bad — but I do believe it’s what’s happening.</p>&mdash; Geoff Lewis (@GeoffLewisOrg) <a href="https://twitter.com/GeoffLewisOrg/status/1350882126481170432?ref_src=twsrc%5Etfw">January 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Accelerant #4: Targeting automatically exploits psychological weaknesses with "A/B tests"
 
