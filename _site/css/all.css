@@ -8326,6 +8326,9 @@ ul.post-images li a:hover {
   float: none;
   margin: 0;
 }
+.post .post-article p em {
+  margin-right: 4px;
+}
 .post .post-article blockquote {
   border: none;
   padding: 42px 32px 32px;
