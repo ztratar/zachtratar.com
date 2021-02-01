@@ -102,7 +102,7 @@ Some symptoms of groupthink:
 
 - **Critical Thinking Delegation**: We listen to others and trust that they were able to do their own research. We offload our thinking to them so we don't have to do it ourselves.
 - **Confidence Bias:** If someone is confident and appears to be speaking honestly, we often choose to believe them. Narcissists and sociopaths are able to convince people of false narratives because they believe in them themselves.
-- I**nherent Morality**: If a group is part of our identity, we believe we are part of "the good guys"? No one wants to believe they are "[the baddies](https://www.youtube.com/watch?v=VImnpErdDzA)".
+- **Inherent Morality**: If a group is part of our identity, we believe we are part of "the good guys"? No one wants to believe they are "[the baddies](https://www.youtube.com/watch?v=VImnpErdDzA)".
 - **Self-censorship**: We won't say things if we don't think our group will approve. We also censor negativity so as to avoid judgement of our personality.
 - **Illusion of Unanimity**: Due to self-censorship, once a light decision is made it can falsely appear as though everyone agrees.
 - **Pressure on Dissenters**: If someone does dissent from the common judgement, others are incentivized to call them out and critique them.
